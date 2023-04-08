@@ -14,7 +14,7 @@ namespace GhiasAmooz.Core.Services
     public class UserService : IUserService
     {
         private GhiasAmoozContext _context;
-        
+
         public UserService(GhiasAmoozContext context)
         {
             _context = context;
@@ -167,7 +167,7 @@ namespace GhiasAmooz.Core.Services
 
         public int BalanceUserWallet(string userName)
         {
-            int userId  =  GetUserIdByUserName(userName);
+            int userId = GetUserIdByUserName(userName);
             var Deposit = _context.Wallets.Where(w => w.UserId == userId && w.WalletTypeId == 1 && w.IsPay == true).Select(w => w.Amount).ToList();
             var endurance = _context.Wallets.Where(w => w.UserId == userId && w.WalletTypeId == 2).Select(w => w.Amount).ToList();
 
@@ -229,11 +229,11 @@ namespace GhiasAmooz.Core.Services
 
             UsersForAdminViewModel list = new();
             list.CurrentPage = pageId;
-            list.PageCount = result.Count()/take;
-            list.Users=result.OrderBy(u=>u.RegisterDate).Skip(skip).Take(take).ToList();   
+            list.PageCount = result.Count() / take;
+            list.Users = result.OrderBy(u => u.RegisterDate).Skip(skip).Take(take).ToList();
             return list;
 
-            
+
         }
 
         public int AddUserFromAdmin(CreateUserViewModel user)
@@ -263,6 +263,54 @@ namespace GhiasAmooz.Core.Services
 
             return AddUser(addUser);
 
+        }
+
+        public EditUserViewModel GetUserForShowInEditMode(int userId)
+        {
+            return _context.Users.Where(u => u.UserId == userId)
+                .Select(u => new EditUserViewModel()
+                {
+                    UserId = u.UserId,
+                    AvatarName = u.UserAvatar,
+                    Email = u.Email,
+                    UserName = u.UserName,
+                    UserRoles = u.UserRoles.Select(r => r.RoleId).ToList()
+                }).Single();
+        }
+
+        public void EditUserFromAdmin(EditUserViewModel editUser)
+        {
+            User user = getUserByUserID(editUser.UserId);
+            user.Email = editUser.Email;
+            if (!string.IsNullOrEmpty(editUser.Password))
+            {
+                user.Password = PasswordHelper.EncodePasswordMd5(editUser.Password);
+            }
+            if (editUser.UserAvatar != null)
+            {
+                if (editUser.AvatarName != "avatar.jpg")
+                {
+                    string deletePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/UserAvatar", editUser.AvatarName);
+                    if (File.Exists(deletePath))
+                    {
+                        File.Delete(deletePath);
+                    }
+                }
+
+                string imagePath = "";
+                user.UserAvatar = NameGenerator.GenerateUniqCode() + Path.GetExtension(editUser.UserAvatar.FileName);
+                imagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/UserAvatar", user.UserAvatar);
+                using (var stream = new FileStream(imagePath, FileMode.Create))
+                {
+                    editUser.UserAvatar.CopyTo(stream);
+                }
+            }
+            _context.Users.Update(user);
+            _context.SaveChanges();
+        }
+        public User getUserByUserID(int userId)
+        {
+            return _context.Users.Find(userId);
         }
     }
 }

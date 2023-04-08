@@ -32,6 +32,14 @@ namespace GhiasAmooz.Core.Services
             _context.SaveChanges();
         }
 
+        public void EditRolesuser(int userId, List<int> rolesId)
+        {
+            //Delete All Roles User
+            _context.UserRoles.Where(r => r.UserId == userId).ToList().ForEach(r => _context.UserRoles.Remove(r));
+            //Add New Role
+            AddRolesToUser(rolesId, userId);
+        }
+
         public List<Role> GetRoles()
         {
             return _context.Roles.ToList();

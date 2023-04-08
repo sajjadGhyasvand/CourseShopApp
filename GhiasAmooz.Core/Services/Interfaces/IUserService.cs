@@ -14,6 +14,7 @@ namespace GhiasAmooz.Core.Services.Interfaces
         int AddUser(User user);
         User LoginUser(LoginViewModel login);
         User GetUserByEmail(string email);
+        User getUserByUserID(int userId);
         User GetUserByActiveCode(string activeCode);
         User GetUserByUserName(string username);
         void UpdateUser(User user);
@@ -42,6 +43,9 @@ namespace GhiasAmooz.Core.Services.Interfaces
         UsersForAdminViewModel GetUsers(int pageId = 1,string filterEmail = "",string filterUserName = "");
 
         int AddUserFromAdmin(CreateUserViewModel user);
+        EditUserViewModel GetUserForShowInEditMode(int userId);
+
+        void EditUserFromAdmin(EditUserViewModel editUser);
         #endregion
     }
 }

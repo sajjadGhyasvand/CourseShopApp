@@ -1,4 +1,9 @@
 {
-  "ExpandedNodes": [],
+  "ExpandedNodes": [
+    "",
+    "\\GhiasAmooz.Core",
+    "\\GhiasAmooz.Core\\Services"
+  ],
+  "SelectedNode": "\\GhiasAmooz.Core\\Services\\UserService.cs",
   "PreviewInSolutionExplorer": false
 }

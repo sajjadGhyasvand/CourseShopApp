@@ -12,6 +12,8 @@ namespace GhiasAmooz.Core.Services.Interfaces
         #region Roles
         List<Role> GetRoles();
         void AddRolesToUser(List<int> roleIds, int userId);
+        void EditRolesuser(int userId, List<int> rolesId );
         #endregion
+
     }
 }
