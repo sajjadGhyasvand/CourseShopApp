@@ -261,12 +261,12 @@
       "PackagePath": "staticwebassets\\UserAvatar\\867e77685d1043528ab1f4caf0542b98.jpg"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\UserAvatar\\Defult.jpg",
-      "PackagePath": "staticwebassets\\UserAvatar\\Defult.jpg"
-    },
-    {
       "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\UserAvatar\\c483527adba141fc8e3f9caf057852e7.png",
       "PackagePath": "staticwebassets\\UserAvatar\\c483527adba141fc8e3f9caf057852e7.png"
+    },
+    {
+      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\UserAvatar\\ce825af76ddc4d07a6939260b2afaff5.jpg",
+      "PackagePath": "staticwebassets\\UserAvatar\\ce825af76ddc4d07a6939260b2afaff5.jpg"
     },
     {
       "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\UserAvatar\\f56ef017ab7a440aa6965fc50b9cce55.png",

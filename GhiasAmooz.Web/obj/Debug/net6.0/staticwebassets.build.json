@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aEdI4pmc5n2mj/3zkxB/4KEcF0Q/JXeQuzpPt7E0g7I=",
+  "Hash": "G6MJPmZxMk3ox1TuyOflTMmAqxDyM8hEBF+i3m7401o=",
   "Source": "GhiasAmooz.Web",
   "BasePath": "_content/GhiasAmooz.Web",
   "Mode": "Default",
@@ -1836,12 +1836,12 @@
       "OriginalItemSpec": "wwwroot\\UserAvatar\\c483527adba141fc8e3f9caf057852e7.png"
     },
     {
-      "Identity": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\UserAvatar\\Defult.jpg",
+      "Identity": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\UserAvatar\\ce825af76ddc4d07a6939260b2afaff5.jpg",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
-      "RelativePath": "UserAvatar/Defult.jpg",
+      "RelativePath": "UserAvatar/ce825af76ddc4d07a6939260b2afaff5.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1850,7 +1850,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\UserAvatar\\Defult.jpg"
+      "OriginalItemSpec": "wwwroot\\UserAvatar\\ce825af76ddc4d07a6939260b2afaff5.jpg"
     },
     {
       "Identity": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\UserAvatar\\f56ef017ab7a440aa6965fc50b9cce55.png",

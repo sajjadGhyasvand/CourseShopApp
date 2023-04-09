@@ -25,10 +25,10 @@ namespace GhiasAmooz.Web.Pages.Admin.Users
 
         public IActionResult OnPost(List<int> SelectedRoles)
         {
-            if (!ModelState.IsValid)
+            /*if (!ModelState.IsValid)
             {
                 return Page();
-            }
+            }*/
             _userService.EditUserFromAdmin(EditUserViewModel);
             //Edit Roles
             _permissionService.EditRolesuser(EditUserViewModel.UserId,SelectedRoles);

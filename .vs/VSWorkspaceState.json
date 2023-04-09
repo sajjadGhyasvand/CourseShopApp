@@ -1,9 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\GhiasAmooz.Core",
-    "\\GhiasAmooz.Core\\Services"
+    "\\GhiasAmooz.Core\\Services",
+    "\\GhiasAmooz.Core\\Services\\Interfaces"
   ],
-  "SelectedNode": "\\GhiasAmooz.Core\\Services\\UserService.cs",
+  "SelectedNode": "\\QiasAmoz.sln",
   "PreviewInSolutionExplorer": false
 }

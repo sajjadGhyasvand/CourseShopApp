@@ -8,6 +8,7 @@ using GhiasAmooz.DataLayer.Context;
 using GhiasAmooz.DataLayer.Entities.User;
 using GhiasAmooz.DataLayer.Entities.Wallet;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace GhiasAmooz.Core.Services
 {
@@ -311,6 +312,48 @@ namespace GhiasAmooz.Core.Services
         public User getUserByUserID(int userId)
         {
             return _context.Users.Find(userId);
+        }
+
+        public UsersForAdminViewModel GetDelteUsers(int pageId = 1, string filterEmail = "", string filteruserName = "")
+        {
+            IQueryable<User> result = _context.Users.IgnoreQueryFilters().Where(u=>u.IsDelete);
+            if (!string.IsNullOrEmpty(filteruserName))
+            {
+                result = result.Where(s => s.Email.Contains(filterEmail));
+            }
+
+            if (!string.IsNullOrEmpty(filteruserName))
+            {
+                result = result.Where(s => s.UserName.Contains(filteruserName));
+            }
+            int take = 20;
+            int skip = (pageId - 1) * take;
+
+            UsersForAdminViewModel list = new();
+            list.CurrentPage = pageId;
+            list.PageCount = result.Count() / take;
+            list.Users = result.OrderBy(u => u.RegisterDate).Skip(skip).Take(take).ToList();
+            return list;
+
+        }
+
+        public void DeleteUser(int userId)
+        {
+            User user = getUserByUserID(userId);
+            user.IsDelete = true;
+            UpdateUser(user);
+        }
+
+        public InformationUserViewModel GetUserInformation(int userId)
+        {
+            var user = getUserByUserID(userId);
+            InformationUserViewModel information = new InformationUserViewModel();
+            information.UserName = user.UserName;
+            information.Email = user.Email;
+            information.RegisterDate = user.RegisterDate;
+            information.Wallet = BalanceUserWallet(user.UserName);
+
+            return information;
         }
     }
 }

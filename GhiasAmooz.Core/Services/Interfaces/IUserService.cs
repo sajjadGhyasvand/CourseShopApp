@@ -20,9 +20,11 @@ namespace GhiasAmooz.Core.Services.Interfaces
         void UpdateUser(User user);
         bool ActiveAccount(string activeCode);
         int GetUserIdByUserName(string userName);
+        void DeleteUser(int userId);
         #region User Panel
 
         InformationUserViewModel GetUserInformation(string username);
+        InformationUserViewModel GetUserInformation(int userId);
         SideBarUserPanelViewModel GetSIdeBarUserPanelData(string username);
         EditProfileViewModel GetDataForEditProfileUser(string username);
         void EditProfile(string username, EditProfileViewModel profile);
@@ -41,6 +43,7 @@ namespace GhiasAmooz.Core.Services.Interfaces
         #region AdminPanel
 
         UsersForAdminViewModel GetUsers(int pageId = 1,string filterEmail = "",string filterUserName = "");
+        UsersForAdminViewModel GetDelteUsers(int pageId = 1,string filterEmail = "",string filterUserName = "");
 
         int AddUserFromAdmin(CreateUserViewModel user);
         EditUserViewModel GetUserForShowInEditMode(int userId);
