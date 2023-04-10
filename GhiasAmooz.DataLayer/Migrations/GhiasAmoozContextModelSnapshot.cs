@@ -30,6 +30,9 @@ namespace GhiasAmooz.DataLayer.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RoleId"), 1L, 1);
 
+                    b.Property<bool>("IsDelete")
+                        .HasColumnType("bit");
+
                     b.Property<string>("RoleTitle")
                         .IsRequired()
                         .HasMaxLength(200)

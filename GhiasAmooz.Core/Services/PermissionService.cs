@@ -18,6 +18,13 @@ namespace GhiasAmooz.Core.Services
             _context = context;
         }
 
+        public int AddRole(Role role)
+        {
+            _context.Roles.Add(role);
+            _context.SaveChanges();
+            return role.RoleId;
+        }
+
         public void AddRolesToUser(List<int> roleIds, int userId)
         {
             foreach (int roleId in roleIds)
@@ -32,6 +39,14 @@ namespace GhiasAmooz.Core.Services
             _context.SaveChanges();
         }
 
+        
+
+        public void DeleteRole(Role role)
+        {
+            role.IsDelete = true;
+            UpdateRole(role);
+        }
+
         public void EditRolesuser(int userId, List<int> rolesId)
         {
             //Delete All Roles User
@@ -40,9 +55,20 @@ namespace GhiasAmooz.Core.Services
             AddRolesToUser(rolesId, userId);
         }
 
+        public Role GetRoleById(int roleId)
+        {
+            return _context.Roles.Find(roleId);
+        }
+
         public List<Role> GetRoles()
         {
             return _context.Roles.ToList();
+        }
+
+        public void UpdateRole(Role role)
+        {
+            _context.Roles.Update(role);
+            _context.SaveChanges();
         }
     }
 }

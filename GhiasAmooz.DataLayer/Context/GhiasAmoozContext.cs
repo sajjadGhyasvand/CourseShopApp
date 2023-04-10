@@ -33,6 +33,7 @@ namespace GhiasAmooz.DataLayer.Context
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<User>().HasQueryFilter(u => !u.IsDelete);
+            modelBuilder.Entity<Role>().HasQueryFilter(r => !r.IsDelete);
 
             base.OnModelCreating(modelBuilder);
         }
