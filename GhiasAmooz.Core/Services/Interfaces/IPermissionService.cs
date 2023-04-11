@@ -1,4 +1,5 @@
-﻿using GhiasAmooz.DataLayer.Entities.User;
+﻿using GhiasAmooz.DataLayer.Entities.Permissions;
+using GhiasAmooz.DataLayer.Entities.User;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,5 +20,11 @@ namespace GhiasAmooz.Core.Services.Interfaces
         void EditRolesuser(int userId, List<int> rolesId );
         #endregion
 
+        #region Permission
+        List<Permission> GetAllPermission();
+        void AddPermissionsToRole(int roleId,List<int> permissions);
+        List<int> PermissionsRole(int roleId);
+        void UpdatePermissionsRole(int roleId,List<int> permissions);
+        #endregion
     }
 }

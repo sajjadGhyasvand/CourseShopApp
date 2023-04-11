@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\GhiasAmooz.Web",
+    "\\GhiasAmooz.Web\\Pages",
+    "\\GhiasAmooz.Web\\Pages\\Admin",
+    "\\GhiasAmooz.Web\\Pages\\Admin\\Users"
   ],
-  "SelectedNode": "\\QiasAmoz.sln",
+  "SelectedNode": "\\GhiasAmooz.Web\\Pages\\Admin\\Users\\index.cshtml.cs",
   "PreviewInSolutionExplorer": false
 }

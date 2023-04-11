@@ -4,6 +4,7 @@ using System.Text;
 using Microsoft.EntityFrameworkCore;
 using GhiasAmooz.DataLayer.Entities.User;
 using GhiasAmooz.DataLayer.Entities.Wallet;
+using GhiasAmooz.DataLayer.Entities.Permissions;
 
 namespace GhiasAmooz.DataLayer.Context
 {
@@ -30,6 +31,10 @@ namespace GhiasAmooz.DataLayer.Context
 
         #endregion
 
+        #region Permission
+        public DbSet<Permission> Permission { get; set; }
+        public DbSet<RolePermission> RolePermission { get; set; }
+        #endregion
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<User>().HasQueryFilter(u => !u.IsDelete);

@@ -1,5 +1,6 @@
 ﻿using GhiasAmooz.Core.Services.Interfaces;
 using GhiasAmooz.DataLayer.Context;
+using GhiasAmooz.DataLayer.Entities.Permissions;
 using GhiasAmooz.DataLayer.Entities.User;
 using System;
 using System.Collections.Generic;
@@ -16,6 +17,19 @@ namespace GhiasAmooz.Core.Services
         public PermissionService(GhiasAmoozContext context)
         {
             _context = context;
+        }
+
+        public void AddPermissionsToRole(int roleId, List<int> permissions)
+        {
+            foreach (var p in permissions)
+            {
+                _context.RolePermission.Add(new RolePermission
+                {
+                    PermissionId = p,
+                    RoleId = roleId
+                });
+            }
+            _context.SaveChanges();
         }
 
         public int AddRole(Role role)
@@ -55,6 +69,11 @@ namespace GhiasAmooz.Core.Services
             AddRolesToUser(rolesId, userId);
         }
 
+        public List<Permission> GetAllPermission()
+        {
+           return _context.Permission.ToList();
+        }
+
         public Role GetRoleById(int roleId)
         {
             return _context.Roles.Find(roleId);
@@ -63,6 +82,21 @@ namespace GhiasAmooz.Core.Services
         public List<Role> GetRoles()
         {
             return _context.Roles.ToList();
+        }
+
+        public List<int> PermissionsRole(int roleId)
+        {
+           return _context.RolePermission
+                .Where(r=>r.RoleId == roleId)
+                .Select(r=>r.PermissionId).ToList();
+        }
+
+        public void UpdatePermissionsRole(int roleId, List<int> permissions)
+        {
+            _context.RolePermission.Where(p=>p.RoleId == roleId)
+                .ToList().ForEach(p=>_context.RolePermission.Remove(p));
+
+            AddPermissionsToRole(roleId, permissions);
         }
 
         public void UpdateRole(Role role)

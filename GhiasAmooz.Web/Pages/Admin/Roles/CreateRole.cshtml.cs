@@ -18,14 +18,15 @@ namespace GhiasAmooz.Web.Pages.Admin.Roles
         public Role Role { get; set; }
         public void OnGet()
         {
+            ViewData["Permissions"] = _permissionService.GetAllPermission();
         }
-        public IActionResult OnPost()
+        public IActionResult OnPost(List<int> selectedPermission)
         {
             
             Role.IsDelete = false;
 
             int roleId = _permissionService.AddRole(Role);
-            //TODO Add permission
+            _permissionService.AddPermissionsToRole(roleId,selectedPermission);
             return RedirectToPage("Index");
         }
     }

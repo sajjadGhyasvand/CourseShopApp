@@ -1,8 +1,9 @@
 ﻿@page
+@using GhiasAmooz.DataLayer.Entities.Permissions;
 @model GhiasAmooz.Web.Pages.Admin.Roles.CreateRoleModel
 @{
     ViewData["Title"] = " افزودن نقش جدید";
-
+    List<Permission> permissions = ViewData["Permissions"] as List<Permission>;
 }
 
 
@@ -26,7 +27,7 @@
                         <label>عنوان نقش</label>
                         <input type="text" asp-for="Role.RoleTitle" class="form-control">
                     </div>
-                   
+
                     <input type="submit" value="قتب نقش" class="btn btn-success" />
                 </div>
                 <!-- /.panel-body -->
@@ -35,11 +36,40 @@
         <div class="col-md-4">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    دسترسی‌های نقش 
+                    دسترسی‌های نقش
                 </div>
                 <!-- /.panel-heading -->
                 <div class="panel-body">
-                   
+                    <ul>
+                        @foreach (var permission in permissions.Where(p => p.ParentId == null))
+                        {
+                            <li>
+                                <input type="checkbox" name="selectedPermission" value="@permission.PermissionId" /> @permission.PermissionTitle
+                                @if (permissions.Any(p => p.ParentId == permission.PermissionId))
+                                {
+                                    <ul>
+                                        @foreach (var sub in permissions.Where(p => p.ParentId == permission.PermissionId))
+                                        {
+                                            <li>
+                                                <input type="checkbox" name="selectedPermission" value="@sub.PermissionId" /> @sub.PermissionTitle
+                                                @if (permissions.Any(p => p.ParentId == sub.PermissionId))
+                                                {
+                                                    <ul>
+                                                        @foreach (var sub2 in permissions.Where(p => p.ParentId == sub.PermissionId))
+                                                        {
+                                                           <li>
+                                                                <input type="checkbox" name="selectedPermission" value="@sub2.PermissionId" /> @sub2.PermissionTitle
+                                                           </li>  
+                                                        }
+                                                    </ul>
+                                                }
+                                            </li>
+                                        }
+                                    </ul>
+                                }
+                            </li>
+                        }
+                    </ul>
                 </div>
                 <!-- /.panel-body -->
             </div>

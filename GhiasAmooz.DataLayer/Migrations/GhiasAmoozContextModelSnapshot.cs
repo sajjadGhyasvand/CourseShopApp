@@ -22,6 +22,52 @@ namespace GhiasAmooz.DataLayer.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
+            modelBuilder.Entity("GhiasAmooz.DataLayer.Entities.Permissions.Permission", b =>
+                {
+                    b.Property<int>("PermissionId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PermissionId"), 1L, 1);
+
+                    b.Property<int?>("ParentId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("PermissionTitle")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.HasKey("PermissionId");
+
+                    b.HasIndex("ParentId");
+
+                    b.ToTable("Permission");
+                });
+
+            modelBuilder.Entity("GhiasAmooz.DataLayer.Entities.Permissions.RolePermission", b =>
+                {
+                    b.Property<int>("RolePermissionId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RolePermissionId"), 1L, 1);
+
+                    b.Property<int>("PermissionId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("RoleId")
+                        .HasColumnType("int");
+
+                    b.HasKey("RolePermissionId");
+
+                    b.HasIndex("PermissionId");
+
+                    b.HasIndex("RoleId");
+
+                    b.ToTable("RolePermission");
+                });
+
             modelBuilder.Entity("GhiasAmooz.DataLayer.Entities.User.Role", b =>
                 {
                     b.Property<int>("RoleId")
@@ -165,6 +211,32 @@ namespace GhiasAmooz.DataLayer.Migrations
                     b.ToTable("WalletTypes");
                 });
 
+            modelBuilder.Entity("GhiasAmooz.DataLayer.Entities.Permissions.Permission", b =>
+                {
+                    b.HasOne("GhiasAmooz.DataLayer.Entities.Permissions.Permission", null)
+                        .WithMany("Permissions")
+                        .HasForeignKey("ParentId");
+                });
+
+            modelBuilder.Entity("GhiasAmooz.DataLayer.Entities.Permissions.RolePermission", b =>
+                {
+                    b.HasOne("GhiasAmooz.DataLayer.Entities.Permissions.Permission", "Permission")
+                        .WithMany("RolePermissions")
+                        .HasForeignKey("PermissionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("GhiasAmooz.DataLayer.Entities.User.Role", "Role")
+                        .WithMany("RolePermissions")
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Permission");
+
+                    b.Navigation("Role");
+                });
+
             modelBuilder.Entity("GhiasAmooz.DataLayer.Entities.User.UserRole", b =>
                 {
                     b.HasOne("GhiasAmooz.DataLayer.Entities.User.Role", "Role")
@@ -203,8 +275,17 @@ namespace GhiasAmooz.DataLayer.Migrations
                     b.Navigation("WalletType");
                 });
 
+            modelBuilder.Entity("GhiasAmooz.DataLayer.Entities.Permissions.Permission", b =>
+                {
+                    b.Navigation("Permissions");
+
+                    b.Navigation("RolePermissions");
+                });
+
             modelBuilder.Entity("GhiasAmooz.DataLayer.Entities.User.Role", b =>
                 {
+                    b.Navigation("RolePermissions");
+
                     b.Navigation("UserRoles");
                 });
 

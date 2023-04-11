@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GhiasAmooz.DataLayer.Entities.Permissions;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
@@ -26,8 +27,8 @@ namespace GhiasAmooz.DataLayer.Entities.User
         #region Relations
 
         public virtual List<UserRole> UserRoles { get; set; }
-
-
+        public List<RolePermission> RolePermissions { get; set; }
+        
         #endregion
     }
 }

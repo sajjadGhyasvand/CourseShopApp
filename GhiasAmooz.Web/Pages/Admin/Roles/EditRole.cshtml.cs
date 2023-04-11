@@ -20,11 +20,15 @@ namespace GhiasAmooz.Web.Pages.Admin.Roles
         public void OnGet(int id)
         {
             Role = _permissionService.GetRoleById(id);
+            ViewData["Permissions"] = _permissionService.GetAllPermission();
+            ViewData["SelectedPermissions"] = _permissionService.PermissionsRole(id);
         }
-        public IActionResult OnPost()
+        public IActionResult OnPost(List<int> selectedPermission)
         {
             _permissionService.UpdateRole(Role);
-            //TODO Add permission
+            
+            _permissionService.UpdatePermissionsRole(Role.RoleId, selectedPermission);
+
             return RedirectToPage("Index");
         }
     }
