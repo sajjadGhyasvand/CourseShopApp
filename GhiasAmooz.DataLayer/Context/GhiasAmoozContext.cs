@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using GhiasAmooz.DataLayer.Entities.User;
 using GhiasAmooz.DataLayer.Entities.Wallet;
 using GhiasAmooz.DataLayer.Entities.Permissions;
+using GhiasAmooz.DataLayer.Entities.Course;
 
 namespace GhiasAmooz.DataLayer.Context
 {
@@ -35,10 +36,14 @@ namespace GhiasAmooz.DataLayer.Context
         public DbSet<Permission> Permission { get; set; }
         public DbSet<RolePermission> RolePermission { get; set; }
         #endregion
+        #region Course
+        public DbSet<CourseGroup> CourseGroups { get; set; }
+        #endregion
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<User>().HasQueryFilter(u => !u.IsDelete);
             modelBuilder.Entity<Role>().HasQueryFilter(r => !r.IsDelete);
+            modelBuilder.Entity<CourseGroup>().HasQueryFilter(g => !g.IsDelete);
 
             base.OnModelCreating(modelBuilder);
         }
