@@ -4,8 +4,9 @@
     "\\GhiasAmooz.Web",
     "\\GhiasAmooz.Web\\Pages",
     "\\GhiasAmooz.Web\\Pages\\Admin",
+    "\\GhiasAmooz.Web\\Pages\\Admin\\Roles",
     "\\GhiasAmooz.Web\\Pages\\Admin\\Users"
   ],
-  "SelectedNode": "\\GhiasAmooz.Web\\Pages\\Admin\\Users\\index.cshtml.cs",
+  "SelectedNode": "\\GhiasAmooz.Web\\Pages\\Admin\\Roles\\DeleteRole.cshtml.cs",
   "PreviewInSolutionExplorer": false
 }

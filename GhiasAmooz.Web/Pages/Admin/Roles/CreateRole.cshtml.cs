@@ -1,3 +1,4 @@
+using GhiasAmooz.Core.Security;
 using GhiasAmooz.Core.Services.Interfaces;
 using GhiasAmooz.DataLayer.Entities.User;
 using Microsoft.AspNetCore.Mvc;
@@ -5,6 +6,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace GhiasAmooz.Web.Pages.Admin.Roles
 {
+    [PermissionChecker(7)]
     public class CreateRoleModel : PageModel
     {
         private IPermissionService _permissionService;

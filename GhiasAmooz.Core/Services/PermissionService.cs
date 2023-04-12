@@ -53,7 +53,19 @@ namespace GhiasAmooz.Core.Services
             _context.SaveChanges();
         }
 
-        
+        public bool CheckPermission(int permissionId, string userName)
+        {
+            int userId = _context.Users.Single(u => u.UserName == userName).UserId;
+            List<int> UserRoles = _context.UserRoles.Where(r=>r.UserId == userId).Select(r=>r.RoleId).ToList();
+            if (!UserRoles.Any())
+            {
+                return false;
+            }
+            List<int> rolesPermission = _context.RolePermission
+                .Where(p => p.PermissionId == permissionId).Select(p=>p.RoleId).ToList();
+
+            return rolesPermission.Any(p => UserRoles.Contains(p));
+        }
 
         public void DeleteRole(Role role)
         {

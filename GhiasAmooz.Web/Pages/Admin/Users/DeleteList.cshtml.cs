@@ -1,10 +1,12 @@
 using GhiasAmooz.Core.DTOs;
+using GhiasAmooz.Core.Security;
 using GhiasAmooz.Core.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace GhiasAmooz.Web.Pages.Admin.Users
 {
+    [PermissionChecker(5)]
     public class DeleteListModel : PageModel
     {
         private IUserService _userService;

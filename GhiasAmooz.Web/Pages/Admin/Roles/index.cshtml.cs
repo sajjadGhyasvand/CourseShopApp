@@ -1,4 +1,5 @@
 using GhiasAmooz.Core.DTOs;
+using GhiasAmooz.Core.Security;
 using GhiasAmooz.Core.Services;
 using GhiasAmooz.Core.Services.Interfaces;
 using GhiasAmooz.DataLayer.Entities.User;
@@ -8,6 +9,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Conventions;
 
 namespace GhiasAmooz.Web.Pages.Admin.Roles
 {
+    [PermissionChecker(6)]
     public class indexModel : PageModel
     {
         private IPermissionService _permissionService;
@@ -19,6 +21,7 @@ namespace GhiasAmooz.Web.Pages.Admin.Roles
 
         public List<Role> RolesList { get; set; }
 
+        
         public void OnGet()
         {
             RolesList = _permissionService.GetRoles();

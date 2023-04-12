@@ -1,4 +1,5 @@
 using GhiasAmooz.Core.DTOs;
+using GhiasAmooz.Core.Security;
 using GhiasAmooz.Core.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -6,6 +7,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Conventions;
 
 namespace GhiasAmooz.Web.Pages.Admin.Users
 {
+    [PermissionChecker(1)]
     public class indexModel : PageModel
     {
         private IUserService _userService;
