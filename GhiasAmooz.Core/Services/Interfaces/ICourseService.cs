@@ -25,6 +25,8 @@ namespace GhiasAmooz.Core.Services.Interfaces
         List<ShowCourseForAdminViewModel> GetCoursesForAdmin();
 
         int AddCourse(Course course, IFormFile imgCourse, IFormFile courseDemo);
+        Course GetCourseById(int courseId);
+        void UpdateCourse(Course course, IFormFile imgCourse, IFormFile courseDemo);
         #endregion
     }
 }

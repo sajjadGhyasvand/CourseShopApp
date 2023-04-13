@@ -67,6 +67,11 @@ namespace GhiasAmooz.Core.Services
             return _context.CourseGroups.ToList();
         }
 
+        public Course GetCourseById(int courseId)
+        {
+            return _context.Courses.Find(courseId);
+        }
+
         public List<ShowCourseForAdminViewModel> GetCoursesForAdmin()
         {
             return _context.Courses.Select(c => new ShowCourseForAdminViewModel()
@@ -123,6 +128,57 @@ namespace GhiasAmooz.Core.Services
                     Value=u.UserId.ToString(),
                     Text=u.User.UserName
                 }).ToList();
+        }
+
+        public void UpdateCourse(Course course, IFormFile imgCourse, IFormFile courseDemo)
+        {
+            course.UpdateDate = DateTime.Now;
+            if (imgCourse != null && imgCourse.IsImage())
+            {
+                if (course.CourseImageName != "f56ef017ab7a440aa6965fc50b9cce55.png")
+                {
+                    string deleteimagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Course/image", course.CourseImageName);
+                    if (File.Exists(deleteimagePath))
+                    {
+                        File.Delete(deleteimagePath);
+                    }
+                    string deletethumbPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Course/thumb", course.CourseImageName);
+                    if (File.Exists(deletethumbPath))
+                    {
+                        File.Delete(deletethumbPath);
+                    }
+                }
+                course.CourseImageName = NameGenerator.GenerateUniqCode() + Path.GetExtension(imgCourse.FileName);
+                string imagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Course/Demo", course.CourseImageName);
+                using (var stream = new FileStream(imagePath, FileMode.Create))
+                {
+                    imgCourse.CopyTo(stream);
+                }
+                //Image Resize
+                ImageConvertor ImageResizer = new ImageConvertor();
+                string thumbPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Course/thumb", course.CourseImageName);
+                ImageResizer.Image_resize(imagePath, thumbPath, 150);
+            }
+            //TODO: Upload Demo
+            if (courseDemo != null)
+            {
+                if (course.DemoFileName != null)
+                {
+                    string deletedemoPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/UserAvatar", course.DemoFileName);
+                    if (File.Exists(deletedemoPath))
+                    {
+                        File.Delete(deletedemoPath);
+                    }
+                }
+                course.DemoFileName = NameGenerator.GenerateUniqCode() + Path.GetExtension(courseDemo.FileName);
+                string demoPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Course/Demo", course.DemoFileName);
+                using (var stream = new FileStream(demoPath, FileMode.Create))
+                {
+                    courseDemo.CopyTo(stream);
+                }
+            }
+            _context.Courses.Update(course);
+            _context.SaveChanges();
         }
     }
 }

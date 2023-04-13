@@ -253,6 +253,10 @@
       "PackagePath": "staticwebassets\\AdminContent\\js\\sb-admin.js"
     },
     {
+      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\Demo\\c17a6b9eabc649f78de5eece249739db.jpg",
+      "PackagePath": "staticwebassets\\Course\\Demo\\c17a6b9eabc649f78de5eece249739db.jpg"
+    },
+    {
       "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\image\\2660ef0ceb2942a0b5d76853eae9048c.jpg",
       "PackagePath": "staticwebassets\\Course\\image\\2660ef0ceb2942a0b5d76853eae9048c.jpg"
     },
@@ -289,8 +293,52 @@
       "PackagePath": "staticwebassets\\Course\\image\\b84d7e4fe172456a93feafd1ac9897b7.jpg"
     },
     {
+      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\image\\cf74287622904924816d40d88a270b99.jpg",
+      "PackagePath": "staticwebassets\\Course\\image\\cf74287622904924816d40d88a270b99.jpg"
+    },
+    {
       "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\image\\default.jpg",
       "PackagePath": "staticwebassets\\Course\\image\\default.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\2660ef0ceb2942a0b5d76853eae9048c.jpg",
+      "PackagePath": "staticwebassets\\Course\\thumb\\2660ef0ceb2942a0b5d76853eae9048c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\31b83ef7b03b4cf894d29012b43bdf38.jpg",
+      "PackagePath": "staticwebassets\\Course\\thumb\\31b83ef7b03b4cf894d29012b43bdf38.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\562986fc935c41b8b40baee890a2f17b.jpg",
+      "PackagePath": "staticwebassets\\Course\\thumb\\562986fc935c41b8b40baee890a2f17b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\8c305ad3fd064a218d6d7655c57e3bd3.jpg",
+      "PackagePath": "staticwebassets\\Course\\thumb\\8c305ad3fd064a218d6d7655c57e3bd3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\8e00756726be43429bc7ebb6c6c92acc.jpg",
+      "PackagePath": "staticwebassets\\Course\\thumb\\8e00756726be43429bc7ebb6c6c92acc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\9235db3a908c494f961d851c9410a1c1.jpg",
+      "PackagePath": "staticwebassets\\Course\\thumb\\9235db3a908c494f961d851c9410a1c1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\a3ad497b623a4120ab49413a5e3d3e03.jpg",
+      "PackagePath": "staticwebassets\\Course\\thumb\\a3ad497b623a4120ab49413a5e3d3e03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\b15770ff0b004a4f9df7ea52f9cc5ffc.jpg",
+      "PackagePath": "staticwebassets\\Course\\thumb\\b15770ff0b004a4f9df7ea52f9cc5ffc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\b84d7e4fe172456a93feafd1ac9897b7.jpg",
+      "PackagePath": "staticwebassets\\Course\\thumb\\b84d7e4fe172456a93feafd1ac9897b7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\cf74287622904924816d40d88a270b99.jpg",
+      "PackagePath": "staticwebassets\\Course\\thumb\\cf74287622904924816d40d88a270b99.jpg"
     },
     {
       "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\default.jpg",
