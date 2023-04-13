@@ -885,3 +885,5 @@ C:\Users\sajjad\Source\Repos\TLStoreApp\GhiasAmooz.Web\obj\Debug\net6.0\refint\G
 C:\Users\sajjad\Source\Repos\TLStoreApp\GhiasAmooz.Web\obj\Debug\net6.0\GhiasAmooz.Web.pdb
 C:\Users\sajjad\Source\Repos\TLStoreApp\GhiasAmooz.Web\obj\Debug\net6.0\GhiasAmooz.Web.genruntimeconfig.cache
 C:\Users\sajjad\Source\Repos\TLStoreApp\GhiasAmooz.Web\obj\Debug\net6.0\ref\GhiasAmooz.Web.dll
+C:\Users\sajjad\Source\Repos\TLStoreApp\GhiasAmooz.Web\bin\Debug\net6.0\web.config
+C:\Users\sajjad\Source\Repos\TLStoreApp\GhiasAmooz.Web\bin\Debug\net6.0\CoreCompat.System.Drawing.dll

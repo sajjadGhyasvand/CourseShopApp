@@ -1,5 +1,7 @@
-﻿using GhiasAmooz.Core.DTOs;
+﻿using GhiasAmooz.Core.Convertors;
+using GhiasAmooz.Core.DTOs;
 using GhiasAmooz.Core.Generator;
+using GhiasAmooz.Core.Security;
 using GhiasAmooz.Core.Services.Interfaces;
 using GhiasAmooz.DataLayer.Context;
 using GhiasAmooz.DataLayer.Entities.Course;
@@ -9,6 +11,8 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Drawing;
+using System.Drawing.Imaging;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -24,12 +28,12 @@ namespace GhiasAmooz.Core.Services
             _context = context;
         }
 
-        public int AddCourse(Course course, IFormFile imgCourse, IFormFile courseDeme)
+        public int AddCourse(Course course, IFormFile imgCourse, IFormFile courseDemo)
         {
             course.CreateDate= DateTime.Now;
             course.CourseImageName = "default.jpg";
             //TODO: Check Image
-            if (imgCourse!=null)
+            if (imgCourse!=null && imgCourse.IsImage())
             {
                 course.CourseImageName = NameGenerator.GenerateUniqCode() + Path.GetExtension(imgCourse.FileName);
                 string imagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Course/Image", course.CourseImageName);
@@ -37,9 +41,21 @@ namespace GhiasAmooz.Core.Services
                 {
                     imgCourse.CopyTo(stream);
                 }
+                //Image Resize
+                ImageConvertor ImageResizer = new ImageConvertor();
+                string thumbPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Course/thumb", course.CourseImageName);
+                ImageResizer.Image_resize(imagePath, thumbPath,150);
             }
             //TODO: Upload Demo
-
+            if (courseDemo != null)
+            {
+                course.DemoFileName = NameGenerator.GenerateUniqCode() + Path.GetExtension(courseDemo.FileName);
+                string demoPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Course/Demo", course.DemoFileName);
+                using (var stream = new FileStream(demoPath, FileMode.Create))
+                {
+                    courseDemo.CopyTo(stream);
+                }
+            }
             _context.Courses.Add(course);
             _context.SaveChanges();
 

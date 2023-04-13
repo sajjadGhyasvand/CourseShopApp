@@ -24,4 +24,8 @@
     <ProjectReference Include="..\GhiasAmooz.DataLayer\GhiasAmooz.DataLayer.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\Course\Demo\" />
+  </ItemGroup>
+
 </Project>

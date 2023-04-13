@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "lhEDCi6xaxnQO6ANzEGzZRHK3DkCTXi2lyVxUjDYo8SGgrzK6dMoeJTOjQfuX3uTdFxjE+sg001Uo1LQhPUOhw==",
+  "dgSpecHash": "JFGhnM+ZTtC/8sGgtL+GX5P0AxbHh99HGWD560p2gfYA1bj9jzFdf6quhXMFhtG7tEF4oqxtr+lvFAgc4iNwog==",
   "success": true,
   "projectFilePath": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Core\\GhiasAmooz.Core.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\sajjad\\.nuget\\packages\\corecompat.system.drawing.v2\\5.2.0-preview1-r131\\corecompat.system.drawing.v2.5.2.0-preview1-r131.nupkg.sha512",
     "C:\\Users\\sajjad\\.nuget\\packages\\microsoft.aspnet.mvc\\5.2.9\\microsoft.aspnet.mvc.5.2.9.nupkg.sha512",
     "C:\\Users\\sajjad\\.nuget\\packages\\microsoft.aspnet.razor\\3.2.9\\microsoft.aspnet.razor.3.2.9.nupkg.sha512",
     "C:\\Users\\sajjad\\.nuget\\packages\\microsoft.aspnet.webpages\\3.2.9\\microsoft.aspnet.webpages.3.2.9.nupkg.sha512",

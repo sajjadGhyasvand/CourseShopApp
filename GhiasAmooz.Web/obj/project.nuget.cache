@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "/RdjJepIBRarr1h+nNxKVibiaWaWt5gklNjGSSqIRjjJXxAWG81Je0HAIKG744Q8ZwOKVz/O8z5Rs2gG1U+WEA==",
+  "dgSpecHash": "3lVZC8x9jWuGut9NOqIdp8U6eKQWcIJk2XI66uz8YvG74LPLJ7kJ013a3gMF5jFxGRyaSOzXeveoWKSRMWVO/A==",
   "success": true,
   "projectFilePath": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\GhiasAmooz.Web.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\sajjad\\.nuget\\packages\\corecompat.system.drawing.v2\\5.2.0-preview1-r131\\corecompat.system.drawing.v2.5.2.0-preview1-r131.nupkg.sha512",
     "C:\\Users\\sajjad\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\sajjad\\.nuget\\packages\\libuv\\1.9.1\\libuv.1.9.1.nupkg.sha512",
     "C:\\Users\\sajjad\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
