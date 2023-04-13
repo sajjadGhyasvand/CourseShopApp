@@ -56,12 +56,11 @@ namespace GhiasAmooz.DataLayer.Context
         {
             modelBuilder.Entity<User>()
                 .HasQueryFilter(u => !u.IsDelete);
-
             modelBuilder.Entity<Role>()
                 .HasQueryFilter(r => !r.IsDelete);
-
             modelBuilder.Entity<CourseGroup>()
                 .HasQueryFilter(g => !g.IsDelete);
+
 
             base.OnModelCreating(modelBuilder);
         }

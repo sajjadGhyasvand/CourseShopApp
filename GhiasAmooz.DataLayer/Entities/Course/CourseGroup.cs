@@ -28,8 +28,8 @@ namespace GhiasAmooz.DataLayer.Entities.Course
         [InverseProperty("CourseGroup")]
         public List<Course> Courses { get; set; }
 
-     /*   [InverseProperty("Group")]
-        public List<Course> SubGroup { get; set; }*/
+         [InverseProperty("GroupSub")]
+         public List<Course> SubGroup { get; set; }
 
     }
 }

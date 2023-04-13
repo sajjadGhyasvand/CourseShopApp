@@ -1,16 +1,19 @@
 ﻿using GhiasAmooz.Core.Services.Interfaces;
 using GhiasAmooz.Web.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Diagnostics;
 
 namespace GhiasAmooz.Web.Controllers
 {
     public class HomeController : Controller
     {
-        IUserService _userService;
-        public HomeController(IUserService userService)
+        private IUserService _userService;
+        private ICourseService _courseService;
+        public HomeController(IUserService userService, ICourseService courseService)
         {
             _userService = userService;
+            _courseService = courseService;
         }
         public IActionResult Index() => View();
 
@@ -33,6 +36,16 @@ namespace GhiasAmooz.Web.Controllers
                 
             }
             return View();
+        }
+
+        public IActionResult GetSubGroups(int id)
+        {
+            List<SelectListItem> list = new List<SelectListItem>()
+            {
+                new SelectListItem(){Text="انتخاب کنید",Value=""}
+            };
+            list.AddRange(_courseService.GetSubGroupForManageCourse(id));
+            return Json(new SelectList(list, "Value","Text"));
         }
     }
 }

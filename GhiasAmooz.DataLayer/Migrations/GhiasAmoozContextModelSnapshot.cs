@@ -57,7 +57,6 @@ namespace GhiasAmooz.DataLayer.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("DemoFileName")
-                        .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
@@ -68,6 +67,9 @@ namespace GhiasAmooz.DataLayer.Migrations
                         .HasColumnType("int");
 
                     b.Property<int>("StatusId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("SubGroupId")
                         .HasColumnType("int");
 
                     b.Property<string>("Tags")
@@ -88,6 +90,8 @@ namespace GhiasAmooz.DataLayer.Migrations
                     b.HasIndex("CourseStatusStatusId");
 
                     b.HasIndex("GroupId");
+
+                    b.HasIndex("SubGroupId");
 
                     b.HasIndex("TeacherId");
 
@@ -398,6 +402,10 @@ namespace GhiasAmooz.DataLayer.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("GhiasAmooz.DataLayer.Entities.Course.CourseGroup", "GroupSub")
+                        .WithMany("SubGroup")
+                        .HasForeignKey("SubGroupId");
+
                     b.HasOne("GhiasAmooz.DataLayer.Entities.User.User", "User")
                         .WithMany("Courses")
                         .HasForeignKey("TeacherId")
@@ -409,6 +417,8 @@ namespace GhiasAmooz.DataLayer.Migrations
                     b.Navigation("CourseLevel");
 
                     b.Navigation("CourseStatus");
+
+                    b.Navigation("GroupSub");
 
                     b.Navigation("User");
                 });
@@ -505,6 +515,8 @@ namespace GhiasAmooz.DataLayer.Migrations
                     b.Navigation("CourseGroups");
 
                     b.Navigation("Courses");
+
+                    b.Navigation("SubGroup");
                 });
 
             modelBuilder.Entity("GhiasAmooz.DataLayer.Entities.Course.CourseLevel", b =>

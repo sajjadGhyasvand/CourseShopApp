@@ -15,7 +15,7 @@ namespace GhiasAmooz.DataLayer.Entities.Course
         [Required]
         public int GroupId { get; set; }
 
-      /*  public int? SubGroup { get; set; }*/
+        public int? SubGroupId { get; set; }
 
         [Required]
         public int TeacherId { get; set; }
@@ -46,7 +46,7 @@ namespace GhiasAmooz.DataLayer.Entities.Course
         public string CourseImageName { get; set; }
 
         [MaxLength(100)]
-        public string DemoFileName { get; set; }
+        public string? DemoFileName { get; set; }
 
         [Required]
         public DateTime CreateDate { get; set; }
@@ -61,8 +61,8 @@ namespace GhiasAmooz.DataLayer.Entities.Course
 
         [ForeignKey("GroupId")]
         public virtual CourseGroup CourseGroup { get; set; }
-        /* [ForeignKey("SubGroup")]
-         public CourseGroup Group { get; set; }*/       
+         [ForeignKey("SubGroupId")]
+         public virtual CourseGroup GroupSub { get; set; } 
         public virtual CourseStatus CourseStatus { get; set; }  
         public virtual CourseLevel CourseLevel { get; set; }
         public List<CourseEpisode> CourseEpisodes { get; set; }
