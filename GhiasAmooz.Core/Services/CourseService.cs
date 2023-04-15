@@ -30,10 +30,10 @@ namespace GhiasAmooz.Core.Services
 
         public int AddCourse(Course course, IFormFile imgCourse, IFormFile courseDemo)
         {
-            course.CreateDate= DateTime.Now;
+            course.CreateDate = DateTime.Now;
             course.CourseImageName = "default.jpg";
             //TODO: Check Image
-            if (imgCourse!=null && imgCourse.IsImage())
+            if (imgCourse != null && imgCourse.IsImage())
             {
                 course.CourseImageName = NameGenerator.GenerateUniqCode() + Path.GetExtension(imgCourse.FileName);
                 string imagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Course/Image", course.CourseImageName);
@@ -44,7 +44,7 @@ namespace GhiasAmooz.Core.Services
                 //Image Resize
                 ImageConvertor ImageResizer = new ImageConvertor();
                 string thumbPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Course/thumb", course.CourseImageName);
-                ImageResizer.Image_resize(imagePath, thumbPath,150);
+                ImageResizer.Image_resize(imagePath, thumbPath, 150);
             }
             //TODO: Upload Demo
             if (courseDemo != null)
@@ -62,6 +62,55 @@ namespace GhiasAmooz.Core.Services
             return course.CourseId;
         }
 
+        public int AddEpisode(CourseEpisode episode, IFormFile episodeFile)
+        {
+            episode.EpisodeFileName = episodeFile.FileName;
+
+            string filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Course/CourseFile", episode.EpisodeFileName);
+            using (var stream = new FileStream(filePath, FileMode.Create))
+            {
+                episodeFile.CopyTo(stream);
+            }
+
+            _context.CourseEpisodes.Add(episode);
+            _context.SaveChanges();
+            return episode.EpisodeId;
+        }
+
+        public CourseEpisode GetEpisodeById(int episodeId)
+        {
+            return _context.CourseEpisodes.Find(episodeId);
+        }
+        public List<CourseEpisode> GetListEpisodeCorse(int courseId)
+        {
+            return _context.CourseEpisodes.Where(e => e.CourseId == courseId).ToList();
+        }
+
+        public bool CheckExistFile(string fileName)
+        {
+            string path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Course/CourseFile", fileName);
+            return File.Exists(path);
+        }
+
+        public void EditEpisode(CourseEpisode episode, IFormFile episodeFile)
+        {
+            if (episodeFile != null)
+            {
+                string deleteFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Course/CourseFile", episode.EpisodeFileName);
+                File.Delete(deleteFilePath);
+
+                episode.EpisodeFileName = episodeFile.FileName;
+                string filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Course/CourseFile", episode.EpisodeFileName);
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    episodeFile.CopyTo(stream);
+                }
+            }
+
+            _context.CourseEpisodes.Update(episode);
+            _context.SaveChanges();
+        }
+
         public List<CourseGroup> GetAllGroup()
         {
             return _context.CourseGroups.ToList();
@@ -76,13 +125,13 @@ namespace GhiasAmooz.Core.Services
         {
             return _context.Courses.Select(c => new ShowCourseForAdminViewModel()
             {
-                CourseId= c.CourseId,
-                ImageName=c.CourseImageName,
-                CourseTitle=c.CourseTitle,
-                EpisodeCount=c.CourseEpisodes.Count,
+                CourseId = c.CourseId,
+                ImageName = c.CourseImageName,
+                CourseTitle = c.CourseTitle,
+                EpisodeCount = c.CourseEpisodes.Count,
             }).ToList();
 
-        } 
+        }
 
         public List<SelectListItem> GetGroupForManageCourse()
         {
@@ -122,12 +171,12 @@ namespace GhiasAmooz.Core.Services
 
         public List<SelectListItem> GetTeachers()
         {
-           return _context.UserRoles.Where(r=>r.RoleId == 2 ).Include(r=>r.User)
-                .Select(u=> new SelectListItem()
-                {
-                    Value=u.UserId.ToString(),
-                    Text=u.User.UserName
-                }).ToList();
+            return _context.UserRoles.Where(r => r.RoleId == 2).Include(r => r.User)
+                 .Select(u => new SelectListItem()
+                 {
+                     Value = u.UserId.ToString(),
+                     Text = u.User.UserName
+                 }).ToList();
         }
 
         public void UpdateCourse(Course course, IFormFile imgCourse, IFormFile courseDemo)
@@ -180,5 +229,94 @@ namespace GhiasAmooz.Core.Services
             _context.Courses.Update(course);
             _context.SaveChanges();
         }
+
+        public List<ShowCourseListViewModel> GetCourse(int pageId = 1, string filter = ""
+           , string getType = "all", string orderByType = "date",
+           int startPrice = 0, int endPrice = 0, List<int> selectedGroups = null, int take = 0)
+        {
+            if (take == 0)
+                take = 8;
+
+            IQueryable<Course> result = _context.Courses;
+
+            if (!string.IsNullOrEmpty(filter))
+            {
+                result = result.Where(c => c.CourseTitle.Contains(filter));
+            }
+
+            switch (getType)
+            {
+                case "all":
+                    break;
+                case "buy":
+                    {
+                        result = result.Where(c => c.CoursePrice != 0);
+                        break;
+                    }
+                case "free":
+                    {
+                        result = result.Where(c => c.CoursePrice == 0);
+                        break;
+                    }
+
+            }
+
+            switch (orderByType)
+            {
+                case "date":
+                    {
+                        result = result.OrderByDescending(c => c.CreateDate);
+                        break;
+                    }
+                case "updatedate":
+                    {
+                        result = result.OrderByDescending(c => c.UpdateDate);
+                        break;
+                    }
+            }
+
+            if (startPrice > 0)
+            {
+                result = result.Where(c => c.CoursePrice > startPrice);
+            }
+
+            if (endPrice > 0)
+            {
+                result = result.Where(c => c.CoursePrice < startPrice);
+            }
+
+
+            if (selectedGroups != null && selectedGroups.Any())
+            {
+                //TODo
+            }
+
+            int skip = (pageId - 1) * take;
+            var res = new List<ShowCourseListViewModel>();
+
+            foreach (var item in result)
+            {
+                res.Add(new ShowCourseListViewModel
+                {
+                    CourseId = item.CourseId,
+                    ImageName = item.CourseImageName,
+                    Price = item.CoursePrice,
+                    Title = item.CourseTitle,
+                    
+                });             
+            }
+            /*return result.Include(c => c.CourseEpisodes).Select(c => new ShowCourseListViewModel()
+            {
+                CourseId = c.CourseId,
+                ImageName = c.CourseImageName,
+                Price = c.CoursePrice,
+                Title = c.CourseTitle,
+                TotalTime = new TimeSpan(c.CourseEpisodes.Sum(e => e.EpisodeTime.Ticks))
+            }).Skip(skip).Take(take).ToList();*/
+
+            return res.Skip(skip).Take(take).ToList(); ;
+        }
+
+
     }
 }

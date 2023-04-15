@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "reSidXf96HNOhFVxaLMSdkIDFfZTHfok3k76ujsqwlE=",
+  "Hash": "WQ8Fgvb33iY285xuGUgTz0uHfRHtTbrbgjmUVpjT8gM=",
   "Source": "GhiasAmooz.Web",
   "BasePath": "_content/GhiasAmooz.Web",
   "Mode": "Default",
@@ -1105,6 +1105,40 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\js\\sb-admin.js"
     },
     {
+      "Identity": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\CourseFile\\Scan_0005.jpg",
+      "SourceId": "GhiasAmooz.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
+      "BasePath": "_content/GhiasAmooz.Web",
+      "RelativePath": "Course/CourseFile/Scan_0005.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Course\\CourseFile\\Scan_0005.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\Demo\\b763a656b1c34c8e8af0cb4c50570941.jpg",
+      "SourceId": "GhiasAmooz.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
+      "BasePath": "_content/GhiasAmooz.Web",
+      "RelativePath": "Course/Demo/b763a656b1c34c8e8af0cb4c50570941.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Course\\Demo\\b763a656b1c34c8e8af0cb4c50570941.jpg"
+    },
+    {
       "Identity": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\Demo\\c17a6b9eabc649f78de5eece249739db.jpg",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
@@ -1275,23 +1309,6 @@
       "OriginalItemSpec": "wwwroot\\Course\\image\\b84d7e4fe172456a93feafd1ac9897b7.jpg"
     },
     {
-      "Identity": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\image\\cf74287622904924816d40d88a270b99.jpg",
-      "SourceId": "GhiasAmooz.Web",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
-      "BasePath": "_content/GhiasAmooz.Web",
-      "RelativePath": "Course/image/cf74287622904924816d40d88a270b99.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Course\\image\\cf74287622904924816d40d88a270b99.jpg"
-    },
-    {
       "Identity": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\image\\default.jpg",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
@@ -1445,6 +1462,23 @@
       "OriginalItemSpec": "wwwroot\\Course\\thumb\\b15770ff0b004a4f9df7ea52f9cc5ffc.jpg"
     },
     {
+      "Identity": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\b763a656b1c34c8e8af0cb4c50570941.jpg",
+      "SourceId": "GhiasAmooz.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
+      "BasePath": "_content/GhiasAmooz.Web",
+      "RelativePath": "Course/thumb/b763a656b1c34c8e8af0cb4c50570941.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Course\\thumb\\b763a656b1c34c8e8af0cb4c50570941.jpg"
+    },
+    {
       "Identity": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\b84d7e4fe172456a93feafd1ac9897b7.jpg",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
@@ -1460,23 +1494,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Course\\thumb\\b84d7e4fe172456a93feafd1ac9897b7.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\cf74287622904924816d40d88a270b99.jpg",
-      "SourceId": "GhiasAmooz.Web",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
-      "BasePath": "_content/GhiasAmooz.Web",
-      "RelativePath": "Course/thumb/cf74287622904924816d40d88a270b99.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Course\\thumb\\cf74287622904924816d40d88a270b99.jpg"
     },
     {
       "Identity": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\default.jpg",

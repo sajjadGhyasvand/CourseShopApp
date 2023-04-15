@@ -48,12 +48,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ291cnNlXENyZWF0ZUNvdXJzZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/sajjad/source/repos/TLStoreApp/GhiasAmooz.Web/Pages/Admin/Course/CreateEpisode.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ291cnNlXENyZWF0ZUVwaXNvZGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sajjad/source/repos/TLStoreApp/GhiasAmooz.Web/Pages/Admin/Course/EditCourse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ291cnNlXEVkaXRDb3Vyc2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sajjad/source/repos/TLStoreApp/GhiasAmooz.Web/Pages/Admin/Course/EditEpisode.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ291cnNlXEVkaXRFcGlzb2RlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/sajjad/source/repos/TLStoreApp/GhiasAmooz.Web/Pages/Admin/Course/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ291cnNlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sajjad/source/repos/TLStoreApp/GhiasAmooz.Web/Pages/Admin/Course/ٍEditCourse.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ291cnNlXNmNRWRpdENvdXJzZS5jc2h0bWw=
+[C:/Users/sajjad/source/repos/TLStoreApp/GhiasAmooz.Web/Pages/Admin/Course/IndexEpisode.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ291cnNlXEluZGV4RXBpc29kZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/sajjad/source/repos/TLStoreApp/GhiasAmooz.Web/Pages/Admin/Index.cshtml]
@@ -150,6 +162,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/sajjad/source/repos/TLStoreApp/GhiasAmooz.Web/Views/Shared/_activeEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9hY3RpdmVFbWFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sajjad/source/repos/TLStoreApp/GhiasAmooz.Web/Views/Shared/_BoxCourse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Cb3hDb3Vyc2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/sajjad/source/repos/TLStoreApp/GhiasAmooz.Web/Views/Shared/_DefaultLayout.cshtml]

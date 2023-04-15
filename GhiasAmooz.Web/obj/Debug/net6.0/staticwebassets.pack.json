@@ -253,6 +253,14 @@
       "PackagePath": "staticwebassets\\AdminContent\\js\\sb-admin.js"
     },
     {
+      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\CourseFile\\Scan_0005.jpg",
+      "PackagePath": "staticwebassets\\Course\\CourseFile\\Scan_0005.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\Demo\\b763a656b1c34c8e8af0cb4c50570941.jpg",
+      "PackagePath": "staticwebassets\\Course\\Demo\\b763a656b1c34c8e8af0cb4c50570941.jpg"
+    },
+    {
       "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\Demo\\c17a6b9eabc649f78de5eece249739db.jpg",
       "PackagePath": "staticwebassets\\Course\\Demo\\c17a6b9eabc649f78de5eece249739db.jpg"
     },
@@ -293,10 +301,6 @@
       "PackagePath": "staticwebassets\\Course\\image\\b84d7e4fe172456a93feafd1ac9897b7.jpg"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\image\\cf74287622904924816d40d88a270b99.jpg",
-      "PackagePath": "staticwebassets\\Course\\image\\cf74287622904924816d40d88a270b99.jpg"
-    },
-    {
       "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\image\\default.jpg",
       "PackagePath": "staticwebassets\\Course\\image\\default.jpg"
     },
@@ -333,12 +337,12 @@
       "PackagePath": "staticwebassets\\Course\\thumb\\b15770ff0b004a4f9df7ea52f9cc5ffc.jpg"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\b84d7e4fe172456a93feafd1ac9897b7.jpg",
-      "PackagePath": "staticwebassets\\Course\\thumb\\b84d7e4fe172456a93feafd1ac9897b7.jpg"
+      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\b763a656b1c34c8e8af0cb4c50570941.jpg",
+      "PackagePath": "staticwebassets\\Course\\thumb\\b763a656b1c34c8e8af0cb4c50570941.jpg"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\cf74287622904924816d40d88a270b99.jpg",
-      "PackagePath": "staticwebassets\\Course\\thumb\\cf74287622904924816d40d88a270b99.jpg"
+      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\b84d7e4fe172456a93feafd1ac9897b7.jpg",
+      "PackagePath": "staticwebassets\\Course\\thumb\\b84d7e4fe172456a93feafd1ac9897b7.jpg"
     },
     {
       "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\default.jpg",
