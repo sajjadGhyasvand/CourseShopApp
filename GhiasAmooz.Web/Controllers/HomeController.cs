@@ -17,7 +17,7 @@ namespace GhiasAmooz.Web.Controllers
         }
         public IActionResult Index()
         {
-            return View(_courseService.GetCourse());
+            return View(_courseService.GetCourse().Item1);
         }
 
         [Route("OnlinePayment/{id}")]

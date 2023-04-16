@@ -230,9 +230,9 @@ namespace GhiasAmooz.Core.Services
             _context.SaveChanges();
         }
 
-        public List<ShowCourseListViewModel> GetCourse(int pageId = 1, string filter = ""
-           , string getType = "all", string orderByType = "date",
-           int startPrice = 0, int endPrice = 0, List<int> selectedGroups = null, int take = 0)
+        public Tuple<List<ShowCourseListViewModel>, int> GetCourse(int pageId = 1, string filter = ""
+            , string getType = "all", string orderByType = "date",
+            int startPrice = 0, int endPrice = 0, List<int> selectedGroups = null, int take = 0)
         {
             if (take == 0)
                 take = 8;
@@ -288,24 +288,38 @@ namespace GhiasAmooz.Core.Services
 
             if (selectedGroups != null && selectedGroups.Any())
             {
-                //TODo
+                foreach (int groupId in selectedGroups)
+                {
+                    result = result.Where(c => c.GroupId == groupId || c.SubGroupId == groupId);
+                }
+
             }
 
             int skip = (pageId - 1) * take;
-            var res = new List<ShowCourseListViewModel>();
+
+            int pageCount = result.Include(c => c.CourseEpisodes).Select(c => new ShowCourseListViewModel()
+            {
+                CourseId = c.CourseId,
+                ImageName = c.CourseImageName,
+                Price = c.CoursePrice,
+                Title = c.CourseTitle,
+                TotalTime = new TimeSpan(c.CourseEpisodes.Sum(e => e.EpisodeTime.Ticks))
+            }).Count() / take;
+
+            var query = new List<ShowCourseListViewModel>();
 
             foreach (var item in result)
             {
-                res.Add(new ShowCourseListViewModel
+                query.Add(new ShowCourseListViewModel
                 {
                     CourseId = item.CourseId,
                     ImageName = item.CourseImageName,
                     Price = item.CoursePrice,
                     Title = item.CourseTitle,
-                    
-                });             
+
+                });
             }
-            /*return result.Include(c => c.CourseEpisodes).Select(c => new ShowCourseListViewModel()
+            /*var query = result.Include(c => c.CourseEpisodes).Select(c => new ShowCourseListViewModel()
             {
                 CourseId = c.CourseId,
                 ImageName = c.CourseImageName,
@@ -314,7 +328,7 @@ namespace GhiasAmooz.Core.Services
                 TotalTime = new TimeSpan(c.CourseEpisodes.Sum(e => e.EpisodeTime.Ticks))
             }).Skip(skip).Take(take).ToList();*/
 
-            return res.Skip(skip).Take(take).ToList(); ;
+            return Tuple.Create(query, pageCount);
         }
 
 

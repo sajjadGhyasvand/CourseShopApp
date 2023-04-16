@@ -120,6 +120,90 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/sajjad/Source/Repos/TLStoreApp/GhiasAmooz.Web/Properties/Views/Account/ActiveAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvcGVydGllc1xWaWV3c1xBY2NvdW50XEFjdGl2ZUFjY291bnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sajjad/Source/Repos/TLStoreApp/GhiasAmooz.Web/Properties/Views/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvcGVydGllc1xWaWV3c1xBY2NvdW50XEZvcmdvdFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sajjad/Source/Repos/TLStoreApp/GhiasAmooz.Web/Properties/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvcGVydGllc1xWaWV3c1xBY2NvdW50XExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sajjad/Source/Repos/TLStoreApp/GhiasAmooz.Web/Properties/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvcGVydGllc1xWaWV3c1xBY2NvdW50XFJlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sajjad/Source/Repos/TLStoreApp/GhiasAmooz.Web/Properties/Views/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvcGVydGllc1xWaWV3c1xBY2NvdW50XFJlc2V0UGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sajjad/Source/Repos/TLStoreApp/GhiasAmooz.Web/Properties/Views/Account/SuccessRegister.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvcGVydGllc1xWaWV3c1xBY2NvdW50XFN1Y2Nlc3NSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sajjad/Source/Repos/TLStoreApp/GhiasAmooz.Web/Properties/Views/Course/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvcGVydGllc1xWaWV3c1xDb3Vyc2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sajjad/Source/Repos/TLStoreApp/GhiasAmooz.Web/Properties/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvcGVydGllc1xWaWV3c1xIb21lXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sajjad/Source/Repos/TLStoreApp/GhiasAmooz.Web/Properties/Views/Home/OnlinePayment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvcGVydGllc1xWaWV3c1xIb21lXE9ubGluZVBheW1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sajjad/Source/Repos/TLStoreApp/GhiasAmooz.Web/Properties/Views/Shared/Components/CourseGroupComponent/CourseGroup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvcGVydGllc1xWaWV3c1xTaGFyZWRcQ29tcG9uZW50c1xDb3Vyc2VHcm91cENvbXBvbmVudFxDb3Vyc2VHcm91cC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sajjad/Source/Repos/TLStoreApp/GhiasAmooz.Web/Properties/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvcGVydGllc1xWaWV3c1xTaGFyZWRcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sajjad/Source/Repos/TLStoreApp/GhiasAmooz.Web/Properties/Views/Shared/_activeEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvcGVydGllc1xWaWV3c1xTaGFyZWRcX2FjdGl2ZUVtYWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sajjad/Source/Repos/TLStoreApp/GhiasAmooz.Web/Properties/Views/Shared/_BoxCourse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvcGVydGllc1xWaWV3c1xTaGFyZWRcX0JveENvdXJzZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sajjad/Source/Repos/TLStoreApp/GhiasAmooz.Web/Properties/Views/Shared/_DefaultLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvcGVydGllc1xWaWV3c1xTaGFyZWRcX0RlZmF1bHRMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sajjad/Source/Repos/TLStoreApp/GhiasAmooz.Web/Properties/Views/Shared/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvcGVydGllc1xWaWV3c1xTaGFyZWRcX0Zvb3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sajjad/Source/Repos/TLStoreApp/GhiasAmooz.Web/Properties/Views/Shared/_ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvcGVydGllc1xWaWV3c1xTaGFyZWRcX0ZvcmdvdFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sajjad/Source/Repos/TLStoreApp/GhiasAmooz.Web/Properties/Views/Shared/_MetaTags.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvcGVydGllc1xWaWV3c1xTaGFyZWRcX01ldGFUYWdzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sajjad/Source/Repos/TLStoreApp/GhiasAmooz.Web/Properties/Views/Shared/_Styles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvcGVydGllc1xWaWV3c1xTaGFyZWRcX1N0eWxlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sajjad/Source/Repos/TLStoreApp/GhiasAmooz.Web/Properties/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvcGVydGllc1xWaWV3c1xTaGFyZWRcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sajjad/Source/Repos/TLStoreApp/GhiasAmooz.Web/Properties/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvcGVydGllc1xWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sajjad/Source/Repos/TLStoreApp/GhiasAmooz.Web/Properties/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvcGVydGllc1xWaWV3c1xfVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/sajjad/Source/Repos/TLStoreApp/GhiasAmooz.Web/Views/Account/ActiveAccount.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY3RpdmVBY2NvdW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -142,6 +226,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/sajjad/Source/Repos/TLStoreApp/GhiasAmooz.Web/Views/Account/SuccessRegister.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTdWNjZXNzUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sajjad/Source/Repos/TLStoreApp/GhiasAmooz.Web/Views/Course/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/sajjad/Source/Repos/TLStoreApp/GhiasAmooz.Web/Views/Home/Index.cshtml]
@@ -199,6 +287,10 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/sajjad/Source/Repos/TLStoreApp/GhiasAmooz.Web/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sajjad/Source/Repos/TLStoreApp/GhiasAmooz.Web/Properties/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvcGVydGllc1xWaWV3c1xTaGFyZWRcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-2fxl8efmkc
 
 [C:/Users/sajjad/Source/Repos/TLStoreApp/GhiasAmooz.Web/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s

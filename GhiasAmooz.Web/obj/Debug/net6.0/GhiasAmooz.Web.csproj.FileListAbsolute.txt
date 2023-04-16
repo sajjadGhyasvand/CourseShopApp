@@ -876,7 +876,6 @@ C:\Users\sajjad\Source\Repos\TLStoreApp\GhiasAmooz.Web\obj\Debug\net6.0\staticwe
 C:\Users\sajjad\Source\Repos\TLStoreApp\GhiasAmooz.Web\obj\Debug\net6.0\staticwebassets.pack.json
 C:\Users\sajjad\Source\Repos\TLStoreApp\GhiasAmooz.Web\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\sajjad\Source\Repos\TLStoreApp\GhiasAmooz.Web\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\sajjad\Source\Repos\TLStoreApp\GhiasAmooz.Web\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\sajjad\Source\Repos\TLStoreApp\GhiasAmooz.Web\obj\Debug\net6.0\scopedcss\bundle\GhiasAmooz.Web.styles.css
 C:\Users\sajjad\Source\Repos\TLStoreApp\GhiasAmooz.Web\obj\Debug\net6.0\scopedcss\projectbundle\GhiasAmooz.Web.bundle.scp.css
 C:\Users\sajjad\Source\Repos\TLStoreApp\GhiasAmooz.Web\obj\Debug\net6.0\GhiasAmooz.Web.csproj.CopyComplete
@@ -887,3 +886,5 @@ C:\Users\sajjad\Source\Repos\TLStoreApp\GhiasAmooz.Web\obj\Debug\net6.0\GhiasAmo
 C:\Users\sajjad\Source\Repos\TLStoreApp\GhiasAmooz.Web\obj\Debug\net6.0\ref\GhiasAmooz.Web.dll
 C:\Users\sajjad\Source\Repos\TLStoreApp\GhiasAmooz.Web\bin\Debug\net6.0\web.config
 C:\Users\sajjad\Source\Repos\TLStoreApp\GhiasAmooz.Web\bin\Debug\net6.0\CoreCompat.System.Drawing.dll
+C:\Users\sajjad\Source\Repos\TLStoreApp\GhiasAmooz.Web\obj\Debug\net6.0\scopedcss\Properties\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\sajjad\Source\Repos\TLStoreApp\GhiasAmooz.Web\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css

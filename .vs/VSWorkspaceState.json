@@ -4,14 +4,8 @@
     "\\GhiasAmooz.Core",
     "\\GhiasAmooz.Core\\Services",
     "\\GhiasAmooz.Web",
-    "\\GhiasAmooz.Web\\Pages",
-    "\\GhiasAmooz.Web\\Pages\\Admin",
-    "\\GhiasAmooz.Web\\Pages\\Admin\\Course",
-    "\\GhiasAmooz.Web\\Views",
-    "\\GhiasAmooz.Web\\Views\\Shared",
-    "\\GhiasAmooz.Web\\Views\\Shared\\Components",
-    "\\GhiasAmooz.Web\\Views\\Shared\\Components\\CourseGroupComponent"
+    "\\GhiasAmooz.Web\\Controllers"
   ],
-  "SelectedNode": "\\GhiasAmooz.Web\\Pages\\Admin\\Course\\CreateCourse.cshtml",
+  "SelectedNode": "\\QiasAmoz.sln",
   "PreviewInSolutionExplorer": false
 }
