@@ -349,12 +349,12 @@
       "PackagePath": "staticwebassets\\Course\\thumb\\default.jpg"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\UserAvatar\\7921236334d04b15aaa2b3f5f349c809.jpg",
-      "PackagePath": "staticwebassets\\UserAvatar\\7921236334d04b15aaa2b3f5f349c809.jpg"
-    },
-    {
       "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\UserAvatar\\867e77685d1043528ab1f4caf0542b98.jpg",
       "PackagePath": "staticwebassets\\UserAvatar\\867e77685d1043528ab1f4caf0542b98.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\UserAvatar\\Defult.jpg",
+      "PackagePath": "staticwebassets\\UserAvatar\\Defult.jpg"
     },
     {
       "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\UserAvatar\\c483527adba141fc8e3f9caf057852e7.png",

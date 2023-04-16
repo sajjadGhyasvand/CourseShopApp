@@ -331,6 +331,12 @@ namespace GhiasAmooz.Core.Services
             return Tuple.Create(query, pageCount);
         }
 
-
+        public Course GetCourseForShow(int courseId)
+        {
+            return _context.Courses.Include(c => c.CourseEpisodes)
+                
+                .Include(c => c.User)
+                .FirstOrDefault(c => c.CourseId == courseId);
+        }
     }
 }

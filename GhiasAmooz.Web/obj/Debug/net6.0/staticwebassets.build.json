@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WQ8Fgvb33iY285xuGUgTz0uHfRHtTbrbgjmUVpjT8gM=",
+  "Hash": "SEoKxkFe30lR2GqKqQAZV6URlkzj808cFigY5vOAldE=",
   "Source": "GhiasAmooz.Web",
   "BasePath": "_content/GhiasAmooz.Web",
   "Mode": "Default",
@@ -2193,23 +2193,6 @@
       "OriginalItemSpec": "wwwroot\\noUiSlider\\nouislider.min.js"
     },
     {
-      "Identity": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\UserAvatar\\7921236334d04b15aaa2b3f5f349c809.jpg",
-      "SourceId": "GhiasAmooz.Web",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
-      "BasePath": "_content/GhiasAmooz.Web",
-      "RelativePath": "UserAvatar/7921236334d04b15aaa2b3f5f349c809.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\UserAvatar\\7921236334d04b15aaa2b3f5f349c809.jpg"
-    },
-    {
       "Identity": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\UserAvatar\\867e77685d1043528ab1f4caf0542b98.jpg",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
@@ -2259,6 +2242,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\UserAvatar\\ce825af76ddc4d07a6939260b2afaff5.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\UserAvatar\\Defult.jpg",
+      "SourceId": "GhiasAmooz.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
+      "BasePath": "_content/GhiasAmooz.Web",
+      "RelativePath": "UserAvatar/Defult.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UserAvatar\\Defult.jpg"
     },
     {
       "Identity": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\UserAvatar\\f56ef017ab7a440aa6965fc50b9cce55.png",

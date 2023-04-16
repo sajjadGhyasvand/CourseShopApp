@@ -27,6 +27,7 @@ namespace GhiasAmooz.Core.Services.Interfaces
             string orderByType = "date", int startPrice = 0, int endPrice = 0, List<int> selectedGroups = null, int take = 0);
         int AddCourse(Course course, IFormFile imgCourse, IFormFile courseDemo);
         Course GetCourseById(int courseId);
+        Course GetCourseForShow(int courseId);
         void UpdateCourse(Course course, IFormFile imgCourse, IFormFile courseDemo);
         #endregion
 
