@@ -6,6 +6,8 @@ using GhiasAmooz.DataLayer.Entities.User;
 using GhiasAmooz.DataLayer.Entities.Wallet;
 using GhiasAmooz.DataLayer.Entities.Permissions;
 using GhiasAmooz.DataLayer.Entities.Course;
+using GhiasAmooz.DataLayer.Entities.Order;
+using System.Reflection.Metadata;
 
 namespace GhiasAmooz.DataLayer.Context
 {
@@ -52,8 +54,22 @@ namespace GhiasAmooz.DataLayer.Context
 
         #endregion
 
+        #region Order
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderDetail> OrderDetails { get; set; }
+        #endregion
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            
+
+            var cascadeFKs = modelBuilder.Model.GetEntityTypes()
+                .SelectMany(t => t.GetForeignKeys())
+                .Where(fk => !fk.IsOwnership && fk.DeleteBehavior == DeleteBehavior.Cascade);
+
+            foreach (var fk in cascadeFKs)
+                fk.DeleteBehavior = DeleteBehavior.Restrict;
+
             modelBuilder.Entity<User>()
                 .HasQueryFilter(u => !u.IsDelete);
             modelBuilder.Entity<Role>()

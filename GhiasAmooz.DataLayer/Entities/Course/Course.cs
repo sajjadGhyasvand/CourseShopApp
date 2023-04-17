@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
+using GhiasAmooz.DataLayer.Entities.Order;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace GhiasAmooz.DataLayer.Entities.Course
@@ -61,11 +62,13 @@ namespace GhiasAmooz.DataLayer.Entities.Course
 
         [ForeignKey("GroupId")]
         public virtual CourseGroup CourseGroup { get; set; }
-         [ForeignKey("SubGroupId")]
-         public virtual CourseGroup GroupSub { get; set; } 
-        public virtual CourseStatus CourseStatus { get; set; }  
-        public virtual CourseLevel CourseLevel { get; set; }
+        [ForeignKey("SubGroupId")]
+        public virtual CourseGroup GroupSub { get; set; }
+        public CourseStatus CourseStatus { get; set; }
+
+        public CourseLevel CourseLevel { get; set; }
         public List<CourseEpisode> CourseEpisodes { get; set; }
+        public List<OrderDetail> OrderDetails { get; set; }
         #endregion
     }
 }

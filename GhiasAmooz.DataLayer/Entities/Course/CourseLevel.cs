@@ -12,7 +12,7 @@ namespace GhiasAmooz.DataLayer.Entities.Course
 
         [MaxLength(150)]
         [Required]
-        public virtual string LevelTitle { get; set; }
+        public string LevelTitle { get; set; }
 
         public List<Course> Courses { get; set; }
     }

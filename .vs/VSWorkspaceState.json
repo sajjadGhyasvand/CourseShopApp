@@ -4,8 +4,13 @@
     "\\GhiasAmooz.Core",
     "\\GhiasAmooz.Core\\Services",
     "\\GhiasAmooz.Web",
-    "\\GhiasAmooz.Web\\Controllers"
+    "\\GhiasAmooz.Web\\Controllers",
+    "\\GhiasAmooz.Web\\Properties",
+    "\\GhiasAmooz.Web\\Properties\\Views",
+    "\\GhiasAmooz.Web\\Properties\\Views\\Home",
+    "\\GhiasAmooz.Web\\Views",
+    "\\GhiasAmooz.Web\\Views\\Shared"
   ],
-  "SelectedNode": "\\GhiasAmooz.Web\\Controllers\\CourseController.cs",
+  "SelectedNode": "\\GhiasAmooz.Web\\Views\\Shared\\_DefaultLayout.cshtml",
   "PreviewInSolutionExplorer": false
 }

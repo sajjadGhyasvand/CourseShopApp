@@ -50,6 +50,7 @@ namespace GhiasAmooz.DataLayer.Entities.User
         public virtual List<UserRole> UserRoles { get; set; }
         public virtual List<Wallet.Wallet> Wallets { get; set; }
         public virtual List<Course.Course> Courses { get; set; }
+        public virtual List<Order.Order> Orders { get; set; }
         #endregion
 
     }
