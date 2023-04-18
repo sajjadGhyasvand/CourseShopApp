@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace GhiasAmooz.DataLayer.Entities.Order
 {
@@ -24,5 +22,4 @@ namespace GhiasAmooz.DataLayer.Entities.Order
         public virtual List<OrderDetail> OrderDetails { get; set; }
 
     }
-   
 }

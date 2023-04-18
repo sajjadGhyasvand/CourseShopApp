@@ -99,7 +99,7 @@ namespace GhiasAmooz.Web.Controllers
 
         [HttpPost]
         [Route("Login")]
-        public ActionResult Login(LoginViewModel login)
+        public ActionResult Login(LoginViewModel login , string returnURL)
         {
             if (!ModelState.IsValid)
             {
@@ -126,6 +126,10 @@ namespace GhiasAmooz.Web.Controllers
                     HttpContext.SignInAsync(principal, properties);
 
                     ViewBag.IsSuccess = true;
+                    if (returnURL != "/")
+                    {
+                        return Redirect(returnURL);
+                    }
                     return View();
                 }
                 else

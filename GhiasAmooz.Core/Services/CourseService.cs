@@ -5,7 +5,6 @@ using GhiasAmooz.Core.Security;
 using GhiasAmooz.Core.Services.Interfaces;
 using GhiasAmooz.DataLayer.Context;
 using GhiasAmooz.DataLayer.Entities.Course;
-using GhiasAmooz.DataLayer.Migrations;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -290,7 +289,7 @@ namespace GhiasAmooz.Core.Services
             {
                 foreach (int groupId in selectedGroups)
                 {
-                    result = result.Where(c => c.GroupId == groupId || c.SubGroupId == groupId);
+                    result = result.Where(c => c.CourseGroupId == groupId || c.SubGroup == groupId);
                 }
 
             }

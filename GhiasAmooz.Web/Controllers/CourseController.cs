@@ -4,16 +4,19 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using GhiasAmooz.Core.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
+using GhiasAmooz.Core.Services;
 
 namespace GhiasAmooz.Web.Controllers
 {
     public class CourseController : Controller
     {
         private ICourseService _courseService;
-
-        public CourseController(ICourseService courseService)
+        private IOrderService _orderService;
+        public CourseController(ICourseService courseService, IOrderService orderService)
         {
             _courseService = courseService;
+            _orderService = orderService;
         }
 
         public IActionResult Index(int pageId = 1, string filter = ""
@@ -37,6 +40,13 @@ namespace GhiasAmooz.Web.Controllers
             }
 
             return View(course);
+        }
+
+        [Authorize]
+        public ActionResult BuyCourse(int id)
+        {
+            _orderService.AddOrder(User.Identity.Name, id);
+            return Redirect("/ShowCourse/" + id);
         }
     }
 }

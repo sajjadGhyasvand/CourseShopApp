@@ -41,21 +41,21 @@
                 <!-- /.panel-heading -->
                 <div class="panel-body">
                     <ul>
-                        @foreach (var permission in permissions.Where(p => p.ParentId == null))
+                        @foreach (var permission in permissions.Where(p => p.ParentID == null))
                         {
                             <li>
                                 <input type="checkbox" name="selectedPermission" value="@permission.PermissionId" /> @permission.PermissionTitle
-                                @if (permissions.Any(p => p.ParentId == permission.PermissionId))
+                                @if (permissions.Any(p => p.ParentID == permission.PermissionId))
                                 {
                                     <ul>
-                                        @foreach (var sub in permissions.Where(p => p.ParentId == permission.PermissionId))
+                                        @foreach (var sub in permissions.Where(p => p.ParentID == permission.PermissionId))
                                         {
                                             <li>
                                                 <input type="checkbox" name="selectedPermission" value="@sub.PermissionId" /> @sub.PermissionTitle
-                                                @if (permissions.Any(p => p.ParentId == sub.PermissionId))
+                                                @if (permissions.Any(p => p.ParentID == sub.PermissionId))
                                                 {
                                                     <ul>
-                                                        @foreach (var sub2 in permissions.Where(p => p.ParentId == sub.PermissionId))
+                                                        @foreach (var sub2 in permissions.Where(p => p.ParentID == sub.PermissionId))
                                                         {
                                                            <li>
                                                                 <input type="checkbox" name="selectedPermission" value="@sub2.PermissionId" /> @sub2.PermissionTitle

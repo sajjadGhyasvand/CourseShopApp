@@ -34,6 +34,9 @@ namespace GhiasAmooz.DataLayer.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("CourseGroupId")
+                        .HasColumnType("int");
+
                     b.Property<string>("CourseImageName")
                         .IsRequired()
                         .HasMaxLength(50)
@@ -57,11 +60,9 @@ namespace GhiasAmooz.DataLayer.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("DemoFileName")
+                        .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
-
-                    b.Property<int>("GroupId")
-                        .HasColumnType("int");
 
                     b.Property<int>("LevelId")
                         .HasColumnType("int");
@@ -69,7 +70,7 @@ namespace GhiasAmooz.DataLayer.Migrations
                     b.Property<int>("StatusId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("SubGroupId")
+                    b.Property<int?>("SubGroup")
                         .HasColumnType("int");
 
                     b.Property<string>("Tags")
@@ -85,17 +86,17 @@ namespace GhiasAmooz.DataLayer.Migrations
 
                     b.HasKey("CourseId");
 
+                    b.HasIndex("CourseGroupId");
+
                     b.HasIndex("CourseLevelLevelId");
 
                     b.HasIndex("CourseStatusStatusId");
 
-                    b.HasIndex("GroupId");
-
-                    b.HasIndex("SubGroupId");
+                    b.HasIndex("SubGroup");
 
                     b.HasIndex("TeacherId");
 
-                    b.ToTable("Courses", (string)null);
+                    b.ToTable("Courses");
                 });
 
             modelBuilder.Entity("GhiasAmooz.DataLayer.Entities.Course.CourseEpisode", b =>
@@ -128,7 +129,7 @@ namespace GhiasAmooz.DataLayer.Migrations
 
                     b.HasIndex("CourseId");
 
-                    b.ToTable("CourseEpisodes", (string)null);
+                    b.ToTable("CourseEpisodes");
                 });
 
             modelBuilder.Entity("GhiasAmooz.DataLayer.Entities.Course.CourseGroup", b =>
@@ -154,7 +155,7 @@ namespace GhiasAmooz.DataLayer.Migrations
 
                     b.HasIndex("ParentId");
 
-                    b.ToTable("CourseGroups", (string)null);
+                    b.ToTable("CourseGroups");
                 });
 
             modelBuilder.Entity("GhiasAmooz.DataLayer.Entities.Course.CourseLevel", b =>
@@ -172,7 +173,7 @@ namespace GhiasAmooz.DataLayer.Migrations
 
                     b.HasKey("LevelId");
 
-                    b.ToTable("CourseLevels", (string)null);
+                    b.ToTable("CourseLevels");
                 });
 
             modelBuilder.Entity("GhiasAmooz.DataLayer.Entities.Course.CourseStatus", b =>
@@ -190,7 +191,7 @@ namespace GhiasAmooz.DataLayer.Migrations
 
                     b.HasKey("StatusId");
 
-                    b.ToTable("CourseStatuses", (string)null);
+                    b.ToTable("CourseStatuses");
                 });
 
             modelBuilder.Entity("GhiasAmooz.DataLayer.Entities.Order.Order", b =>
@@ -217,7 +218,7 @@ namespace GhiasAmooz.DataLayer.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Orders", (string)null);
+                    b.ToTable("Orders");
                 });
 
             modelBuilder.Entity("GhiasAmooz.DataLayer.Entities.Order.OrderDetail", b =>
@@ -246,7 +247,7 @@ namespace GhiasAmooz.DataLayer.Migrations
 
                     b.HasIndex("OrderId");
 
-                    b.ToTable("OrderDetails", (string)null);
+                    b.ToTable("OrderDetails");
                 });
 
             modelBuilder.Entity("GhiasAmooz.DataLayer.Entities.Permissions.Permission", b =>
@@ -257,7 +258,7 @@ namespace GhiasAmooz.DataLayer.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PermissionId"), 1L, 1);
 
-                    b.Property<int?>("ParentId")
+                    b.Property<int?>("ParentID")
                         .HasColumnType("int");
 
                     b.Property<string>("PermissionTitle")
@@ -267,18 +268,18 @@ namespace GhiasAmooz.DataLayer.Migrations
 
                     b.HasKey("PermissionId");
 
-                    b.HasIndex("ParentId");
+                    b.HasIndex("ParentID");
 
-                    b.ToTable("Permission", (string)null);
+                    b.ToTable("Permission");
                 });
 
             modelBuilder.Entity("GhiasAmooz.DataLayer.Entities.Permissions.RolePermission", b =>
                 {
-                    b.Property<int>("RolePermissionId")
+                    b.Property<int>("RP_Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RolePermissionId"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RP_Id"), 1L, 1);
 
                     b.Property<int>("PermissionId")
                         .HasColumnType("int");
@@ -286,13 +287,13 @@ namespace GhiasAmooz.DataLayer.Migrations
                     b.Property<int>("RoleId")
                         .HasColumnType("int");
 
-                    b.HasKey("RolePermissionId");
+                    b.HasKey("RP_Id");
 
                     b.HasIndex("PermissionId");
 
                     b.HasIndex("RoleId");
 
-                    b.ToTable("RolePermission", (string)null);
+                    b.ToTable("RolePermission");
                 });
 
             modelBuilder.Entity("GhiasAmooz.DataLayer.Entities.User.Role", b =>
@@ -313,7 +314,7 @@ namespace GhiasAmooz.DataLayer.Migrations
 
                     b.HasKey("RoleId");
 
-                    b.ToTable("Roles", (string)null);
+                    b.ToTable("Roles");
                 });
 
             modelBuilder.Entity("GhiasAmooz.DataLayer.Entities.User.User", b =>
@@ -360,7 +361,7 @@ namespace GhiasAmooz.DataLayer.Migrations
 
                     b.HasKey("UserId");
 
-                    b.ToTable("Users", (string)null);
+                    b.ToTable("Users");
                 });
 
             modelBuilder.Entity("GhiasAmooz.DataLayer.Entities.User.UserRole", b =>
@@ -383,7 +384,7 @@ namespace GhiasAmooz.DataLayer.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("UserRoles", (string)null);
+                    b.ToTable("UserRoles");
                 });
 
             modelBuilder.Entity("GhiasAmooz.DataLayer.Entities.Wallet.Wallet", b =>
@@ -402,25 +403,28 @@ namespace GhiasAmooz.DataLayer.Migrations
 
                     b.Property<string>("Description")
                         .IsRequired()
-                        .HasMaxLength(200)
-                        .HasColumnType("nvarchar(200)");
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
 
                     b.Property<bool>("IsPay")
                         .HasColumnType("bit");
 
+                    b.Property<int>("TypeId")
+                        .HasColumnType("int");
+
                     b.Property<int>("UserId")
                         .HasColumnType("int");
 
-                    b.Property<int>("WalletTypeId")
+                    b.Property<int>("WalletTypeTypeId")
                         .HasColumnType("int");
 
                     b.HasKey("WalletId");
 
                     b.HasIndex("UserId");
 
-                    b.HasIndex("WalletTypeId");
+                    b.HasIndex("WalletTypeTypeId");
 
-                    b.ToTable("Wallets", (string)null);
+                    b.ToTable("Wallets");
                 });
 
             modelBuilder.Entity("GhiasAmooz.DataLayer.Entities.Wallet.WalletType", b =>
@@ -430,16 +434,22 @@ namespace GhiasAmooz.DataLayer.Migrations
 
                     b.Property<string>("TypeTitle")
                         .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
+                        .HasMaxLength(150)
+                        .HasColumnType("nvarchar(150)");
 
                     b.HasKey("TypeId");
 
-                    b.ToTable("WalletTypes", (string)null);
+                    b.ToTable("WalletTypes");
                 });
 
             modelBuilder.Entity("GhiasAmooz.DataLayer.Entities.Course.Course", b =>
                 {
+                    b.HasOne("GhiasAmooz.DataLayer.Entities.Course.CourseGroup", "CourseGroup")
+                        .WithMany("Courses")
+                        .HasForeignKey("CourseGroupId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
                     b.HasOne("GhiasAmooz.DataLayer.Entities.Course.CourseLevel", "CourseLevel")
                         .WithMany("Courses")
                         .HasForeignKey("CourseLevelLevelId")
@@ -452,15 +462,9 @@ namespace GhiasAmooz.DataLayer.Migrations
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.HasOne("GhiasAmooz.DataLayer.Entities.Course.CourseGroup", "CourseGroup")
-                        .WithMany("Courses")
-                        .HasForeignKey("GroupId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.HasOne("GhiasAmooz.DataLayer.Entities.Course.CourseGroup", "GroupSub")
+                    b.HasOne("GhiasAmooz.DataLayer.Entities.Course.CourseGroup", "Group")
                         .WithMany("SubGroup")
-                        .HasForeignKey("SubGroupId");
+                        .HasForeignKey("SubGroup");
 
                     b.HasOne("GhiasAmooz.DataLayer.Entities.User.User", "User")
                         .WithMany("Courses")
@@ -474,7 +478,7 @@ namespace GhiasAmooz.DataLayer.Migrations
 
                     b.Navigation("CourseStatus");
 
-                    b.Navigation("GroupSub");
+                    b.Navigation("Group");
 
                     b.Navigation("User");
                 });
@@ -531,7 +535,7 @@ namespace GhiasAmooz.DataLayer.Migrations
                 {
                     b.HasOne("GhiasAmooz.DataLayer.Entities.Permissions.Permission", null)
                         .WithMany("Permissions")
-                        .HasForeignKey("ParentId");
+                        .HasForeignKey("ParentID");
                 });
 
             modelBuilder.Entity("GhiasAmooz.DataLayer.Entities.Permissions.RolePermission", b =>
@@ -582,7 +586,7 @@ namespace GhiasAmooz.DataLayer.Migrations
 
                     b.HasOne("GhiasAmooz.DataLayer.Entities.Wallet.WalletType", "WalletType")
                         .WithMany("Wallets")
-                        .HasForeignKey("WalletTypeId")
+                        .HasForeignKey("WalletTypeTypeId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 

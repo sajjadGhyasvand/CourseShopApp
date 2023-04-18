@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace GhiasAmooz.DataLayer.Entities.Course
 {
-    public class CourseGroup 
+    public class CourseGroup
     {
         [Key]
         public int GroupId { get; set; }
@@ -25,11 +25,10 @@ namespace GhiasAmooz.DataLayer.Entities.Course
         [ForeignKey("ParentId")]
         public List<CourseGroup> CourseGroups { get; set; }
 
-        [InverseProperty("CourseGroup")]
         public List<Course> Courses { get; set; }
 
-         [InverseProperty("GroupSub")]
-         public List<Course> SubGroup { get; set; }
+        [InverseProperty("Group")]
+        public List<Course> SubGroup { get; set; }
 
     }
 }

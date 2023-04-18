@@ -169,10 +169,15 @@ namespace GhiasAmooz.Core.Services
         public int BalanceUserWallet(string userName)
         {
             int userId = GetUserIdByUserName(userName);
-            var Deposit = _context.Wallets.Where(w => w.UserId == userId && w.WalletTypeId == 1 && w.IsPay == true).Select(w => w.Amount).ToList();
-            var endurance = _context.Wallets.Where(w => w.UserId == userId && w.WalletTypeId == 2).Select(w => w.Amount).ToList();
+            var enter = _context.Wallets
+                .Where(w => w.UserId == userId && w.TypeId == 1 && w.IsPay)
+                .Select(w => w.Amount).ToList();
 
-            return (Deposit.Sum() - endurance.Sum());
+            var exit = _context.Wallets
+                .Where(w => w.UserId == userId && w.TypeId == 2)
+                .Select(w => w.Amount).ToList();
+
+            return (enter.Sum() - exit.Sum());
         }
 
         public int ChargeWallet(string userName, int amount, string description, bool isPay = false)
@@ -183,7 +188,7 @@ namespace GhiasAmooz.Core.Services
                 CreateDate = DateTime.Now,
                 Description = description,
                 IsPay = isPay,
-                WalletTypeId = 1,
+                TypeId = 1,
                 UserId = GetUserIdByUserName(userName)
             };
 
@@ -198,7 +203,7 @@ namespace GhiasAmooz.Core.Services
                 Amount = w.Amount,
                 DateTime = w.CreateDate,
                 Description = w.Description,
-                Type = w.WalletTypeId
+                Type = w.TypeId
             }).ToList();
         }
 

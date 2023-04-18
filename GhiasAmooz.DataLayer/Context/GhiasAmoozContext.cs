@@ -55,14 +55,14 @@ namespace GhiasAmooz.DataLayer.Context
         #endregion
 
         #region Order
+
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderDetail> OrderDetails { get; set; }
+
         #endregion
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            
-
             var cascadeFKs = modelBuilder.Model.GetEntityTypes()
                 .SelectMany(t => t.GetForeignKeys())
                 .Where(fk => !fk.IsOwnership && fk.DeleteBehavior == DeleteBehavior.Cascade);
@@ -70,12 +70,16 @@ namespace GhiasAmooz.DataLayer.Context
             foreach (var fk in cascadeFKs)
                 fk.DeleteBehavior = DeleteBehavior.Restrict;
 
+
             modelBuilder.Entity<User>()
                 .HasQueryFilter(u => !u.IsDelete);
+
             modelBuilder.Entity<Role>()
                 .HasQueryFilter(r => !r.IsDelete);
+
             modelBuilder.Entity<CourseGroup>()
                 .HasQueryFilter(g => !g.IsDelete);
+
 
 
             base.OnModelCreating(modelBuilder);

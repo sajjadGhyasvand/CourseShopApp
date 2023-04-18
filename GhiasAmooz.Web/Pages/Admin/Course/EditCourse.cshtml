@@ -28,13 +28,13 @@
                 </div>
                 <div class="form-group px-5">
                     <label>گروه اصلی </label>
-                    <select class="form-control" asp-for="Course.GroupId" asp-items="@(ViewData["Groups"] as SelectList)"></select>
-                    <span class="text-danger" asp-validation-for="Course.GroupId"></span>
+                    <select class="form-control" asp-for="Course.CourseGroupId" asp-items="@(ViewData["Groups"] as SelectList)"></select>
+                    <span class="text-danger" asp-validation-for="Course.CourseGroupId"></span>
                 </div>
                 <div class="form-group px-5">
                     <label>گروه فرعی </label>
-                    <select class="form-control" asp-for="Course.SubGroupId" asp-items="@(ViewData["SubGroups"] as SelectList)"></select>
-                    <span class="text-danger" asp-validation-for="Course.SubGroupId"></span>
+                    <select class="form-control" asp-for="Course.SubGroup" asp-items="@(ViewData["SubGroups"] as SelectList)"></select>
+                    <span class="text-danger" asp-validation-for="Course.SubGroup"></span>
                 </div>
                 <div class="form-group px-5">
                     <label> مدرس دوره </label>

@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
-using GhiasAmooz.DataLayer.Entities.Order;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using GhiasAmooz.DataLayer.Entities.Order;
 
 namespace GhiasAmooz.DataLayer.Entities.Course
 {
@@ -13,10 +13,10 @@ namespace GhiasAmooz.DataLayer.Entities.Course
         [Key]
         public int CourseId { get; set; }
 
-        [Required]
-        public int GroupId { get; set; }
+        
+       
 
-        public int? SubGroupId { get; set; }
+        public int? SubGroup { get; set; }
 
         [Required]
         public int TeacherId { get; set; }
@@ -47,7 +47,7 @@ namespace GhiasAmooz.DataLayer.Entities.Course
         public string CourseImageName { get; set; }
 
         [MaxLength(100)]
-        public string? DemoFileName { get; set; }
+        public string DemoFileName { get; set; }
 
         [Required]
         public DateTime CreateDate { get; set; }
@@ -58,15 +58,21 @@ namespace GhiasAmooz.DataLayer.Entities.Course
         #region Relations
 
         [ForeignKey("TeacherId")]
-        public virtual User.User User { get; set; }
+        public User.User User { get; set; }
 
-        [ForeignKey("GroupId")]
-        public virtual CourseGroup CourseGroup { get; set; }
-        [ForeignKey("SubGroupId")]
-        public virtual CourseGroup GroupSub { get; set; }
+        
+        public  CourseGroup CourseGroup { get; set; }
+        public int CourseGroupId { get; set; }
+
+
+
+        [ForeignKey("SubGroup")]
+        public virtual CourseGroup Group { get; set; }
+
         public CourseStatus CourseStatus { get; set; }
 
         public CourseLevel CourseLevel { get; set; }
+
         public List<CourseEpisode> CourseEpisodes { get; set; }
         public List<OrderDetail> OrderDetails { get; set; }
         #endregion

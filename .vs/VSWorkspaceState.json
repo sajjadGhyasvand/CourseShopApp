@@ -1,16 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\GhiasAmooz.Core",
-    "\\GhiasAmooz.Core\\Services",
-    "\\GhiasAmooz.Web",
-    "\\GhiasAmooz.Web\\Controllers",
-    "\\GhiasAmooz.Web\\Properties",
-    "\\GhiasAmooz.Web\\Properties\\Views",
-    "\\GhiasAmooz.Web\\Properties\\Views\\Home",
-    "\\GhiasAmooz.Web\\Views",
-    "\\GhiasAmooz.Web\\Views\\Shared"
+    "\\GhiasAmooz.DataLayer",
+    "\\GhiasAmooz.DataLayer\\Context"
   ],
-  "SelectedNode": "\\GhiasAmooz.Web\\Views\\Shared\\_DefaultLayout.cshtml",
+  "SelectedNode": "\\QiasAmoz.sln",
   "PreviewInSolutionExplorer": false
 }
