@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using GhiasAmooz.Core.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using GhiasAmooz.Core.Services;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
 
 namespace GhiasAmooz.Web.Controllers
 {
@@ -45,8 +46,8 @@ namespace GhiasAmooz.Web.Controllers
         [Authorize]
         public ActionResult BuyCourse(int id)
         {
-            _orderService.AddOrder(User.Identity.Name, id);
-            return Redirect("/ShowCourse/" + id);
+           int OrderId =  _orderService.AddOrder(User.Identity.Name, id);
+            return Redirect("/UserPanel/MyOrders/ShowOrder/" + OrderId);
         }
     }
 }

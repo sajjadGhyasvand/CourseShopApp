@@ -1,6 +1,9 @@
 ﻿using GhiasAmooz.Core.Services.Interfaces;
 using GhiasAmooz.DataLayer.Context;
+using GhiasAmooz.DataLayer.Entities.Course;
 using GhiasAmooz.DataLayer.Entities.Order;
+using GhiasAmooz.DataLayer.Entities.Wallet;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -86,6 +89,54 @@ namespace GhiasAmooz.Core.Services
             order.OrderSum = _context.OrderDetails.Where(d => d.OrderId == orderId).Sum(d => d.Price);
             _context.Orders.Update(order);
             _context.SaveChanges();
+        }
+        public Order GetOrderForUserPanel(string userName, int orderId)
+        {
+            int userId = _userService.GetUserIdByUserName(userName);
+
+            return _context.Orders.Include(o => o.OrderDetails).ThenInclude(od => od.Course)
+                .FirstOrDefault(o => o.UserId == userId && o.OrderId == orderId);
+        }
+
+        public bool FinalyOrder(string userName, int orderId)
+        {
+            int userId = _userService.GetUserIdByUserName(userName);
+            var order = _context.Orders.Include(o => o.OrderDetails).ThenInclude(od => od.Course)
+                .FirstOrDefault(o => o.OrderId == orderId && o.UserId == userId);
+
+            if (order == null || order.IsFinaly)
+            {
+                return false;
+            }
+
+            if (_userService.BalanceUserWallet(userName) >= order.OrderSum)
+            {
+                order.IsFinaly = true;
+                _userService.AddWallet(new Wallet()
+                {
+                    Amount = order.OrderSum,
+                    CreateDate = DateTime.Now,
+                    IsPay = true,
+                    Description = "فاکتور شما #" + order.OrderId,
+                    UserId = userId,
+                    TypeId = 2
+                });
+                _context.Orders.Update(order);
+
+                foreach (var detail in order.OrderDetails)
+                {
+                    _context.UserCourses.Add(new UserCourse()
+                    {
+                        CourseId = detail.CourseId,
+                        UserId = userId
+                    });
+                }
+
+                _context.SaveChanges();
+                return true;
+            }
+
+            return false;
         }
     }
 }
