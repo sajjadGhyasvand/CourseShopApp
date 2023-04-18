@@ -1,4 +1,5 @@
-﻿using GhiasAmooz.Core.Services.Interfaces;
+﻿using GhiasAmooz.Core.DTOs.Order;
+using GhiasAmooz.Core.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -17,7 +18,7 @@ namespace GhiasAmooz.Web.Areas.UserPanel.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return View(_orderService.GetUserOrders(User.Identity.Name));
         }
         public IActionResult ShowOrder(int id, bool finaly = false)
         {
@@ -39,6 +40,11 @@ namespace GhiasAmooz.Web.Areas.UserPanel.Controllers
             }
 
             return BadRequest();
+        }
+        public IActionResult UseDiscount(int orderId, string code)
+        {
+            DiscountUseType type = _orderService.UseDiscount(orderId, code);
+            return Redirect("/UserPanel/MyOrders/ShowOrder/" + orderId + "?type=" + type.ToString());
         }
     }
 }
