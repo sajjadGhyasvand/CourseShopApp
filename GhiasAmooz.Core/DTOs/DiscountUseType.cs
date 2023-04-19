@@ -6,6 +6,6 @@ namespace GhiasAmooz.Core.DTOs.Order
 {
     public enum DiscountUseType
     {
-        Success , ExpierDate,NotFound,Finished
+        Success , ExpierDate,NotFound,Finished,UserUsed
     }
 }

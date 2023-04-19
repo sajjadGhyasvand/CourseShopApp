@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GhiasAmooz.DataLayer.Entities.User;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -23,5 +24,9 @@ namespace GhiasAmooz.DataLayer.Entities.Order
 
         public DateTime? StartDate { get; set; }
         public DateTime? EndDate { get; set; }
+
+        #region Relations
+        public List<UserDiscoundCode> UserDiscoundCodes { get; set; }
+        #endregion
     }
 }

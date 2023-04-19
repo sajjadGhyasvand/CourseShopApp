@@ -411,6 +411,29 @@ namespace GhiasAmooz.DataLayer.Migrations
                     b.ToTable("Users");
                 });
 
+            modelBuilder.Entity("GhiasAmooz.DataLayer.Entities.User.UserDiscoundCode", b =>
+                {
+                    b.Property<int>("UD_Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UD_Id"), 1L, 1);
+
+                    b.Property<int>("DiscountId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("UD_Id");
+
+                    b.HasIndex("DiscountId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("UserDiscoundCodes");
+                });
+
             modelBuilder.Entity("GhiasAmooz.DataLayer.Entities.User.UserRole", b =>
                 {
                     b.Property<int>("UR_Id")
@@ -620,6 +643,25 @@ namespace GhiasAmooz.DataLayer.Migrations
                     b.Navigation("Role");
                 });
 
+            modelBuilder.Entity("GhiasAmooz.DataLayer.Entities.User.UserDiscoundCode", b =>
+                {
+                    b.HasOne("GhiasAmooz.DataLayer.Entities.Order.Discount", "Discount")
+                        .WithMany("UserDiscoundCodes")
+                        .HasForeignKey("DiscountId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("GhiasAmooz.DataLayer.Entities.User.User", "User")
+                        .WithMany("UserDiscoundCodes")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Discount");
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("GhiasAmooz.DataLayer.Entities.User.UserRole", b =>
                 {
                     b.HasOne("GhiasAmooz.DataLayer.Entities.User.Role", "Role")
@@ -686,6 +728,11 @@ namespace GhiasAmooz.DataLayer.Migrations
                     b.Navigation("Courses");
                 });
 
+            modelBuilder.Entity("GhiasAmooz.DataLayer.Entities.Order.Discount", b =>
+                {
+                    b.Navigation("UserDiscoundCodes");
+                });
+
             modelBuilder.Entity("GhiasAmooz.DataLayer.Entities.Order.Order", b =>
                 {
                     b.Navigation("OrderDetails");
@@ -712,6 +759,8 @@ namespace GhiasAmooz.DataLayer.Migrations
                     b.Navigation("Orders");
 
                     b.Navigation("UserCourses");
+
+                    b.Navigation("UserDiscoundCodes");
 
                     b.Navigation("UserRoles");
 

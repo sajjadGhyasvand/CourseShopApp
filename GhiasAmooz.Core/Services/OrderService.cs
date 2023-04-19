@@ -3,6 +3,7 @@ using GhiasAmooz.Core.Services.Interfaces;
 using GhiasAmooz.DataLayer.Context;
 using GhiasAmooz.DataLayer.Entities.Course;
 using GhiasAmooz.DataLayer.Entities.Order;
+using GhiasAmooz.DataLayer.Entities.User;
 using GhiasAmooz.DataLayer.Entities.Wallet;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -171,8 +172,11 @@ namespace GhiasAmooz.Core.Services
 
             if (discount.UsableCount != null && discount.UsableCount < 1)
                 return DiscountUseType.Finished;
-
+            
             var order = GetOrderById(orderId);
+            if (_context.UserDiscoundCodes.Any(d=>d.UserId == order.UserId && d.DiscountId == discount.DiscountId ))
+                return DiscountUseType.UserUsed;
+
 
             int percent = (order.OrderSum * discount.DiscountPercent) / 100;
             order.OrderSum = order.OrderSum - percent;
@@ -185,6 +189,11 @@ namespace GhiasAmooz.Core.Services
             }
 
             _context.Discounts.Update(discount);
+            _context.UserDiscoundCodes.Add(new UserDiscoundCode()
+            {
+                UserId = order.UserId,
+                DiscountId = discount.DiscountId
+            });
             _context.SaveChanges();
 
 

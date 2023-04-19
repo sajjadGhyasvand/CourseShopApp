@@ -205,7 +205,7 @@ namespace GhiasAmooz.Core.Services
                 Description = w.Description,
                 Type = w.WalletTypeId
             }).ToList();
-        }
+        }  
 
         public Wallet GetWWalletByWalletId(int walletId)
         {
