@@ -42,13 +42,7 @@ namespace GhiasAmooz.DataLayer.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
-                    b.Property<int>("CourseLevelLevelId")
-                        .HasColumnType("int");
-
                     b.Property<int>("CoursePrice")
-                        .HasColumnType("int");
-
-                    b.Property<int>("CourseStatusStatusId")
                         .HasColumnType("int");
 
                     b.Property<string>("CourseTitle")
@@ -88,9 +82,9 @@ namespace GhiasAmooz.DataLayer.Migrations
 
                     b.HasIndex("CourseGroupId");
 
-                    b.HasIndex("CourseLevelLevelId");
+                    b.HasIndex("LevelId");
 
-                    b.HasIndex("CourseStatusStatusId");
+                    b.HasIndex("StatusId");
 
                     b.HasIndex("SubGroup");
 
@@ -462,20 +456,17 @@ namespace GhiasAmooz.DataLayer.Migrations
                     b.Property<bool>("IsPay")
                         .HasColumnType("bit");
 
-                    b.Property<int>("TypeId")
-                        .HasColumnType("int");
-
                     b.Property<int>("UserId")
                         .HasColumnType("int");
 
-                    b.Property<int>("WalletTypeTypeId")
+                    b.Property<int>("WalletTypeId")
                         .HasColumnType("int");
 
                     b.HasKey("WalletId");
 
                     b.HasIndex("UserId");
 
-                    b.HasIndex("WalletTypeTypeId");
+                    b.HasIndex("WalletTypeId");
 
                     b.ToTable("Wallets");
                 });
@@ -503,15 +494,15 @@ namespace GhiasAmooz.DataLayer.Migrations
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.HasOne("GhiasAmooz.DataLayer.Entities.Course.CourseLevel", "CourseLevel")
+                    b.HasOne("GhiasAmooz.DataLayer.Entities.Course.CourseLevel", "Level")
                         .WithMany("Courses")
-                        .HasForeignKey("CourseLevelLevelId")
+                        .HasForeignKey("LevelId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.HasOne("GhiasAmooz.DataLayer.Entities.Course.CourseStatus", "CourseStatus")
+                    b.HasOne("GhiasAmooz.DataLayer.Entities.Course.CourseStatus", "Status")
                         .WithMany("Courses")
-                        .HasForeignKey("CourseStatusStatusId")
+                        .HasForeignKey("StatusId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
@@ -527,11 +518,11 @@ namespace GhiasAmooz.DataLayer.Migrations
 
                     b.Navigation("CourseGroup");
 
-                    b.Navigation("CourseLevel");
-
-                    b.Navigation("CourseStatus");
-
                     b.Navigation("Group");
+
+                    b.Navigation("Level");
+
+                    b.Navigation("Status");
 
                     b.Navigation("User");
                 });
@@ -658,7 +649,7 @@ namespace GhiasAmooz.DataLayer.Migrations
 
                     b.HasOne("GhiasAmooz.DataLayer.Entities.Wallet.WalletType", "WalletType")
                         .WithMany("Wallets")
-                        .HasForeignKey("WalletTypeTypeId")
+                        .HasForeignKey("WalletTypeId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 

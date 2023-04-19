@@ -17,7 +17,7 @@ namespace GhiasAmooz.DataLayer.Entities.Wallet
 
         [Display(Name = "نوع تراکنش")]
         [Required(ErrorMessage = "لطفا {0} را وارد کنید")]
-        public int TypeId { get; set; }
+        public int WalletTypeId { get; set; }
 
         [Display(Name = "کاربر")]
         [Required(ErrorMessage = "لطفا {0} را وارد کنید")]

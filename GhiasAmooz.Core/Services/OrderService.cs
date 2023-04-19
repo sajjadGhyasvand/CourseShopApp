@@ -120,7 +120,7 @@ namespace GhiasAmooz.Core.Services
                     IsPay = true,
                     Description = "فاکتور شما #" + order.OrderId,
                     UserId = userId,
-                    TypeId = 2
+                    WalletTypeId = 2
                 });
                 _context.Orders.Update(order);
 

@@ -69,9 +69,9 @@ namespace GhiasAmooz.DataLayer.Entities.Course
         [ForeignKey("SubGroup")]
         public virtual CourseGroup Group { get; set; }
 
-        public CourseStatus CourseStatus { get; set; }
+        public CourseStatus Status { get; set; }
 
-        public CourseLevel CourseLevel { get; set; }
+        public CourseLevel Level { get; set; }
 
         public List<CourseEpisode> CourseEpisodes { get; set; }
         public List<OrderDetail> OrderDetails { get; set; }
