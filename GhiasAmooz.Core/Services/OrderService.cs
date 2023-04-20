@@ -223,6 +223,17 @@ namespace GhiasAmooz.Core.Services
             _context.Discounts.Update(discount);
             _context.SaveChanges();
         }
+
+        public bool IsExistCode(string code)
+        {
+            return _context.Discounts.Any(d=>d.DiscountCode == code);
+        }
+
+        public bool IsUserInCourse(string userName, int courseId)
+        {
+            int userId = _userService.GetUserIdByUserName(userName);
+            return _context.UserCourses.Any(c=>c.UserId == userId && c.CourseId == courseId);
+        }
     }
 }
 

@@ -49,5 +49,29 @@ namespace GhiasAmooz.Web.Controllers
            int OrderId =  _orderService.AddOrder(User.Identity.Name, id);
             return Redirect("/UserPanel/MyOrders/ShowOrder/" + OrderId);
         }
+        [Route("DownloadFile/{episodeId}")]
+        public IActionResult DownloadFile(int episodeId)
+        {
+            var episode = _courseService.GetEpisodeById(episodeId);
+            string filepath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Course/CourseFile",
+                episode.EpisodeFileName);
+            string fileName = episode.EpisodeFileName;
+            if (episode.IsFree)
+            {
+                byte[] file = System.IO.File.ReadAllBytes(filepath);
+                return File(file, "application/force-download", fileName);
+            }
+
+            if (User.Identity.IsAuthenticated)
+            {
+                if (_orderService.IsUserInCourse(User.Identity.Name, episode.CourseId))
+                {
+                    byte[] file = System.IO.File.ReadAllBytes(filepath);
+                    return File(file, "application/force-download", fileName);
+                }
+            }
+
+            return Forbid();
+        }
     }
 }

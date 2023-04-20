@@ -43,10 +43,18 @@ namespace GhiasAmooz.Web.Pages.Admin.Discount
                 );
             }
 */
-
+            if (_orderService.IsExistCode(Discount.DiscountCode))
+            {
+                return Page();
+            }
             _orderService.AddDiscount(Discount);
 
             return RedirectToPage("Index");
+        }
+
+        public IActionResult OnGetcheckCode(string code) 
+        { 
+            return Content(_orderService.IsExistCode(code).ToString());
         }
     }
 }

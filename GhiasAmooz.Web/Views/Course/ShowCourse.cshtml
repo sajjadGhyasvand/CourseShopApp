@@ -1,7 +1,15 @@
 ﻿@using GhiasAmooz.Core.Convertors
+@using GhiasAmooz.Core.Services.Interfaces;
 @model GhiasAmooz.DataLayer.Entities.Course.Course
+@inject IOrderService _orderService
+
 @{
     ViewData["Title"] = Model.CourseTitle;
+    bool IsUserInCourse = false;
+    if (User.Identity.IsAuthenticated)
+    {
+        IsUserInCourse = _orderService.IsUserInCourse(User.Identity.Name, Model.CourseId);
+    }
 }
 
 <div class="container">
@@ -24,13 +32,31 @@
                     <img src="/course/image/@Model.CourseImageName">
 
                     @Html.Raw(Model.CourseDescription)
-
+                    @if (!IsUserInCourse)
+                    {
+                        <div class="alert alert-info">
+                            <p> بعد از ثبت نام در این دوره  و تایید فاکتور لینک های دانلود برای شما فعال خواهد شد.</p>
+                        </div>
+                    }
                     <h2> سرفصل های این دوره : </h2>
                     <ul>
                         @foreach (var item in Model.CourseEpisodes)
                         {
                             <li>
-                                <h3> @item.EpisodeTitle </h3>
+                                @if (item.IsFree || IsUserInCourse)
+                                {
+                                    <h3>
+                                        <a href="/DownloadFile/@item.EpisodeId">
+                                        @item.EpisodeTitle
+                                        </a>
+                                    </h3>
+                                }
+                                else
+                                {
+                                     <h3>>
+                                        @item.EpisodeTitle
+                                    </h3>
+                                }
                                 @if (item.IsFree)
                                 {
                                     <i> رایگان </i>
@@ -185,11 +211,11 @@
                         </li>
                         <li>
                             <span> تعداد دانشجوها </span>
-                            <i> 0 نفر </i>
+                            <i> @Model.UserCourses.Count نفر </i>
                         </li>
                     </ul>
 
-                    @if (Model.CoursePrice != 0)
+                    @if (Model.CoursePrice != 0 && !IsUserInCourse)
                     {
                         <a href=" /Course/BuyCourse/@Model.CourseId"> شرکت در دوره : @Model.CoursePrice.ToString("#,0") تومان </a>
                     }
@@ -203,8 +229,8 @@
                 <article class="term-info">
                     <h2> اطلاعات این دوره </h2>
                     <ul>
-                        @*<li>سطح دوره: @Model.CourseStatus.StatusTitle</li>
-                        <li>وضعیت دوره: @Model.CourseLevel.LevelTitle</li>*@
+                        <li>سطح دوره: @Model.Status.StatusTitle</li>
+                        <li>وضعیت دوره: @Model.Level.LevelTitle</li>
                         @if (Model.CoursePrice != 0)
                         {
                             <li>قیمت : @Model.CoursePrice.ToString("#,0") تومان</li>

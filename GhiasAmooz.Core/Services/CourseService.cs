@@ -333,8 +333,8 @@ namespace GhiasAmooz.Core.Services
         public Course GetCourseForShow(int courseId)
         {
             return _context.Courses.Include(c => c.CourseEpisodes)
-                
-                .Include(c => c.User)
+                .Include(c=>c.Status).Include(c=>c.Level)
+                .Include(c => c.User).Include(c=>c.UserCourses)
                 .FirstOrDefault(c => c.CourseId == courseId);
         }
     }

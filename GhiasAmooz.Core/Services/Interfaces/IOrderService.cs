@@ -10,6 +10,7 @@ namespace GhiasAmooz.Core.Services.Interfaces
 {
     public interface IOrderService
     {
+        #region Order
         int AddOrder(string userName, int courseId);
 
         void UpdatePriceOrder(int orderId);
@@ -24,14 +25,21 @@ namespace GhiasAmooz.Core.Services.Interfaces
 
         void UpdateOrder(Order order);
 
+        bool IsUserInCourse(string userName, int courseId);
+        #endregion
+
+
+
+
         #region DisCount
 
-       DiscountUseType UseDiscount(int orderId, string code);
+        DiscountUseType UseDiscount(int orderId, string code);
         void AddDiscount(Discount discount);
 
         List<Discount> GetAllDiscounts();
         Discount GetDiscountById(int discountId);
         void UpdateDiscount(Discount discount);
+        bool IsExistCode(string code);
         #endregion
 
     }
