@@ -52,6 +52,7 @@ namespace GhiasAmooz.DataLayer.Context
         public DbSet<Course> Courses { get; set; }
         public DbSet<CourseEpisode> CourseEpisodes { get; set; }
         public DbSet<UserCourse> UserCourses { get; set; }
+        public DbSet<CourseComment> CourseComments { get; set; }
 
 
         #endregion
