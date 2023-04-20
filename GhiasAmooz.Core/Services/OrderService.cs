@@ -174,6 +174,7 @@ namespace GhiasAmooz.Core.Services
                 return DiscountUseType.Finished;
             
             var order = GetOrderById(orderId);
+
             if (_context.UserDiscoundCodes.Any(d=>d.UserId == order.UserId && d.DiscountId == discount.DiscountId ))
                 return DiscountUseType.UserUsed;
 

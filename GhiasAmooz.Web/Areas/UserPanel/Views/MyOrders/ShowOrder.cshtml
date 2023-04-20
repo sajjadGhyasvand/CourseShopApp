@@ -6,6 +6,7 @@
 @{
     ViewData["Title"] = "ShowOrder";
     int sumOrder = Model.OrderSum;
+    string discountType = ViewBag.typeDiscount.ToString();
 }
 
 <div class="container">
@@ -66,7 +67,48 @@
                                                 <input type="text" name="code" class="form-control" />
                                                 <input type="submit" class="btn btn-primary btn-block" style="margin-top: 5px" value="اعمال" />
                                             </form>
-                                        </td>
+                                            @if (discountType != "")
+                                            {
+                                                switch (discountType)
+                                                {
+                                                    case "Success":
+                                                    {
+                                                        <div class="alert alert-success">
+                                                            <p class="text-mute">کد با موفقیت اعمال شد</p>
+                                                        </div>
+                                                        break;
+                                                    }
+                                                    case "ExpierDate":
+                                                    {
+                                                        <div class="alert alert-danger">
+                                                            <p class="text-mute">کد منقضی شده است</p>
+                                                        </div>
+                                                        break;
+                                                    }
+                                                    case "NotFound":
+                                                    {
+                                                        <div class="alert alert-warning">
+                                                            <p class="text-mute">کد معتبر نیست</p>
+                                                        </div>
+                                                        break;
+                                                    }
+                                                    case "Finished":
+                                                    {
+                                                        <div class="alert alert-danger">
+                                                            <p class="text-mute">کد به اتمام رسیده است</p>
+                                                        </div>
+                                                        break;
+                                                    }
+                                                    case "UserUsed":
+                                                    {
+                                                         <div class="alert alert-danger">
+                                                            <p class="text-mute">کد استفاده شده است </p>
+                                                        </div>
+                                                        break;
+                                                    }
+
+                                                }
+                                            }
                                     </tr>
                                 }
                                 <tr>
