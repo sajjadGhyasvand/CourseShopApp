@@ -172,10 +172,10 @@ namespace GhiasAmooz.Core.Services
 
             if (discount.UsableCount != null && discount.UsableCount < 1)
                 return DiscountUseType.Finished;
-            
+
             var order = GetOrderById(orderId);
 
-            if (_context.UserDiscoundCodes.Any(d=>d.UserId == order.UserId && d.DiscountId == discount.DiscountId ))
+            if (_context.UserDiscoundCodes.Any(d => d.UserId == order.UserId && d.DiscountId == discount.DiscountId))
                 return DiscountUseType.UserUsed;
 
 
@@ -201,5 +201,28 @@ namespace GhiasAmooz.Core.Services
 
             return DiscountUseType.Success;
         }
+
+        public void AddDiscount(Discount discount)
+        {
+            _context.Discounts.Add(discount);
+            _context.SaveChanges();
+        }
+
+        public List<Discount> GetAllDiscounts()
+        {
+            return _context.Discounts.ToList();
+        }
+
+        public Discount GetDiscountById(int discountId)
+        {
+            return _context.Discounts.Find(discountId);
+        }
+
+        public void UpdateDiscount(Discount discount)
+        {
+            _context.Discounts.Update(discount);
+            _context.SaveChanges();
+        }
     }
 }
+

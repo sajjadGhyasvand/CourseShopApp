@@ -27,7 +27,11 @@ namespace GhiasAmooz.Core.Services.Interfaces
         #region DisCount
 
        DiscountUseType UseDiscount(int orderId, string code);
+        void AddDiscount(Discount discount);
 
+        List<Discount> GetAllDiscounts();
+        Discount GetDiscountById(int discountId);
+        void UpdateDiscount(Discount discount);
         #endregion
 
     }

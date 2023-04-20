@@ -888,3 +888,5 @@ C:\Users\sajjad\Source\Repos\TLStoreApp\GhiasAmooz.Web\bin\Debug\net6.0\web.conf
 C:\Users\sajjad\Source\Repos\TLStoreApp\GhiasAmooz.Web\bin\Debug\net6.0\CoreCompat.System.Drawing.dll
 C:\Users\sajjad\Source\Repos\TLStoreApp\GhiasAmooz.Web\obj\Debug\net6.0\scopedcss\Properties\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\sajjad\Source\Repos\TLStoreApp\GhiasAmooz.Web\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\sajjad\Source\Repos\TLStoreApp\GhiasAmooz.Web\obj\Debug\net6.0\GhiasAmooz.Web.Properties.Resources.resources
+C:\Users\sajjad\Source\Repos\TLStoreApp\GhiasAmooz.Web\obj\Debug\net6.0\GhiasAmooz.Web.csproj.GenerateResource.cache

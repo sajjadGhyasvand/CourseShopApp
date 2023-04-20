@@ -513,6 +513,10 @@
       "PackagePath": "staticwebassets\\js\\jquery.validate.unobtrusive.min.js"
     },
     {
+      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\js\\kendo.all.min.js",
+      "PackagePath": "staticwebassets\\js\\kendo.all.min.js"
+    },
+    {
       "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\js\\modernizr-custom.js",
       "PackagePath": "staticwebassets\\js\\modernizr-custom.js"
     },
