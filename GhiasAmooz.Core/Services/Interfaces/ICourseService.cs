@@ -39,5 +39,12 @@ namespace GhiasAmooz.Core.Services.Interfaces
         CourseEpisode GetEpisodeById(int episodeId);
         void EditEpisode(CourseEpisode episode, IFormFile episodeFile);
         #endregion
+
+        #region Comments
+
+        void AddComment(CourseComment comment);
+        Tuple<List<CourseComment>, int> GetCourseComment(int courseId, int pageId = 1);
+
+        #endregion
     }
 }

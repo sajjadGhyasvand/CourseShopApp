@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qvJHPOlD1l0He9CxnSeC6gEqSHC/JrNC7HdPJvOHZ7k=",
+  "Hash": "0T/oq2zqHBeLZX6K3l1pBEU9nZNHGqLddY+JU1C/vSM=",
   "Source": "GhiasAmooz.Web",
   "BasePath": "_content/GhiasAmooz.Web",
   "Mode": "Default",
@@ -2038,6 +2038,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\jquery.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\js\\jquery.unobtrusive-ajax.js",
+      "SourceId": "GhiasAmooz.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
+      "BasePath": "_content/GhiasAmooz.Web",
+      "RelativePath": "js/jquery.unobtrusive-ajax.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\jquery.unobtrusive-ajax.js"
     },
     {
       "Identity": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\js\\jquery.unobtrusive-ajax.min.js",

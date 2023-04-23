@@ -493,6 +493,10 @@
       "PackagePath": "staticwebassets\\js\\jquery.min.js"
     },
     {
+      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\js\\jquery.unobtrusive-ajax.js",
+      "PackagePath": "staticwebassets\\js\\jquery.unobtrusive-ajax.js"
+    },
+    {
       "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\js\\jquery.unobtrusive-ajax.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.unobtrusive-ajax.min.js"
     },
