@@ -17,6 +17,8 @@ namespace GhiasAmooz.Web.Controllers
         }
         public IActionResult Index()
         {
+            var popular = _courseService.GetPopularCourse();
+            ViewBag.PopularCourse = popular;
             return View(_courseService.GetCourse().Item1);
         }
 
