@@ -359,5 +359,22 @@ namespace GhiasAmooz.Core.Services
                 _context.CourseComments.Include(c => c.User).Where(c => !c.IsDelete && c.CourseId == courseId).Skip(skip).Take(take)
                     .OrderByDescending(c => c.CreateDate).ToList(), pageCount);
         }
+
+        public List<ShowCourseListViewModel> GetPopularCourse()
+        {
+            return _context.Courses.Include(c => c.OrderDetails)
+                .Where(c => c.OrderDetails.Any())
+                .OrderByDescending(d => d.OrderDetails.Count)
+                .Take(8)
+                .Select(c => new ShowCourseListViewModel()
+                {
+                    CourseId = c.CourseId,
+                    ImageName = c.CourseImageName,
+                    Price = c.CoursePrice,
+                    Title = c.CourseTitle,
+                    TotalTime = new TimeSpan(c.CourseEpisodes.Sum(e => e.EpisodeTime.Ticks))
+                })
+                .ToList();
+        }
     }
 }

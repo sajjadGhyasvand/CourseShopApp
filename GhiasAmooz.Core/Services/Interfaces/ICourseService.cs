@@ -29,6 +29,7 @@ namespace GhiasAmooz.Core.Services.Interfaces
         Course GetCourseById(int courseId);
         Course GetCourseForShow(int courseId);
         void UpdateCourse(Course course, IFormFile imgCourse, IFormFile courseDemo);
+        List<ShowCourseListViewModel> GetPopularCourse();
         #endregion
 
         #region Episode

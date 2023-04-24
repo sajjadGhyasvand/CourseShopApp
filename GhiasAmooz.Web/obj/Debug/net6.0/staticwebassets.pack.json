@@ -1,539 +1,539 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\GhiasAmooz.Web.bundle.scp.css",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\GhiasAmooz.Web.bundle.scp.css",
       "PackagePath": "staticwebassets\\GhiasAmooz.Web.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\css\\bootstrap-rtl.css",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\css\\bootstrap-rtl.css",
       "PackagePath": "staticwebassets\\AdminContent\\css\\bootstrap-rtl.css"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\css\\bootstrap.css",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\AdminContent\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\AdminContent\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\css\\plugins\\dataTables\\dataTables.bootstrap.css",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\css\\plugins\\dataTables\\dataTables.bootstrap.css",
       "PackagePath": "staticwebassets\\AdminContent\\css\\plugins\\dataTables\\dataTables.bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\css\\plugins\\morris\\morris-0.4.3.min.css",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\css\\plugins\\morris\\morris-0.4.3.min.css",
       "PackagePath": "staticwebassets\\AdminContent\\css\\plugins\\morris\\morris-0.4.3.min.css"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\css\\plugins\\social-buttons\\social-buttons.css",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\css\\plugins\\social-buttons\\social-buttons.css",
       "PackagePath": "staticwebassets\\AdminContent\\css\\plugins\\social-buttons\\social-buttons.css"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\css\\plugins\\timeline\\timeline.css",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\css\\plugins\\timeline\\timeline.css",
       "PackagePath": "staticwebassets\\AdminContent\\css\\plugins\\timeline\\timeline.css"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\css\\sb-admin.css",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\css\\sb-admin.css",
       "PackagePath": "staticwebassets\\AdminContent\\css\\sb-admin.css"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\css\\font-awesome.css",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\css\\font-awesome.css",
       "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\css\\font-awesome.css"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\css\\font-awesome.min.css",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\css\\font-awesome.min.css",
       "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\css\\font-awesome.min.css"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\fonts\\FontAwesome.otf",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\fonts\\FontAwesome.otf",
       "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\fonts\\FontAwesome.otf"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.eot",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.eot",
       "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.svg",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.svg",
       "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.ttf",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.ttf",
       "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.woff",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.woff",
       "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\bordered-pulled.less",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\bordered-pulled.less",
       "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\less\\bordered-pulled.less"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\core.less",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\core.less",
       "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\less\\core.less"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\fixed-width.less",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\fixed-width.less",
       "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\less\\fixed-width.less"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\font-awesome.less",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\font-awesome.less",
       "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\less\\font-awesome.less"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\icons.less",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\icons.less",
       "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\less\\icons.less"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\larger.less",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\larger.less",
       "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\less\\larger.less"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\list.less",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\list.less",
       "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\less\\list.less"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\mixins.less",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\mixins.less",
       "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\less\\mixins.less"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\path.less",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\path.less",
       "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\less\\path.less"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\rotated-flipped.less",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\rotated-flipped.less",
       "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\less\\rotated-flipped.less"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\spinning.less",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\spinning.less",
       "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\less\\spinning.less"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\stacked.less",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\stacked.less",
       "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\less\\stacked.less"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\variables.less",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\variables.less",
       "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\less\\variables.less"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_bordered-pulled.scss",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_bordered-pulled.scss",
       "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\scss\\_bordered-pulled.scss"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_core.scss",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_core.scss",
       "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\scss\\_core.scss"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_fixed-width.scss",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_fixed-width.scss",
       "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\scss\\_fixed-width.scss"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_icons.scss",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_icons.scss",
       "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\scss\\_icons.scss"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_larger.scss",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_larger.scss",
       "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\scss\\_larger.scss"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_list.scss",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_list.scss",
       "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\scss\\_list.scss"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_mixins.scss",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_mixins.scss",
       "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\scss\\_mixins.scss"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_path.scss",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_path.scss",
       "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\scss\\_path.scss"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_rotated-flipped.scss",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_rotated-flipped.scss",
       "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\scss\\_rotated-flipped.scss"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_spinning.scss",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_spinning.scss",
       "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\scss\\_spinning.scss"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_stacked.scss",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_stacked.scss",
       "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\scss\\_stacked.scss"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_variables.scss",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_variables.scss",
       "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\scss\\_variables.scss"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\font-awesome.scss",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\font-awesome.scss",
       "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\scss\\font-awesome.scss"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\fonts\\glyphicons-halflings-regular.eot",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\fonts\\glyphicons-halflings-regular.eot",
       "PackagePath": "staticwebassets\\AdminContent\\fonts\\glyphicons-halflings-regular.eot"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\fonts\\glyphicons-halflings-regular.svg",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\fonts\\glyphicons-halflings-regular.svg",
       "PackagePath": "staticwebassets\\AdminContent\\fonts\\glyphicons-halflings-regular.svg"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\fonts\\glyphicons-halflings-regular.ttf",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\fonts\\glyphicons-halflings-regular.ttf",
       "PackagePath": "staticwebassets\\AdminContent\\fonts\\glyphicons-halflings-regular.ttf"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\fonts\\glyphicons-halflings-regular.woff",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\fonts\\glyphicons-halflings-regular.woff",
       "PackagePath": "staticwebassets\\AdminContent\\fonts\\glyphicons-halflings-regular.woff"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\bootstrap.js",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\AdminContent\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\AdminContent\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\demo\\dashboard-demo.js",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\demo\\dashboard-demo.js",
       "PackagePath": "staticwebassets\\AdminContent\\js\\demo\\dashboard-demo.js"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\demo\\flot-demo.js",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\demo\\flot-demo.js",
       "PackagePath": "staticwebassets\\AdminContent\\js\\demo\\flot-demo.js"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\demo\\morris-demo.js",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\demo\\morris-demo.js",
       "PackagePath": "staticwebassets\\AdminContent\\js\\demo\\morris-demo.js"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\jquery-1.10.2.js",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\jquery-1.10.2.js",
       "PackagePath": "staticwebassets\\AdminContent\\js\\jquery-1.10.2.js"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\plugins\\dataTables\\dataTables.bootstrap.js",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\plugins\\dataTables\\dataTables.bootstrap.js",
       "PackagePath": "staticwebassets\\AdminContent\\js\\plugins\\dataTables\\dataTables.bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\plugins\\dataTables\\jquery.dataTables.js",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\plugins\\dataTables\\jquery.dataTables.js",
       "PackagePath": "staticwebassets\\AdminContent\\js\\plugins\\dataTables\\jquery.dataTables.js"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\plugins\\flot\\excanvas.min.js",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\plugins\\flot\\excanvas.min.js",
       "PackagePath": "staticwebassets\\AdminContent\\js\\plugins\\flot\\excanvas.min.js"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\plugins\\flot\\jquery.flot.js",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\plugins\\flot\\jquery.flot.js",
       "PackagePath": "staticwebassets\\AdminContent\\js\\plugins\\flot\\jquery.flot.js"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\plugins\\flot\\jquery.flot.pie.js",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\plugins\\flot\\jquery.flot.pie.js",
       "PackagePath": "staticwebassets\\AdminContent\\js\\plugins\\flot\\jquery.flot.pie.js"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\plugins\\flot\\jquery.flot.resize.js",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\plugins\\flot\\jquery.flot.resize.js",
       "PackagePath": "staticwebassets\\AdminContent\\js\\plugins\\flot\\jquery.flot.resize.js"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\plugins\\flot\\jquery.flot.tooltip.min.js",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\plugins\\flot\\jquery.flot.tooltip.min.js",
       "PackagePath": "staticwebassets\\AdminContent\\js\\plugins\\flot\\jquery.flot.tooltip.min.js"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\plugins\\metisMenu\\jquery.metisMenu.js",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\plugins\\metisMenu\\jquery.metisMenu.js",
       "PackagePath": "staticwebassets\\AdminContent\\js\\plugins\\metisMenu\\jquery.metisMenu.js"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\plugins\\morris\\morris.js",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\plugins\\morris\\morris.js",
       "PackagePath": "staticwebassets\\AdminContent\\js\\plugins\\morris\\morris.js"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\plugins\\morris\\raphael-2.1.0.min.js",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\plugins\\morris\\raphael-2.1.0.min.js",
       "PackagePath": "staticwebassets\\AdminContent\\js\\plugins\\morris\\raphael-2.1.0.min.js"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\sb-admin.js",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\sb-admin.js",
       "PackagePath": "staticwebassets\\AdminContent\\js\\sb-admin.js"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\CourseFile\\Scan_0005.jpg",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\CourseFile\\Scan_0005.jpg",
       "PackagePath": "staticwebassets\\Course\\CourseFile\\Scan_0005.jpg"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\Demo\\b763a656b1c34c8e8af0cb4c50570941.jpg",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\Demo\\b763a656b1c34c8e8af0cb4c50570941.jpg",
       "PackagePath": "staticwebassets\\Course\\Demo\\b763a656b1c34c8e8af0cb4c50570941.jpg"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\Demo\\c17a6b9eabc649f78de5eece249739db.jpg",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\Demo\\c17a6b9eabc649f78de5eece249739db.jpg",
       "PackagePath": "staticwebassets\\Course\\Demo\\c17a6b9eabc649f78de5eece249739db.jpg"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\image\\2660ef0ceb2942a0b5d76853eae9048c.jpg",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\image\\2660ef0ceb2942a0b5d76853eae9048c.jpg",
       "PackagePath": "staticwebassets\\Course\\image\\2660ef0ceb2942a0b5d76853eae9048c.jpg"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\image\\31b83ef7b03b4cf894d29012b43bdf38.jpg",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\image\\31b83ef7b03b4cf894d29012b43bdf38.jpg",
       "PackagePath": "staticwebassets\\Course\\image\\31b83ef7b03b4cf894d29012b43bdf38.jpg"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\image\\562986fc935c41b8b40baee890a2f17b.jpg",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\image\\562986fc935c41b8b40baee890a2f17b.jpg",
       "PackagePath": "staticwebassets\\Course\\image\\562986fc935c41b8b40baee890a2f17b.jpg"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\image\\8c305ad3fd064a218d6d7655c57e3bd3.jpg",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\image\\8c305ad3fd064a218d6d7655c57e3bd3.jpg",
       "PackagePath": "staticwebassets\\Course\\image\\8c305ad3fd064a218d6d7655c57e3bd3.jpg"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\image\\8e00756726be43429bc7ebb6c6c92acc.jpg",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\image\\8e00756726be43429bc7ebb6c6c92acc.jpg",
       "PackagePath": "staticwebassets\\Course\\image\\8e00756726be43429bc7ebb6c6c92acc.jpg"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\image\\9235db3a908c494f961d851c9410a1c1.jpg",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\image\\9235db3a908c494f961d851c9410a1c1.jpg",
       "PackagePath": "staticwebassets\\Course\\image\\9235db3a908c494f961d851c9410a1c1.jpg"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\image\\a3ad497b623a4120ab49413a5e3d3e03.jpg",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\image\\a3ad497b623a4120ab49413a5e3d3e03.jpg",
       "PackagePath": "staticwebassets\\Course\\image\\a3ad497b623a4120ab49413a5e3d3e03.jpg"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\image\\b15770ff0b004a4f9df7ea52f9cc5ffc.jpg",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\image\\b15770ff0b004a4f9df7ea52f9cc5ffc.jpg",
       "PackagePath": "staticwebassets\\Course\\image\\b15770ff0b004a4f9df7ea52f9cc5ffc.jpg"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\image\\b84d7e4fe172456a93feafd1ac9897b7.jpg",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\image\\b84d7e4fe172456a93feafd1ac9897b7.jpg",
       "PackagePath": "staticwebassets\\Course\\image\\b84d7e4fe172456a93feafd1ac9897b7.jpg"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\image\\default.jpg",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\image\\default.jpg",
       "PackagePath": "staticwebassets\\Course\\image\\default.jpg"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\2660ef0ceb2942a0b5d76853eae9048c.jpg",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\2660ef0ceb2942a0b5d76853eae9048c.jpg",
       "PackagePath": "staticwebassets\\Course\\thumb\\2660ef0ceb2942a0b5d76853eae9048c.jpg"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\31b83ef7b03b4cf894d29012b43bdf38.jpg",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\31b83ef7b03b4cf894d29012b43bdf38.jpg",
       "PackagePath": "staticwebassets\\Course\\thumb\\31b83ef7b03b4cf894d29012b43bdf38.jpg"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\562986fc935c41b8b40baee890a2f17b.jpg",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\562986fc935c41b8b40baee890a2f17b.jpg",
       "PackagePath": "staticwebassets\\Course\\thumb\\562986fc935c41b8b40baee890a2f17b.jpg"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\8c305ad3fd064a218d6d7655c57e3bd3.jpg",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\8c305ad3fd064a218d6d7655c57e3bd3.jpg",
       "PackagePath": "staticwebassets\\Course\\thumb\\8c305ad3fd064a218d6d7655c57e3bd3.jpg"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\8e00756726be43429bc7ebb6c6c92acc.jpg",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\8e00756726be43429bc7ebb6c6c92acc.jpg",
       "PackagePath": "staticwebassets\\Course\\thumb\\8e00756726be43429bc7ebb6c6c92acc.jpg"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\9235db3a908c494f961d851c9410a1c1.jpg",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\9235db3a908c494f961d851c9410a1c1.jpg",
       "PackagePath": "staticwebassets\\Course\\thumb\\9235db3a908c494f961d851c9410a1c1.jpg"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\a3ad497b623a4120ab49413a5e3d3e03.jpg",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\a3ad497b623a4120ab49413a5e3d3e03.jpg",
       "PackagePath": "staticwebassets\\Course\\thumb\\a3ad497b623a4120ab49413a5e3d3e03.jpg"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\b15770ff0b004a4f9df7ea52f9cc5ffc.jpg",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\b15770ff0b004a4f9df7ea52f9cc5ffc.jpg",
       "PackagePath": "staticwebassets\\Course\\thumb\\b15770ff0b004a4f9df7ea52f9cc5ffc.jpg"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\b763a656b1c34c8e8af0cb4c50570941.jpg",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\b763a656b1c34c8e8af0cb4c50570941.jpg",
       "PackagePath": "staticwebassets\\Course\\thumb\\b763a656b1c34c8e8af0cb4c50570941.jpg"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\b84d7e4fe172456a93feafd1ac9897b7.jpg",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\b84d7e4fe172456a93feafd1ac9897b7.jpg",
       "PackagePath": "staticwebassets\\Course\\thumb\\b84d7e4fe172456a93feafd1ac9897b7.jpg"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\default.jpg",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\default.jpg",
       "PackagePath": "staticwebassets\\Course\\thumb\\default.jpg"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\UserAvatar\\867e77685d1043528ab1f4caf0542b98.jpg",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\UserAvatar\\867e77685d1043528ab1f4caf0542b98.jpg",
       "PackagePath": "staticwebassets\\UserAvatar\\867e77685d1043528ab1f4caf0542b98.jpg"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\UserAvatar\\Defult.jpg",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\UserAvatar\\Defult.jpg",
       "PackagePath": "staticwebassets\\UserAvatar\\Defult.jpg"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\UserAvatar\\c483527adba141fc8e3f9caf057852e7.png",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\UserAvatar\\c483527adba141fc8e3f9caf057852e7.png",
       "PackagePath": "staticwebassets\\UserAvatar\\c483527adba141fc8e3f9caf057852e7.png"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\UserAvatar\\ce825af76ddc4d07a6939260b2afaff5.jpg",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\UserAvatar\\ce825af76ddc4d07a6939260b2afaff5.jpg",
       "PackagePath": "staticwebassets\\UserAvatar\\ce825af76ddc4d07a6939260b2afaff5.jpg"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\UserAvatar\\f56ef017ab7a440aa6965fc50b9cce55.png",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\UserAvatar\\f56ef017ab7a440aa6965fc50b9cce55.png",
       "PackagePath": "staticwebassets\\UserAvatar\\f56ef017ab7a440aa6965fc50b9cce55.png"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\css\\bootstrap-rtl.min.css",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\css\\bootstrap-rtl.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\css\\fonts\\BYekan-webfont.eot",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\css\\fonts\\BYekan-webfont.eot",
       "PackagePath": "staticwebassets\\css\\fonts\\BYekan-webfont.eot"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\css\\fonts\\BYekan-webfont.ttf",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\css\\fonts\\BYekan-webfont.ttf",
       "PackagePath": "staticwebassets\\css\\fonts\\BYekan-webfont.ttf"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\css\\fonts\\BYekan-webfont.woff",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\css\\fonts\\BYekan-webfont.woff",
       "PackagePath": "staticwebassets\\css\\fonts\\BYekan-webfont.woff"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\css\\fonts\\Material-Design-Iconic-Font.eot",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\css\\fonts\\Material-Design-Iconic-Font.eot",
       "PackagePath": "staticwebassets\\css\\fonts\\Material-Design-Iconic-Font.eot"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\css\\fonts\\Material-Design-Iconic-Font.svg",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\css\\fonts\\Material-Design-Iconic-Font.svg",
       "PackagePath": "staticwebassets\\css\\fonts\\Material-Design-Iconic-Font.svg"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\css\\fonts\\Material-Design-Iconic-Font.ttf",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\css\\fonts\\Material-Design-Iconic-Font.ttf",
       "PackagePath": "staticwebassets\\css\\fonts\\Material-Design-Iconic-Font.ttf"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\css\\fonts\\Material-Design-Iconic-Font.woff",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\css\\fonts\\Material-Design-Iconic-Font.woff",
       "PackagePath": "staticwebassets\\css\\fonts\\Material-Design-Iconic-Font.woff"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\css\\fonts\\Material-Design-Iconic-Font.woff2",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\css\\fonts\\Material-Design-Iconic-Font.woff2",
       "PackagePath": "staticwebassets\\css\\fonts\\Material-Design-Iconic-Font.woff2"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\css\\material-design-iconic-font.min.css",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\css\\material-design-iconic-font.min.css",
       "PackagePath": "staticwebassets\\css\\material-design-iconic-font.min.css"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\css\\style.css",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\images\\captcha.jpg",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\images\\captcha.jpg",
       "PackagePath": "staticwebassets\\images\\captcha.jpg"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\images\\logo.png",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\images\\logo.png",
       "PackagePath": "staticwebassets\\images\\logo.png"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\images\\pattern.png",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\images\\pattern.png",
       "PackagePath": "staticwebassets\\images\\pattern.png"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\images\\pic\\1.jpg",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\images\\pic\\1.jpg",
       "PackagePath": "staticwebassets\\images\\pic\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\images\\pic\\2.jpg",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\images\\pic\\2.jpg",
       "PackagePath": "staticwebassets\\images\\pic\\2.jpg"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\images\\pic\\3.jpg",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\images\\pic\\3.jpg",
       "PackagePath": "staticwebassets\\images\\pic\\3.jpg"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\images\\pic\\4.jpg",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\images\\pic\\4.jpg",
       "PackagePath": "staticwebassets\\images\\pic\\4.jpg"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\images\\pic\\5.jpg",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\images\\pic\\5.jpg",
       "PackagePath": "staticwebassets\\images\\pic\\5.jpg"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\images\\pic\\6.jpg",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\images\\pic\\6.jpg",
       "PackagePath": "staticwebassets\\images\\pic\\6.jpg"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\images\\pic\\7.jpg",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\images\\pic\\7.jpg",
       "PackagePath": "staticwebassets\\images\\pic\\7.jpg"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\images\\pic\\8.jpg",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\images\\pic\\8.jpg",
       "PackagePath": "staticwebassets\\images\\pic\\8.jpg"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\images\\pic\\avatar.jpg",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\images\\pic\\avatar.jpg",
       "PackagePath": "staticwebassets\\images\\pic\\avatar.jpg"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\images\\pic\\big-thumb.jpg",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\images\\pic\\big-thumb.jpg",
       "PackagePath": "staticwebassets\\images\\pic\\big-thumb.jpg"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\images\\pic\\namad-1.png",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\images\\pic\\namad-1.png",
       "PackagePath": "staticwebassets\\images\\pic\\namad-1.png"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\images\\pic\\namad.png",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\images\\pic\\namad.png",
       "PackagePath": "staticwebassets\\images\\pic\\namad.png"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\images\\slide.jpg",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\images\\slide.jpg",
       "PackagePath": "staticwebassets\\images\\slide.jpg"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\js\\jquery.min.js",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\js\\jquery.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\js\\jquery.unobtrusive-ajax.js",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\js\\jquery.unobtrusive-ajax.js",
       "PackagePath": "staticwebassets\\js\\jquery.unobtrusive-ajax.js"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\js\\jquery.unobtrusive-ajax.min.js",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\js\\jquery.unobtrusive-ajax.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.unobtrusive-ajax.min.js"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\js\\jquery.validate.js",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\js\\jquery.validate.js",
       "PackagePath": "staticwebassets\\js\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\js\\jquery.validate.min.js",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\js\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\js\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\js\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\js\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\js\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\js\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\js\\kendo.all.min.js",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\js\\kendo.all.min.js",
       "PackagePath": "staticwebassets\\js\\kendo.all.min.js"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\js\\modernizr-custom.js",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\js\\modernizr-custom.js",
       "PackagePath": "staticwebassets\\js\\modernizr-custom.js"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\js\\script.js",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\js\\script.js",
       "PackagePath": "staticwebassets\\js\\script.js"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\noUiSlider\\nouislider.min.css",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\noUiSlider\\nouislider.min.css",
       "PackagePath": "staticwebassets\\noUiSlider\\nouislider.min.css"
     },
     {
-      "Id": "C:\\Users\\sajjad\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\noUiSlider\\nouislider.min.js",
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\noUiSlider\\nouislider.min.js",
       "PackagePath": "staticwebassets\\noUiSlider\\nouislider.min.js"
     },
     {

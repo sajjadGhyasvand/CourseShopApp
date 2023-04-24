@@ -1,9 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\GhiasAmooz.DataLayer",
-    "\\GhiasAmooz.DataLayer\\Context"
+    "\\GhiasAmooz.Core",
+    "\\GhiasAmooz.Core\\Services",
+    "\\GhiasAmooz.Web",
+    "\\GhiasAmooz.Web\\Views",
+    "\\GhiasAmooz.Web\\Views\\Course"
   ],
-  "SelectedNode": "\\QiasAmoz.sln",
+  "SelectedNode": "\\GhiasAmooz.Core\\Services\\CourseService.cs",
   "PreviewInSolutionExplorer": false
 }
