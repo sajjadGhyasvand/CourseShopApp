@@ -52,6 +52,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Trnom/source/repos/TLStoreApp1/GhiasAmooz.Web/Pages/Admin/CourseGroups/CreateGroup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ291cnNlR3JvdXBzXENyZWF0ZUdyb3VwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Trnom/source/repos/TLStoreApp1/GhiasAmooz.Web/Pages/Admin/CourseGroups/EditGroup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ291cnNlR3JvdXBzXEVkaXRHcm91cC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Trnom/source/repos/TLStoreApp1/GhiasAmooz.Web/Pages/Admin/CourseGroups/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ291cnNlR3JvdXBzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Trnom/source/repos/TLStoreApp1/GhiasAmooz.Web/Pages/Admin/Course/CreateCourse.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ291cnNlXENyZWF0ZUNvdXJzZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

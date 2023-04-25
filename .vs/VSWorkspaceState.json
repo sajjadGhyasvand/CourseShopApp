@@ -5,8 +5,9 @@
     "\\GhiasAmooz.Core\\Services",
     "\\GhiasAmooz.Web",
     "\\GhiasAmooz.Web\\Views",
-    "\\GhiasAmooz.Web\\Views\\Course"
+    "\\GhiasAmooz.Web\\Views\\Course",
+    "\\GhiasAmooz.Web\\Views\\Home"
   ],
-  "SelectedNode": "\\GhiasAmooz.Core\\Services\\CourseService.cs",
+  "SelectedNode": "\\GhiasAmooz.Web\\Views\\Home\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }

@@ -112,7 +112,7 @@ namespace GhiasAmooz.Core.Services
 
         public List<CourseGroup> GetAllGroup()
         {
-            return _context.CourseGroups.ToList();
+            return _context.CourseGroups.Include(c => c.CourseGroups).ToList();
         }
 
         public Course GetCourseById(int courseId)
@@ -359,7 +359,22 @@ namespace GhiasAmooz.Core.Services
                 _context.CourseComments.Include(c => c.User).Where(c => !c.IsDelete && c.CourseId == courseId).Skip(skip).Take(take)
                     .OrderByDescending(c => c.CreateDate).ToList(), pageCount);
         }
+        public CourseGroup GetById(int groupId)
+        {
+            return _context.CourseGroups.Find(groupId);
+        }
 
+        public void AddGroup(CourseGroup @group)
+        {
+            _context.CourseGroups.Add(group);
+            _context.SaveChanges();
+        }
+
+        public void UpdateGroup(CourseGroup @group)
+        {
+            _context.CourseGroups.Update(group);
+            _context.SaveChanges();
+        }
         public List<ShowCourseListViewModel> GetPopularCourse()
         {
             return _context.Courses.Include(c => c.OrderDetails)
@@ -372,7 +387,7 @@ namespace GhiasAmooz.Core.Services
                     ImageName = c.CourseImageName,
                     Price = c.CoursePrice,
                     Title = c.CourseTitle,
-                    TotalTime = new TimeSpan(c.CourseEpisodes.Sum(e => e.EpisodeTime.Ticks))
+                   /* TotalTime = new TimeSpan(c.CourseEpisodes.Sum(e => e.EpisodeTime.Ticks))*/
                 })
                 .ToList();
         }

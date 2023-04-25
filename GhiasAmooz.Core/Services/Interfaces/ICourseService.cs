@@ -19,6 +19,9 @@ namespace GhiasAmooz.Core.Services.Interfaces
         List<SelectListItem> GetTeachers();
         List<SelectListItem> GetLevels();
         List<SelectListItem> GetStatus();
+        CourseGroup GetById(int groupId);
+        void AddGroup(CourseGroup group);
+        void UpdateGroup(CourseGroup group);
         #endregion
 
         #region Course
