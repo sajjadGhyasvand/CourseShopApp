@@ -57,6 +57,7 @@ namespace GhiasAmooz.DataLayer.Entities.User
         public List<UserCourse> UserCourses { get; set; }
         public List<UserDiscoundCode> UserDiscoundCodes { get; set; }
         public List<CourseComment> CourseComments { get; set; }
+        public List<CourseVote> CourseVotes { get; set; }
         #endregion
 
     }

@@ -4,6 +4,7 @@ using GhiasAmooz.DataLayer.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GhiasAmooz.DataLayer.Migrations
 {
     [DbContext(typeof(GhiasAmoozContext))]
-    partial class GhiasAmoozContextModelSnapshot : ModelSnapshot
+    [Migration("20230426035734_mig_Vote")]
+    partial class mig_Vote
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
