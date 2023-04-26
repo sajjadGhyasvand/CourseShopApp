@@ -36,7 +36,12 @@
                     <img src="/course/image/@Model.CourseImageName">
 
                     @Html.Raw(Model.CourseDescription)
-
+                    @if (!string.IsNullOrEmpty(Model.DemoFileName))
+                    {
+                        <video style="width:100%" controls poster="/course/image/@Model.CourseImageName">
+                            <source src="/course/Demo/@Model.DemoFileName" />
+                        </video>
+                    }
                     @if (!IsUserInCourse)
                     {
                         <div class="alert alert-info">

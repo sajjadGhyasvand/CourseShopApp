@@ -4,10 +4,13 @@
     "\\GhiasAmooz.Core",
     "\\GhiasAmooz.Core\\Services",
     "\\GhiasAmooz.Web",
+    "\\GhiasAmooz.Web\\Pages",
+    "\\GhiasAmooz.Web\\Pages\\Admin",
+    "\\GhiasAmooz.Web\\Pages\\Admin\\CourseGroups",
     "\\GhiasAmooz.Web\\Views",
     "\\GhiasAmooz.Web\\Views\\Course",
     "\\GhiasAmooz.Web\\Views\\Home"
   ],
-  "SelectedNode": "\\GhiasAmooz.Web\\Views\\Home\\Index.cshtml",
+  "SelectedNode": "\\GhiasAmooz.Web\\Pages\\Admin\\CourseGroups\\CreateGroup.cshtml.cs",
   "PreviewInSolutionExplorer": false
 }
