@@ -43,8 +43,10 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\Course\Demo\" />
+    <Folder Include="wwwroot\Course\CourseFileOnline\" />
     <Folder Include="wwwroot\MyImages\" />
     <Folder Include="wwwroot\Course\CourseFile\" />
+    <Folder Include="wwwroot\Course\CourseOnline\" />
   </ItemGroup>
 
   <ItemGroup>

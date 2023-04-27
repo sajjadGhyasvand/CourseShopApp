@@ -1,4 +1,5 @@
 ﻿@using GhiasAmooz.Core.Convertors
+@using GhiasAmooz.DataLayer.Entities.Course;
 @using GhiasAmooz.Core.Services.Interfaces;
 @model GhiasAmooz.DataLayer.Entities.Course.Course
 @inject IOrderService _orderService
@@ -43,7 +44,6 @@
                         </video>
                     }
                     <div class="p-3" id="vote">
-                        
                     </div>
                     @if (!IsUserInCourse)
                     {
@@ -53,6 +53,23 @@
                     }
 
                     <h2> سرفصل های این دوره : </h2>
+                    @if (ViewBag.Episode != null)
+                    {
+                        GhiasAmooz.DataLayer.Entities.Course.CourseEpisode episode = ViewBag.Episode as GhiasAmooz.DataLayer.Entities.Course.CourseEpisode;
+                        string filePath = Directory.GetCurrentDirectory();
+                        if (episode.IsFree)
+                        {
+                            filePath = System.IO.Path.Combine(filePath, "wwwroot/Course/CourseOnline", episode.EpisodeFileName.Replace(".rar", ".mp4"));
+                        }
+                        else
+                        {
+                            filePath = System.IO.Path.Combine(filePath, "wwwroot/Course/CourseFileOnline", episode.EpisodeFileName.Replace(".rar", ".mp4"));
+                        }
+                        <h2>@episode.EpisodeTitle</h2>
+                        <video controls class="w-100">
+                            <source src=""/>
+                        </video>
+                    }
                     <ul>
                         @foreach (var item in Model.CourseEpisodes)
                         {
@@ -64,6 +81,8 @@
                                         <a href="/DownloadFile/@item.EpisodeId">
                                             @item.EpisodeTitle
                                         </a>
+
+                                       
                                     </h3>
                                 }
                                 else
@@ -79,6 +98,14 @@
                                 else
                                 {
                                     <i> نقدی </i>
+                                }
+                                @if (User.Identity.IsAuthenticated)
+                                {
+                                    if (item.IsFree || IsUserInCourse)
+                                    {
+                                        <a href="/ShowCourse/@Model.CourseId?episode=@item.EpisodeId">تماشا</a>
+                                    }
+                                  
                                 }
                                 <span>@item.EpisodeTime</span>
                             </li>
@@ -214,7 +241,7 @@
             $("#listComment").load("/Course/ShowComment/" + @Model.CourseId+"?pageId=" + pageid);
         }
 
-        $(function(){
+        $(function () {
             $("#vote").load("/Course/CourseVote/@Model.CourseId");
         });
 

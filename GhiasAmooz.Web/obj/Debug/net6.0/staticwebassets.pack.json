@@ -253,6 +253,10 @@
       "PackagePath": "staticwebassets\\AdminContent\\js\\sb-admin.js"
     },
     {
+      "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\CourseFile\\44_Asp.NetCore2Advance.mp4",
+      "PackagePath": "staticwebassets\\Course\\CourseFile\\44_Asp.NetCore2Advance.mp4"
+    },
+    {
       "Id": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\CourseFile\\Scan_0005.jpg",
       "PackagePath": "staticwebassets\\Course\\CourseFile\\Scan_0005.jpg"
     },

@@ -35,12 +35,47 @@ namespace GhiasAmooz.Web.Controllers
 
 
         [Route("ShowCourse/{id}")]
-        public IActionResult ShowCourse(int id)
+        public IActionResult ShowCourse(int id, int episode = 0)
         {
             var course = _courseService.GetCourseForShow(id);
             if (course == null)
             {
                 return NotFound();
+            }
+
+            if (episode != 0 && User.Identity.IsAuthenticated)
+            {
+                if (course.CourseEpisodes.All(e => e.EpisodeId != episode))
+                {
+                    return NotFound();
+                }
+
+                if (!course.CourseEpisodes.First(e => e.EpisodeId == episode).IsFree)
+                {
+                    if (!_orderService.IsUserInCourse(User.Identity.Name, id))
+                    {
+                        return NotFound();
+                    }
+                }
+
+                var ep = course.CourseEpisodes.First(e => e.EpisodeId == episode);
+                ViewBag.Episode = ep;
+                string filePath = Directory.GetCurrentDirectory();
+                if (ep.IsFree)
+                {
+                    filePath = System.IO.Path.Combine(filePath, "wwwroot/Course/courseOnline", ep.EpisodeFileName.Replace(".rar", ".mp4"));
+                }
+                else
+                {
+                    filePath = System.IO.Path.Combine(filePath, "wwwroot/Course/CourseFilesOnline", ep.EpisodeFileName.Replace(".rar", ".mp4"));
+                }
+
+                if (!System.IO.File.Exists(filePath))
+                {
+
+                }
+
+                ViewBag.filePath = filePath;
             }
 
             return View(course);
