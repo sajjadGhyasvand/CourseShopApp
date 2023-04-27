@@ -1194,3 +1194,4 @@ C:\Users\Trnom\source\repos\TLStoreApp1\GhiasAmooz.Web\obj\Debug\net6.0\refint\G
 C:\Users\Trnom\source\repos\TLStoreApp1\GhiasAmooz.Web\obj\Debug\net6.0\GhiasAmooz.Web.pdb
 C:\Users\Trnom\source\repos\TLStoreApp1\GhiasAmooz.Web\obj\Debug\net6.0\GhiasAmooz.Web.genruntimeconfig.cache
 C:\Users\Trnom\source\repos\TLStoreApp1\GhiasAmooz.Web\obj\Debug\net6.0\ref\GhiasAmooz.Web.dll
+C:\Users\Trnom\source\repos\TLStoreApp1\GhiasAmooz.Web\bin\Debug\net6.0\SharpCompress.dll

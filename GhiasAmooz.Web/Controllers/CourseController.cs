@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.Authorization;
 using GhiasAmooz.Core.Services;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 using GhiasAmooz.DataLayer.Entities.Course;
+using SharpCompress.Archives;
+using System.Runtime.InteropServices;
 
 namespace GhiasAmooz.Web.Controllers
 {
@@ -30,7 +32,7 @@ namespace GhiasAmooz.Web.Controllers
             ViewBag.selectedGroups = selectedGroups;
             ViewBag.Groups = _courseService.GetAllGroup();
             ViewBag.pageId = pageId;
-            return View(_courseService.GetCourse(pageId,filter,getType,orderByType,startPrice,endPrice,selectedGroups,9));
+            return View(_courseService.GetCourse(pageId, filter, getType, orderByType, startPrice, endPrice, selectedGroups, 9));
         }
 
 
@@ -60,19 +62,46 @@ namespace GhiasAmooz.Web.Controllers
 
                 var ep = course.CourseEpisodes.First(e => e.EpisodeId == episode);
                 ViewBag.Episode = ep;
-                string filePath = Directory.GetCurrentDirectory();
+                string filePath = "";
+                string checkFilePath = "";
                 if (ep.IsFree)
                 {
-                    filePath = System.IO.Path.Combine(filePath, "wwwroot/Course/courseOnline", ep.EpisodeFileName.Replace(".rar", ".mp4"));
+                    filePath = "/Course/CourseOnline/" + ep.EpisodeFileName.Replace(".rar", ".mp4");
+                    checkFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Course/CourseOnline",
+                        ep.EpisodeFileName.Replace(".rar", ".mp4"));
                 }
                 else
                 {
-                    filePath = System.IO.Path.Combine(filePath, "wwwroot/Course/CourseFilesOnline", ep.EpisodeFileName.Replace(".rar", ".mp4"));
+                    filePath = "/Course/CourseFileOnline/" + ep.EpisodeFileName.Replace(".rar", ".mp4");
+                    checkFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Course/CourseFileOnline",
+                        ep.EpisodeFileName.Replace(".rar", ".mp4"));
                 }
 
-                if (!System.IO.File.Exists(filePath))
-                {
 
+                if (!System.IO.File.Exists(checkFilePath))
+                {
+                    string targetPath = Directory.GetCurrentDirectory();
+                    if (ep.IsFree)
+                    {
+                        targetPath = System.IO.Path.Combine(targetPath, "wwwroot/Course/CourseOnline");
+                    }
+                    else
+                    {
+                        targetPath = System.IO.Path.Combine(targetPath, "wwwroot/Course/CourseFileOnline");
+                    }
+
+                    string rarPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Course/CourseFile",
+                        ep.EpisodeFileName);
+                   /* //var archive = ArchiveFactory.Open(rarPath);
+
+                    var Entries = archive.Entries.OrderBy(x => x.Key.Length);
+                    foreach (var en in Entries)
+                    {
+                        if (Path.GetExtension(en.Key) == ".mp4")
+                        {
+                            en.WriteTo(System.IO.File.Create(Path.Combine(targetPath, ep.EpisodeFileName.Replace(".rar", ".mp4"))));
+                        }
+                    }*/
                 }
 
                 ViewBag.filePath = filePath;
@@ -84,7 +113,7 @@ namespace GhiasAmooz.Web.Controllers
         [Authorize]
         public ActionResult BuyCourse(int id)
         {
-           int OrderId =  _orderService.AddOrder(User.Identity.Name, id);
+            int OrderId = _orderService.AddOrder(User.Identity.Name, id);
             return Redirect("/UserPanel/MyOrders/ShowOrder/" + OrderId);
         }
         [Route("DownloadFile/{episodeId}")]
@@ -132,7 +161,7 @@ namespace GhiasAmooz.Web.Controllers
         {
             if (!_courseService.IsFree(id))
             {
-                if (!_orderService.IsUserInCourse(User.Identity.Name,id))
+                if (!_orderService.IsUserInCourse(User.Identity.Name, id))
                 {
                     ViewBag.NotAccess = true;
                 }
@@ -144,7 +173,7 @@ namespace GhiasAmooz.Web.Controllers
         {
             _courseService.AddVote(_userService.GetUserIdByUserName(User.Identity.Name), id, vote);
 
-            return PartialView("CourseVote",_courseService.GetCourseVote(id));
+            return PartialView("CourseVote", _courseService.GetCourseVote(id));
         }
     }
 }

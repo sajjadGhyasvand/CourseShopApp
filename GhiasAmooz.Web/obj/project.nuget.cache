@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6iIfu4NlRmwxO+aobw9yAunmZ1hlZz8fsqiVw00Cg/+F7M3Zl97VhmIk8DKwRcPWABBapsw2D9Gic2nauxxCeg==",
+  "dgSpecHash": "zQGLGnQNVo2mJScNaXL0pbuAYHLhlXIHTyZJwxQx+rJBEvwXZaTLSy90ZeT+9iXryRvlObElwz3cXWM/fDLZiQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\GhiasAmooz.Web.csproj",
   "expectedPackageFiles": [
@@ -179,6 +179,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\Trnom\\.nuget\\packages\\sharpcompress\\0.33.0\\sharpcompress.0.33.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
