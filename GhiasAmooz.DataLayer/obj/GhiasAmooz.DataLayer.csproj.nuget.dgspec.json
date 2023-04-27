@@ -11,7 +11,7 @@
         "projectName": "GhiasAmooz.DataLayer",
         "projectPath": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.DataLayer\\GhiasAmooz.DataLayer.csproj",
         "packagesPath": "C:\\Users\\Trnom\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Trnom\\Source\\Repos\\TLStoreApp1\\GhiasAmooz.DataLayer\\obj\\",
+        "outputPath": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.DataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

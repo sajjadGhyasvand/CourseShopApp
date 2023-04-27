@@ -42,6 +42,9 @@
                             <source src="/course/Demo/@Model.DemoFileName" />
                         </video>
                     }
+                    <div class="p-3" id="vote">
+                        
+                    </div>
                     @if (!IsUserInCourse)
                     {
                         <div class="alert alert-info">
@@ -209,6 +212,16 @@
 
         function pageComment(pageid) {
             $("#listComment").load("/Course/ShowComment/" + @Model.CourseId+"?pageId=" + pageid);
+        }
+
+        $(function(){
+            $("#vote").load("/Course/CourseVote/@Model.CourseId");
+        });
+
+        function vote(vote) {
+            $("#vote").fadeOut('slow');
+            $("#vote").load("/Course/AddVote/@(Model.CourseId)?vote=" + vote);
+            $("#vote").fadeIn('slow');
         }
     </script>
 }

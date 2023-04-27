@@ -33,6 +33,7 @@ namespace GhiasAmooz.Core.Services.Interfaces
         Course GetCourseForShow(int courseId);
         void UpdateCourse(Course course, IFormFile imgCourse, IFormFile courseDemo);
         List<ShowCourseListViewModel> GetPopularCourse();
+        bool IsFree(int courseId);
         #endregion
 
         #region Episode
@@ -49,6 +50,11 @@ namespace GhiasAmooz.Core.Services.Interfaces
         void AddComment(CourseComment comment);
         Tuple<List<CourseComment>, int> GetCourseComment(int courseId, int pageId = 1);
 
+        #endregion
+
+        #region CourseVote
+        void AddVote(int userId, int courseId, bool vote);
+        Tuple<int, int> GetCourseVote(int courseId);
         #endregion
     }
 }

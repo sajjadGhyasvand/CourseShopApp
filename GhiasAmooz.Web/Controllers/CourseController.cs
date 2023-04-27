@@ -92,5 +92,24 @@ namespace GhiasAmooz.Web.Controllers
         {
             return View(_courseService.GetCourseComment(id, pageId));
         }
+
+        public IActionResult CourseVote(int id)
+        {
+            if (!_courseService.IsFree(id))
+            {
+                if (!_orderService.IsUserInCourse(User.Identity.Name,id))
+                {
+                    ViewBag.NotAccess = true;
+                }
+            }
+            return PartialView(_courseService.GetCourseVote(id));
+        }
+        [Authorize]
+        public IActionResult AddVote(int id, bool vote)
+        {
+            _courseService.AddVote(_userService.GetUserIdByUserName(User.Identity.Name), id, vote);
+
+            return PartialView("CourseVote",_courseService.GetCourseVote(id));
+        }
     }
 }
