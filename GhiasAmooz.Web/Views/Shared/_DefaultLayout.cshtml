@@ -6,7 +6,7 @@
     <partial name="_MetaTags" />
     <partial name="_Styles" />
     <script src="/js/jquery.min.js"></script>
-   
+
 </head>
 <body>
     <script src="/js/modernizr-custom.js"></script>
@@ -26,23 +26,23 @@
                     </div>
                     <div class="col-sm-6 col-xs-12">
                         <div class="clientarea">
-                          @if (User.Identity.IsAuthenticated)
-                          {
-                              <div class="loggein">
-                                  <i class="zmdi zmdi-account"></i><a href="/UserPanel"> @User.Identity.Name ، خوش آمدی </a>
-                                  /
-                                  <a href="/Logout"> خروج </a>
-                                  </div>
-                          }
-                          else
-                          {
-                              <div class="signin">
-                                  <i class="zmdi zmdi-account"></i>
-                                  <a href="/Login"> ورود </a> /
-                                  <a href="/Register"> عضویت </a>
-                              </div> 
-                          }
-                      
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                <div class="loggein">
+                                    <i class="zmdi zmdi-account"></i><a href="/UserPanel"> @User.Identity.Name ، خوش آمدی </a>
+                                    /
+                                    <a href="/Logout"> خروج </a>
+                                </div>
+                            }
+                            else
+                            {
+                                <div class="signin">
+                                    <i class="zmdi zmdi-account"></i>
+                                    <a href="/Login"> ورود </a> /
+                                    <a href="/Register"> عضویت </a>
+                                </div>
+                            }
+
                         </div>
                     </div>
                 </div>
@@ -65,6 +65,8 @@
     <script src="/js/script.js"></script>
     <script src="/js/jquery.validate.min.js"></script>
     <script src="/js/jquery.validate.unobtrusive.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
     @RenderSection("Scripts",false)
 
 </body>
