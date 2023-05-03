@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6fgF1zzMeWFNtMj60Btw/m7cJmfabvFzQV8tRn8fRIg=",
+  "Hash": "vCpQTiVOenPllotsw8RtyRRASyZT7+zEfVyyT+z6O4M=",
   "Source": "GhiasAmooz.Web",
   "BasePath": "_content/GhiasAmooz.Web",
   "Mode": "Default",
@@ -1103,6 +1103,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\AdminContent\\js\\sb-admin.js"
+    },
+    {
+      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\CourseFile\\44_Asp.NetCore2Advance.mp4",
+      "SourceId": "GhiasAmooz.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "BasePath": "_content/GhiasAmooz.Web",
+      "RelativePath": "Course/CourseFile/44_Asp.NetCore2Advance.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Course\\CourseFile\\44_Asp.NetCore2Advance.mp4"
     },
     {
       "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\CourseFile\\Scan_0005.jpg",

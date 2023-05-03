@@ -225,6 +225,35 @@ namespace GhiasAmooz.DataLayer.Migrations
                     b.ToTable("CourseStatuses");
                 });
 
+            modelBuilder.Entity("GhiasAmooz.DataLayer.Entities.Course.CourseVote", b =>
+                {
+                    b.Property<int>("VoteId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("VoteId"), 1L, 1);
+
+                    b.Property<int>("CourseId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("Vote")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime>("VoteDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("VoteId");
+
+                    b.HasIndex("CourseId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("CourseVotes");
+                });
+
             modelBuilder.Entity("GhiasAmooz.DataLayer.Entities.Course.UserCourse", b =>
                 {
                     b.Property<int>("UC_Id")
@@ -378,6 +407,73 @@ namespace GhiasAmooz.DataLayer.Migrations
                     b.HasIndex("RoleId");
 
                     b.ToTable("RolePermission");
+                });
+
+            modelBuilder.Entity("GhiasAmooz.DataLayer.Entities.Question.Answer", b =>
+                {
+                    b.Property<int>("AnswerId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AnswerId"), 1L, 1);
+
+                    b.Property<string>("BodyAnswer")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreateDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("QuestionId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("AnswerId");
+
+                    b.HasIndex("QuestionId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Answers");
+                });
+
+            modelBuilder.Entity("GhiasAmooz.DataLayer.Entities.Question.Question", b =>
+                {
+                    b.Property<int>("QuestionId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("QuestionId"), 1L, 1);
+
+                    b.Property<string>("Body")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("CourseId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreateDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("ModifiedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("QuestionId");
+
+                    b.HasIndex("CourseId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Questions");
                 });
 
             modelBuilder.Entity("GhiasAmooz.DataLayer.Entities.User.Role", b =>
@@ -624,6 +720,25 @@ namespace GhiasAmooz.DataLayer.Migrations
                         .HasForeignKey("ParentId");
                 });
 
+            modelBuilder.Entity("GhiasAmooz.DataLayer.Entities.Course.CourseVote", b =>
+                {
+                    b.HasOne("GhiasAmooz.DataLayer.Entities.Course.Course", "Course")
+                        .WithMany("CourseVotes")
+                        .HasForeignKey("CourseId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("GhiasAmooz.DataLayer.Entities.User.User", "User")
+                        .WithMany("CourseVotes")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Course");
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("GhiasAmooz.DataLayer.Entities.Course.UserCourse", b =>
                 {
                     b.HasOne("GhiasAmooz.DataLayer.Entities.Course.Course", "Course")
@@ -699,6 +814,44 @@ namespace GhiasAmooz.DataLayer.Migrations
                     b.Navigation("Role");
                 });
 
+            modelBuilder.Entity("GhiasAmooz.DataLayer.Entities.Question.Answer", b =>
+                {
+                    b.HasOne("GhiasAmooz.DataLayer.Entities.Question.Question", "Question")
+                        .WithMany("Asnwers")
+                        .HasForeignKey("QuestionId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("GhiasAmooz.DataLayer.Entities.User.User", "user")
+                        .WithMany("Answers")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Question");
+
+                    b.Navigation("user");
+                });
+
+            modelBuilder.Entity("GhiasAmooz.DataLayer.Entities.Question.Question", b =>
+                {
+                    b.HasOne("GhiasAmooz.DataLayer.Entities.Course.Course", "Course")
+                        .WithMany("Questions")
+                        .HasForeignKey("CourseId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("GhiasAmooz.DataLayer.Entities.User.User", "User")
+                        .WithMany("Questions")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Course");
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("GhiasAmooz.DataLayer.Entities.User.UserDiscoundCode", b =>
                 {
                     b.HasOne("GhiasAmooz.DataLayer.Entities.Order.Discount", "Discount")
@@ -762,7 +915,11 @@ namespace GhiasAmooz.DataLayer.Migrations
 
                     b.Navigation("CourseEpisodes");
 
+                    b.Navigation("CourseVotes");
+
                     b.Navigation("OrderDetails");
+
+                    b.Navigation("Questions");
 
                     b.Navigation("UserCourses");
                 });
@@ -803,6 +960,11 @@ namespace GhiasAmooz.DataLayer.Migrations
                     b.Navigation("RolePermissions");
                 });
 
+            modelBuilder.Entity("GhiasAmooz.DataLayer.Entities.Question.Question", b =>
+                {
+                    b.Navigation("Asnwers");
+                });
+
             modelBuilder.Entity("GhiasAmooz.DataLayer.Entities.User.Role", b =>
                 {
                     b.Navigation("RolePermissions");
@@ -812,11 +974,17 @@ namespace GhiasAmooz.DataLayer.Migrations
 
             modelBuilder.Entity("GhiasAmooz.DataLayer.Entities.User.User", b =>
                 {
+                    b.Navigation("Answers");
+
                     b.Navigation("CourseComments");
+
+                    b.Navigation("CourseVotes");
 
                     b.Navigation("Courses");
 
                     b.Navigation("Orders");
+
+                    b.Navigation("Questions");
 
                     b.Navigation("UserCourses");
 

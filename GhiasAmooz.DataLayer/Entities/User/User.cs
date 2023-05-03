@@ -1,4 +1,5 @@
 ﻿using GhiasAmooz.DataLayer.Entities.Course;
+using GhiasAmooz.DataLayer.Entities.Question;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -57,6 +58,9 @@ namespace GhiasAmooz.DataLayer.Entities.User
         public List<UserCourse> UserCourses { get; set; }
         public List<UserDiscoundCode> UserDiscoundCodes { get; set; }
         public List<CourseComment> CourseComments { get; set; }
+        public List<CourseVote> CourseVotes { get; set; }
+        public List<Question.Question> Questions { get; set; }
+        public List<Answer> Answers { get; set; }
         #endregion
 
     }

@@ -33,6 +33,7 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.12" />
+    <PackageReference Include="SharpCompress" Version="0.33.0" />
     <PackageReference Include="ZarinPalSandbox" Version="2.0.4" />
   </ItemGroup>
 
@@ -43,8 +44,10 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\Course\Demo\" />
+    <Folder Include="wwwroot\Course\CourseFileOnline\" />
     <Folder Include="wwwroot\MyImages\" />
     <Folder Include="wwwroot\Course\CourseFile\" />
+    <Folder Include="wwwroot\Course\CourseOnline\" />
   </ItemGroup>
 
   <ItemGroup>

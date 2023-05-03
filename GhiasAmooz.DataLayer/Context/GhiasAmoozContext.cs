@@ -8,6 +8,7 @@ using GhiasAmooz.DataLayer.Entities.Permissions;
 using GhiasAmooz.DataLayer.Entities.Course;
 using GhiasAmooz.DataLayer.Entities.Order;
 using System.Reflection.Metadata;
+using GhiasAmooz.DataLayer.Entities.Question;
 
 namespace GhiasAmooz.DataLayer.Context
 {
@@ -53,6 +54,7 @@ namespace GhiasAmooz.DataLayer.Context
         public DbSet<CourseEpisode> CourseEpisodes { get; set; }
         public DbSet<UserCourse> UserCourses { get; set; }
         public DbSet<CourseComment> CourseComments { get; set; }
+        public DbSet<CourseVote> CourseVotes { get; set; }
 
 
         #endregion
@@ -65,6 +67,11 @@ namespace GhiasAmooz.DataLayer.Context
 
         #endregion
 
+        #region Question
+        public DbSet<Question> Questions { get; set; }
+        public DbSet<Answer> Answers { get; set; }
+
+        #endregion
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             var cascadeFKs = modelBuilder.Model.GetEntityTypes()

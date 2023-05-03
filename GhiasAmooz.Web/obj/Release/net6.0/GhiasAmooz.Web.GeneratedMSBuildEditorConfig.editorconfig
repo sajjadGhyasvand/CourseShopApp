@@ -52,7 +52,23 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+<<<<<<< HEAD
 [C:/Users/sajjad/Source/Repos/TLStoreApp/GhiasAmooz.Web/Pages/Admin/Course/CreateCourse.cshtml]
+=======
+[C:/Users/Trnom/source/repos/TLStoreApp1/GhiasAmooz.Web/Pages/Admin/CourseGroups/CreateGroup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ291cnNlR3JvdXBzXENyZWF0ZUdyb3VwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Trnom/source/repos/TLStoreApp1/GhiasAmooz.Web/Pages/Admin/CourseGroups/EditGroup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ291cnNlR3JvdXBzXEVkaXRHcm91cC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Trnom/source/repos/TLStoreApp1/GhiasAmooz.Web/Pages/Admin/CourseGroups/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ291cnNlR3JvdXBzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Trnom/source/repos/TLStoreApp1/GhiasAmooz.Web/Pages/Admin/Course/CreateCourse.cshtml]
+>>>>>>> 2cd11adf6c895e168deac209b73fb955d8e54aa5
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ291cnNlXENyZWF0ZUNvdXJzZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
@@ -248,7 +264,15 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTdWNjZXNzUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+<<<<<<< HEAD
 [C:/Users/sajjad/Source/Repos/TLStoreApp/GhiasAmooz.Web/Views/Course/Index.cshtml]
+=======
+[C:/Users/Trnom/source/repos/TLStoreApp1/GhiasAmooz.Web/Views/Course/CourseVote.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXENvdXJzZVZvdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Trnom/source/repos/TLStoreApp1/GhiasAmooz.Web/Views/Course/Index.cshtml]
+>>>>>>> 2cd11adf6c895e168deac209b73fb955d8e54aa5
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
@@ -272,7 +296,15 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ291cnNlR3JvdXBDb21wb25lbnRcQ291cnNlR3JvdXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+<<<<<<< HEAD
 [C:/Users/sajjad/Source/Repos/TLStoreApp/GhiasAmooz.Web/Views/Shared/Error.cshtml]
+=======
+[C:/Users/Trnom/source/repos/TLStoreApp1/GhiasAmooz.Web/Views/Shared/Components/LatestCourse/LatestCourse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTGF0ZXN0Q291cnNlXExhdGVzdENvdXJzZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Trnom/source/repos/TLStoreApp1/GhiasAmooz.Web/Views/Shared/Error.cshtml]
+>>>>>>> 2cd11adf6c895e168deac209b73fb955d8e54aa5
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
