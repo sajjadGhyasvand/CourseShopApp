@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vCpQTiVOenPllotsw8RtyRRASyZT7+zEfVyyT+z6O4M=",
+  "Hash": "bhl6MUlqWHRfev1rIgRrF4yo5MHafygSG3dvmvZTk3A=",
   "Source": "GhiasAmooz.Web",
   "BasePath": "_content/GhiasAmooz.Web",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "GhiasAmooz.Web\\wwwroot",
       "Source": "GhiasAmooz.Web",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\obj\\Debug\\net6.0\\scopedcss\\bundle\\GhiasAmooz.Web.styles.css",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\obj\\Debug\\net6.0\\scopedcss\\bundle\\GhiasAmooz.Web.styles.css",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "GhiasAmooz.Web.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\obj\\Debug\\net6.0\\scopedcss\\bundle\\GhiasAmooz.Web.styles.css"
+      "OriginalItemSpec": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\obj\\Debug\\net6.0\\scopedcss\\bundle\\GhiasAmooz.Web.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\GhiasAmooz.Web.bundle.scp.css",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\GhiasAmooz.Web.bundle.scp.css",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "GhiasAmooz.Web.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\GhiasAmooz.Web.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\GhiasAmooz.Web.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\css\\bootstrap.css",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/css/bootstrap.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\css\\bootstrap.min.css",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\css\\bootstrap-rtl.css",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\css\\bootstrap-rtl.css",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/css/bootstrap-rtl.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\css\\bootstrap-rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\css\\plugins\\dataTables\\dataTables.bootstrap.css",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\css\\plugins\\dataTables\\dataTables.bootstrap.css",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/css/plugins/dataTables/dataTables.bootstrap.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\css\\plugins\\dataTables\\dataTables.bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\css\\plugins\\morris\\morris-0.4.3.min.css",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\css\\plugins\\morris\\morris-0.4.3.min.css",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/css/plugins/morris/morris-0.4.3.min.css",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\css\\plugins\\morris\\morris-0.4.3.min.css"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\css\\plugins\\social-buttons\\social-buttons.css",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\css\\plugins\\social-buttons\\social-buttons.css",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/css/plugins/social-buttons/social-buttons.css",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\css\\plugins\\social-buttons\\social-buttons.css"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\css\\plugins\\timeline\\timeline.css",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\css\\plugins\\timeline\\timeline.css",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/css/plugins/timeline/timeline.css",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\css\\plugins\\timeline\\timeline.css"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\css\\sb-admin.css",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\css\\sb-admin.css",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/css/sb-admin.css",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\css\\sb-admin.css"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\css\\font-awesome.css",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\css\\font-awesome.css",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/font-awesome/css/font-awesome.css",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\css\\font-awesome.css"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\css\\font-awesome.min.css",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\css\\font-awesome.min.css",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/font-awesome/css/font-awesome.min.css",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\css\\font-awesome.min.css"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\fonts\\FontAwesome.otf",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\fonts\\FontAwesome.otf",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/font-awesome/fonts/FontAwesome.otf",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\fonts\\FontAwesome.otf"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.eot",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.eot",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/font-awesome/fonts/fontawesome-webfont.eot",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.svg",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.svg",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/font-awesome/fonts/fontawesome-webfont.svg",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.ttf",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.ttf",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/font-awesome/fonts/fontawesome-webfont.ttf",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.woff",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.woff",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/font-awesome/fonts/fontawesome-webfont.woff",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\bordered-pulled.less",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\bordered-pulled.less",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/font-awesome/less/bordered-pulled.less",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\less\\bordered-pulled.less"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\core.less",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\core.less",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/font-awesome/less/core.less",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\less\\core.less"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\fixed-width.less",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\fixed-width.less",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/font-awesome/less/fixed-width.less",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\less\\fixed-width.less"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\font-awesome.less",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\font-awesome.less",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/font-awesome/less/font-awesome.less",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\less\\font-awesome.less"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\icons.less",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\icons.less",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/font-awesome/less/icons.less",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\less\\icons.less"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\larger.less",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\larger.less",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/font-awesome/less/larger.less",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\less\\larger.less"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\list.less",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\list.less",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/font-awesome/less/list.less",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\less\\list.less"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\mixins.less",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\mixins.less",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/font-awesome/less/mixins.less",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\less\\mixins.less"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\path.less",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\path.less",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/font-awesome/less/path.less",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\less\\path.less"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\rotated-flipped.less",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\rotated-flipped.less",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/font-awesome/less/rotated-flipped.less",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\less\\rotated-flipped.less"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\spinning.less",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\spinning.less",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/font-awesome/less/spinning.less",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\less\\spinning.less"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\stacked.less",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\stacked.less",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/font-awesome/less/stacked.less",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\less\\stacked.less"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\variables.less",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\less\\variables.less",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/font-awesome/less/variables.less",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\less\\variables.less"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_bordered-pulled.scss",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_bordered-pulled.scss",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/font-awesome/scss/_bordered-pulled.scss",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\scss\\_bordered-pulled.scss"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_core.scss",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_core.scss",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/font-awesome/scss/_core.scss",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\scss\\_core.scss"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_fixed-width.scss",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_fixed-width.scss",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/font-awesome/scss/_fixed-width.scss",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\scss\\_fixed-width.scss"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_icons.scss",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_icons.scss",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/font-awesome/scss/_icons.scss",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\scss\\_icons.scss"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_larger.scss",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_larger.scss",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/font-awesome/scss/_larger.scss",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\scss\\_larger.scss"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_list.scss",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_list.scss",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/font-awesome/scss/_list.scss",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\scss\\_list.scss"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_mixins.scss",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_mixins.scss",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/font-awesome/scss/_mixins.scss",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\scss\\_mixins.scss"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_path.scss",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_path.scss",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/font-awesome/scss/_path.scss",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\scss\\_path.scss"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_rotated-flipped.scss",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_rotated-flipped.scss",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/font-awesome/scss/_rotated-flipped.scss",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\scss\\_rotated-flipped.scss"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_spinning.scss",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_spinning.scss",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/font-awesome/scss/_spinning.scss",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\scss\\_spinning.scss"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_stacked.scss",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_stacked.scss",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/font-awesome/scss/_stacked.scss",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\scss\\_stacked.scss"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_variables.scss",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_variables.scss",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/font-awesome/scss/_variables.scss",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\scss\\_variables.scss"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\font-awesome.scss",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\font-awesome.scss",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/font-awesome/scss/font-awesome.scss",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\scss\\font-awesome.scss"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\fonts\\glyphicons-halflings-regular.eot",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\fonts\\glyphicons-halflings-regular.eot",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/fonts/glyphicons-halflings-regular.eot",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\fonts\\glyphicons-halflings-regular.eot"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\fonts\\glyphicons-halflings-regular.svg",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\fonts\\glyphicons-halflings-regular.svg",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/fonts/glyphicons-halflings-regular.svg",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\fonts\\glyphicons-halflings-regular.svg"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\fonts\\glyphicons-halflings-regular.ttf",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\fonts\\glyphicons-halflings-regular.ttf",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/fonts/glyphicons-halflings-regular.ttf",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\fonts\\glyphicons-halflings-regular.ttf"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\fonts\\glyphicons-halflings-regular.woff",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\fonts\\glyphicons-halflings-regular.woff",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/fonts/glyphicons-halflings-regular.woff",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\fonts\\glyphicons-halflings-regular.woff"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\bootstrap.js",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/js/bootstrap.js",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\bootstrap.min.js",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\demo\\dashboard-demo.js",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\demo\\dashboard-demo.js",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/js/demo/dashboard-demo.js",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\js\\demo\\dashboard-demo.js"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\demo\\flot-demo.js",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\demo\\flot-demo.js",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/js/demo/flot-demo.js",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\js\\demo\\flot-demo.js"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\demo\\morris-demo.js",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\demo\\morris-demo.js",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/js/demo/morris-demo.js",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\js\\demo\\morris-demo.js"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\jquery-1.10.2.js",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\jquery-1.10.2.js",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/js/jquery-1.10.2.js",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\js\\jquery-1.10.2.js"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\plugins\\dataTables\\dataTables.bootstrap.js",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\plugins\\dataTables\\dataTables.bootstrap.js",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/js/plugins/dataTables/dataTables.bootstrap.js",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\js\\plugins\\dataTables\\dataTables.bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\plugins\\dataTables\\jquery.dataTables.js",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\plugins\\dataTables\\jquery.dataTables.js",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/js/plugins/dataTables/jquery.dataTables.js",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\js\\plugins\\dataTables\\jquery.dataTables.js"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\plugins\\flot\\excanvas.min.js",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\plugins\\flot\\excanvas.min.js",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/js/plugins/flot/excanvas.min.js",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\js\\plugins\\flot\\excanvas.min.js"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\plugins\\flot\\jquery.flot.js",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\plugins\\flot\\jquery.flot.js",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/js/plugins/flot/jquery.flot.js",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\js\\plugins\\flot\\jquery.flot.js"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\plugins\\flot\\jquery.flot.pie.js",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\plugins\\flot\\jquery.flot.pie.js",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/js/plugins/flot/jquery.flot.pie.js",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\js\\plugins\\flot\\jquery.flot.pie.js"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\plugins\\flot\\jquery.flot.resize.js",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\plugins\\flot\\jquery.flot.resize.js",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/js/plugins/flot/jquery.flot.resize.js",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\js\\plugins\\flot\\jquery.flot.resize.js"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\plugins\\flot\\jquery.flot.tooltip.min.js",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\plugins\\flot\\jquery.flot.tooltip.min.js",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/js/plugins/flot/jquery.flot.tooltip.min.js",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\js\\plugins\\flot\\jquery.flot.tooltip.min.js"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\plugins\\metisMenu\\jquery.metisMenu.js",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\plugins\\metisMenu\\jquery.metisMenu.js",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/js/plugins/metisMenu/jquery.metisMenu.js",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\js\\plugins\\metisMenu\\jquery.metisMenu.js"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\plugins\\morris\\morris.js",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\plugins\\morris\\morris.js",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/js/plugins/morris/morris.js",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\js\\plugins\\morris\\morris.js"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\plugins\\morris\\raphael-2.1.0.min.js",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\plugins\\morris\\raphael-2.1.0.min.js",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/js/plugins/morris/raphael-2.1.0.min.js",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\js\\plugins\\morris\\raphael-2.1.0.min.js"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\sb-admin.js",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\AdminContent\\js\\sb-admin.js",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "AdminContent/js/sb-admin.js",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\js\\sb-admin.js"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\CourseFile\\44_Asp.NetCore2Advance.mp4",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\CourseFile\\44_Asp.NetCore2Advance.mp4",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "Course/CourseFile/44_Asp.NetCore2Advance.mp4",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\Course\\CourseFile\\44_Asp.NetCore2Advance.mp4"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\CourseFile\\Scan_0005.jpg",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\CourseFile\\Scan_0005.jpg",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "Course/CourseFile/Scan_0005.jpg",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\Course\\CourseFile\\Scan_0005.jpg"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\Demo\\b763a656b1c34c8e8af0cb4c50570941.jpg",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\Demo\\b763a656b1c34c8e8af0cb4c50570941.jpg",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "Course/Demo/b763a656b1c34c8e8af0cb4c50570941.jpg",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\Course\\Demo\\b763a656b1c34c8e8af0cb4c50570941.jpg"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\Demo\\c17a6b9eabc649f78de5eece249739db.jpg",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\Demo\\c17a6b9eabc649f78de5eece249739db.jpg",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "Course/Demo/c17a6b9eabc649f78de5eece249739db.jpg",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\Course\\Demo\\c17a6b9eabc649f78de5eece249739db.jpg"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\image\\2660ef0ceb2942a0b5d76853eae9048c.jpg",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\image\\2660ef0ceb2942a0b5d76853eae9048c.jpg",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "Course/image/2660ef0ceb2942a0b5d76853eae9048c.jpg",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\Course\\image\\2660ef0ceb2942a0b5d76853eae9048c.jpg"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\image\\31b83ef7b03b4cf894d29012b43bdf38.jpg",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\image\\31b83ef7b03b4cf894d29012b43bdf38.jpg",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "Course/image/31b83ef7b03b4cf894d29012b43bdf38.jpg",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\Course\\image\\31b83ef7b03b4cf894d29012b43bdf38.jpg"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\image\\562986fc935c41b8b40baee890a2f17b.jpg",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\image\\562986fc935c41b8b40baee890a2f17b.jpg",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "Course/image/562986fc935c41b8b40baee890a2f17b.jpg",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\Course\\image\\562986fc935c41b8b40baee890a2f17b.jpg"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\image\\8c305ad3fd064a218d6d7655c57e3bd3.jpg",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\image\\8c305ad3fd064a218d6d7655c57e3bd3.jpg",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "Course/image/8c305ad3fd064a218d6d7655c57e3bd3.jpg",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\Course\\image\\8c305ad3fd064a218d6d7655c57e3bd3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\image\\8e00756726be43429bc7ebb6c6c92acc.jpg",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\image\\8e00756726be43429bc7ebb6c6c92acc.jpg",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "Course/image/8e00756726be43429bc7ebb6c6c92acc.jpg",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\Course\\image\\8e00756726be43429bc7ebb6c6c92acc.jpg"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\image\\9235db3a908c494f961d851c9410a1c1.jpg",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\image\\9235db3a908c494f961d851c9410a1c1.jpg",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "Course/image/9235db3a908c494f961d851c9410a1c1.jpg",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\Course\\image\\9235db3a908c494f961d851c9410a1c1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\image\\a3ad497b623a4120ab49413a5e3d3e03.jpg",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\image\\a3ad497b623a4120ab49413a5e3d3e03.jpg",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "Course/image/a3ad497b623a4120ab49413a5e3d3e03.jpg",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\Course\\image\\a3ad497b623a4120ab49413a5e3d3e03.jpg"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\image\\b15770ff0b004a4f9df7ea52f9cc5ffc.jpg",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\image\\b15770ff0b004a4f9df7ea52f9cc5ffc.jpg",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "Course/image/b15770ff0b004a4f9df7ea52f9cc5ffc.jpg",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\Course\\image\\b15770ff0b004a4f9df7ea52f9cc5ffc.jpg"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\image\\b84d7e4fe172456a93feafd1ac9897b7.jpg",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\image\\b84d7e4fe172456a93feafd1ac9897b7.jpg",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "Course/image/b84d7e4fe172456a93feafd1ac9897b7.jpg",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\Course\\image\\b84d7e4fe172456a93feafd1ac9897b7.jpg"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\image\\default.jpg",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\image\\default.jpg",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "Course/image/default.jpg",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\Course\\image\\default.jpg"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\2660ef0ceb2942a0b5d76853eae9048c.jpg",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\2660ef0ceb2942a0b5d76853eae9048c.jpg",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "Course/thumb/2660ef0ceb2942a0b5d76853eae9048c.jpg",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\Course\\thumb\\2660ef0ceb2942a0b5d76853eae9048c.jpg"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\31b83ef7b03b4cf894d29012b43bdf38.jpg",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\31b83ef7b03b4cf894d29012b43bdf38.jpg",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "Course/thumb/31b83ef7b03b4cf894d29012b43bdf38.jpg",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\Course\\thumb\\31b83ef7b03b4cf894d29012b43bdf38.jpg"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\562986fc935c41b8b40baee890a2f17b.jpg",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\562986fc935c41b8b40baee890a2f17b.jpg",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "Course/thumb/562986fc935c41b8b40baee890a2f17b.jpg",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\Course\\thumb\\562986fc935c41b8b40baee890a2f17b.jpg"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\8c305ad3fd064a218d6d7655c57e3bd3.jpg",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\8c305ad3fd064a218d6d7655c57e3bd3.jpg",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "Course/thumb/8c305ad3fd064a218d6d7655c57e3bd3.jpg",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\Course\\thumb\\8c305ad3fd064a218d6d7655c57e3bd3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\8e00756726be43429bc7ebb6c6c92acc.jpg",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\8e00756726be43429bc7ebb6c6c92acc.jpg",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "Course/thumb/8e00756726be43429bc7ebb6c6c92acc.jpg",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\Course\\thumb\\8e00756726be43429bc7ebb6c6c92acc.jpg"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\9235db3a908c494f961d851c9410a1c1.jpg",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\9235db3a908c494f961d851c9410a1c1.jpg",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "Course/thumb/9235db3a908c494f961d851c9410a1c1.jpg",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\Course\\thumb\\9235db3a908c494f961d851c9410a1c1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\a3ad497b623a4120ab49413a5e3d3e03.jpg",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\a3ad497b623a4120ab49413a5e3d3e03.jpg",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "Course/thumb/a3ad497b623a4120ab49413a5e3d3e03.jpg",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\Course\\thumb\\a3ad497b623a4120ab49413a5e3d3e03.jpg"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\b15770ff0b004a4f9df7ea52f9cc5ffc.jpg",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\b15770ff0b004a4f9df7ea52f9cc5ffc.jpg",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "Course/thumb/b15770ff0b004a4f9df7ea52f9cc5ffc.jpg",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\Course\\thumb\\b15770ff0b004a4f9df7ea52f9cc5ffc.jpg"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\b763a656b1c34c8e8af0cb4c50570941.jpg",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\b763a656b1c34c8e8af0cb4c50570941.jpg",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "Course/thumb/b763a656b1c34c8e8af0cb4c50570941.jpg",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\Course\\thumb\\b763a656b1c34c8e8af0cb4c50570941.jpg"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\b84d7e4fe172456a93feafd1ac9897b7.jpg",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\b84d7e4fe172456a93feafd1ac9897b7.jpg",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "Course/thumb/b84d7e4fe172456a93feafd1ac9897b7.jpg",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\Course\\thumb\\b84d7e4fe172456a93feafd1ac9897b7.jpg"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\default.jpg",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\Course\\thumb\\default.jpg",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "Course/thumb/default.jpg",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\Course\\thumb\\default.jpg"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\css\\bootstrap.min.css",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\css\\bootstrap-rtl.min.css",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\css\\bootstrap-rtl.min.css",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "css/bootstrap-rtl.min.css",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap-rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\css\\fonts\\BYekan-webfont.eot",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\css\\fonts\\BYekan-webfont.eot",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "css/fonts/BYekan-webfont.eot",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fonts\\BYekan-webfont.eot"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\css\\fonts\\BYekan-webfont.ttf",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\css\\fonts\\BYekan-webfont.ttf",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "css/fonts/BYekan-webfont.ttf",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fonts\\BYekan-webfont.ttf"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\css\\fonts\\BYekan-webfont.woff",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\css\\fonts\\BYekan-webfont.woff",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "css/fonts/BYekan-webfont.woff",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fonts\\BYekan-webfont.woff"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\css\\fonts\\Material-Design-Iconic-Font.eot",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\css\\fonts\\Material-Design-Iconic-Font.eot",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "css/fonts/Material-Design-Iconic-Font.eot",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fonts\\Material-Design-Iconic-Font.eot"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\css\\fonts\\Material-Design-Iconic-Font.svg",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\css\\fonts\\Material-Design-Iconic-Font.svg",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "css/fonts/Material-Design-Iconic-Font.svg",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fonts\\Material-Design-Iconic-Font.svg"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\css\\fonts\\Material-Design-Iconic-Font.ttf",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\css\\fonts\\Material-Design-Iconic-Font.ttf",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "css/fonts/Material-Design-Iconic-Font.ttf",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fonts\\Material-Design-Iconic-Font.ttf"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\css\\fonts\\Material-Design-Iconic-Font.woff",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\css\\fonts\\Material-Design-Iconic-Font.woff",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "css/fonts/Material-Design-Iconic-Font.woff",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fonts\\Material-Design-Iconic-Font.woff"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\css\\fonts\\Material-Design-Iconic-Font.woff2",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\css\\fonts\\Material-Design-Iconic-Font.woff2",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "css/fonts/Material-Design-Iconic-Font.woff2",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fonts\\Material-Design-Iconic-Font.woff2"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\css\\material-design-iconic-font.min.css",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\css\\material-design-iconic-font.min.css",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "css/material-design-iconic-font.min.css",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\css\\material-design-iconic-font.min.css"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\css\\style.css",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\css\\style.css",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "css/style.css",
       "AssetKind": "All",
@@ -1734,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\favicon.ico",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1751,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\images\\captcha.jpg",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\images\\captcha.jpg",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "images/captcha.jpg",
       "AssetKind": "All",
@@ -1768,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\images\\captcha.jpg"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\images\\logo.png",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\images\\logo.png",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "images/logo.png",
       "AssetKind": "All",
@@ -1785,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo.png"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\images\\pattern.png",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\images\\pattern.png",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "images/pattern.png",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pattern.png"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\images\\pic\\1.jpg",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\images\\pic\\1.jpg",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "images/pic/1.jpg",
       "AssetKind": "All",
@@ -1819,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pic\\1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\images\\pic\\2.jpg",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\images\\pic\\2.jpg",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "images/pic/2.jpg",
       "AssetKind": "All",
@@ -1836,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pic\\2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\images\\pic\\3.jpg",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\images\\pic\\3.jpg",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "images/pic/3.jpg",
       "AssetKind": "All",
@@ -1853,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pic\\3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\images\\pic\\4.jpg",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\images\\pic\\4.jpg",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "images/pic/4.jpg",
       "AssetKind": "All",
@@ -1870,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pic\\4.jpg"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\images\\pic\\5.jpg",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\images\\pic\\5.jpg",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "images/pic/5.jpg",
       "AssetKind": "All",
@@ -1887,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pic\\5.jpg"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\images\\pic\\6.jpg",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\images\\pic\\6.jpg",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "images/pic/6.jpg",
       "AssetKind": "All",
@@ -1904,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pic\\6.jpg"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\images\\pic\\7.jpg",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\images\\pic\\7.jpg",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "images/pic/7.jpg",
       "AssetKind": "All",
@@ -1921,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pic\\7.jpg"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\images\\pic\\8.jpg",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\images\\pic\\8.jpg",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "images/pic/8.jpg",
       "AssetKind": "All",
@@ -1938,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pic\\8.jpg"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\images\\pic\\avatar.jpg",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\images\\pic\\avatar.jpg",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "images/pic/avatar.jpg",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pic\\avatar.jpg"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\images\\pic\\big-thumb.jpg",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\images\\pic\\big-thumb.jpg",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "images/pic/big-thumb.jpg",
       "AssetKind": "All",
@@ -1972,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pic\\big-thumb.jpg"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\images\\pic\\namad.png",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\images\\pic\\namad.png",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "images/pic/namad.png",
       "AssetKind": "All",
@@ -1989,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pic\\namad.png"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\images\\pic\\namad-1.png",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\images\\pic\\namad-1.png",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "images/pic/namad-1.png",
       "AssetKind": "All",
@@ -2006,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pic\\namad-1.png"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\images\\slide.jpg",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\images\\slide.jpg",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "images/slide.jpg",
       "AssetKind": "All",
@@ -2023,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\images\\slide.jpg"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\js\\bootstrap.min.js",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2040,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\js\\jquery.min.js",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\js\\jquery.min.js",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "js/jquery.min.js",
       "AssetKind": "All",
@@ -2057,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\js\\jquery.unobtrusive-ajax.js",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\js\\jquery.unobtrusive-ajax.js",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "js/jquery.unobtrusive-ajax.js",
       "AssetKind": "All",
@@ -2074,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.unobtrusive-ajax.js"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\js\\jquery.unobtrusive-ajax.min.js",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\js\\jquery.unobtrusive-ajax.min.js",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "js/jquery.unobtrusive-ajax.min.js",
       "AssetKind": "All",
@@ -2091,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.unobtrusive-ajax.min.js"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\js\\jquery.validate.js",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\js\\jquery.validate.js",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "js/jquery.validate.js",
       "AssetKind": "All",
@@ -2108,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\js\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\js\\jquery.validate.min.js",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "js/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2125,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\js\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\js\\jquery.validate.unobtrusive.js",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "js/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2142,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\js\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\js\\jquery.validate.unobtrusive.min.js",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "js/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2159,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\js\\kendo.all.min.js",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\js\\kendo.all.min.js",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "js/kendo.all.min.js",
       "AssetKind": "All",
@@ -2176,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\js\\kendo.all.min.js"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\js\\modernizr-custom.js",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\js\\modernizr-custom.js",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "js/modernizr-custom.js",
       "AssetKind": "All",
@@ -2193,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\js\\modernizr-custom.js"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\js\\script.js",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\js\\script.js",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "js/script.js",
       "AssetKind": "All",
@@ -2210,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\js\\script.js"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\noUiSlider\\nouislider.min.css",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\noUiSlider\\nouislider.min.css",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "noUiSlider/nouislider.min.css",
       "AssetKind": "All",
@@ -2227,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\noUiSlider\\nouislider.min.css"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\noUiSlider\\nouislider.min.js",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\noUiSlider\\nouislider.min.js",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "noUiSlider/nouislider.min.js",
       "AssetKind": "All",
@@ -2244,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\noUiSlider\\nouislider.min.js"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\UserAvatar\\867e77685d1043528ab1f4caf0542b98.jpg",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\UserAvatar\\867e77685d1043528ab1f4caf0542b98.jpg",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "UserAvatar/867e77685d1043528ab1f4caf0542b98.jpg",
       "AssetKind": "All",
@@ -2261,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\UserAvatar\\867e77685d1043528ab1f4caf0542b98.jpg"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\UserAvatar\\c483527adba141fc8e3f9caf057852e7.png",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\UserAvatar\\c483527adba141fc8e3f9caf057852e7.png",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "UserAvatar/c483527adba141fc8e3f9caf057852e7.png",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\UserAvatar\\c483527adba141fc8e3f9caf057852e7.png"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\UserAvatar\\ce825af76ddc4d07a6939260b2afaff5.jpg",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\UserAvatar\\ce825af76ddc4d07a6939260b2afaff5.jpg",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "UserAvatar/ce825af76ddc4d07a6939260b2afaff5.jpg",
       "AssetKind": "All",
@@ -2295,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\UserAvatar\\ce825af76ddc4d07a6939260b2afaff5.jpg"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\UserAvatar\\Defult.jpg",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\UserAvatar\\Defult.jpg",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "UserAvatar/Defult.jpg",
       "AssetKind": "All",
@@ -2312,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\UserAvatar\\Defult.jpg"
     },
     {
-      "Identity": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\UserAvatar\\f56ef017ab7a440aa6965fc50b9cce55.png",
+      "Identity": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\UserAvatar\\f56ef017ab7a440aa6965fc50b9cce55.png",
       "SourceId": "GhiasAmooz.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\wwwroot\\",
       "BasePath": "_content/GhiasAmooz.Web",
       "RelativePath": "UserAvatar/f56ef017ab7a440aa6965fc50b9cce55.png",
       "AssetKind": "All",

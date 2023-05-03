@@ -54,3 +54,17 @@ C:\Users\Trnom\source\repos\TLStoreApp1\GhiasAmooz.DataLayer\obj\Debug\net6.0\re
 C:\Users\Trnom\source\repos\TLStoreApp1\GhiasAmooz.DataLayer\obj\Debug\net6.0\GhiasAmooz.DataLayer.pdb
 C:\Users\Trnom\source\repos\TLStoreApp1\GhiasAmooz.DataLayer\obj\Debug\net6.0\GhiasAmooz.DataLayer.genruntimeconfig.cache
 C:\Users\Trnom\source\repos\TLStoreApp1\GhiasAmooz.DataLayer\obj\Debug\net6.0\ref\GhiasAmooz.DataLayer.dll
+C:\Users\S.Ghiasvand\Source\Repos\TLStoreApp\GhiasAmooz.DataLayer\bin\Debug\net6.0\GhiasAmooz.DataLayer.deps.json
+C:\Users\S.Ghiasvand\Source\Repos\TLStoreApp\GhiasAmooz.DataLayer\bin\Debug\net6.0\GhiasAmooz.DataLayer.runtimeconfig.json
+C:\Users\S.Ghiasvand\Source\Repos\TLStoreApp\GhiasAmooz.DataLayer\bin\Debug\net6.0\GhiasAmooz.DataLayer.dll
+C:\Users\S.Ghiasvand\Source\Repos\TLStoreApp\GhiasAmooz.DataLayer\bin\Debug\net6.0\ref\GhiasAmooz.DataLayer.dll
+C:\Users\S.Ghiasvand\Source\Repos\TLStoreApp\GhiasAmooz.DataLayer\bin\Debug\net6.0\GhiasAmooz.DataLayer.pdb
+C:\Users\S.Ghiasvand\Source\Repos\TLStoreApp\GhiasAmooz.DataLayer\obj\Debug\net6.0\GhiasAmooz.DataLayer.csproj.AssemblyReference.cache
+C:\Users\S.Ghiasvand\Source\Repos\TLStoreApp\GhiasAmooz.DataLayer\obj\Debug\net6.0\GhiasAmooz.DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\S.Ghiasvand\Source\Repos\TLStoreApp\GhiasAmooz.DataLayer\obj\Debug\net6.0\GhiasAmooz.DataLayer.AssemblyInfoInputs.cache
+C:\Users\S.Ghiasvand\Source\Repos\TLStoreApp\GhiasAmooz.DataLayer\obj\Debug\net6.0\GhiasAmooz.DataLayer.AssemblyInfo.cs
+C:\Users\S.Ghiasvand\Source\Repos\TLStoreApp\GhiasAmooz.DataLayer\obj\Debug\net6.0\GhiasAmooz.DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\S.Ghiasvand\Source\Repos\TLStoreApp\GhiasAmooz.DataLayer\obj\Debug\net6.0\GhiasAmooz.DataLayer.dll
+C:\Users\S.Ghiasvand\Source\Repos\TLStoreApp\GhiasAmooz.DataLayer\obj\Debug\net6.0\ref\GhiasAmooz.DataLayer.dll
+C:\Users\S.Ghiasvand\Source\Repos\TLStoreApp\GhiasAmooz.DataLayer\obj\Debug\net6.0\GhiasAmooz.DataLayer.pdb
+C:\Users\S.Ghiasvand\Source\Repos\TLStoreApp\GhiasAmooz.DataLayer\obj\Debug\net6.0\GhiasAmooz.DataLayer.genruntimeconfig.cache

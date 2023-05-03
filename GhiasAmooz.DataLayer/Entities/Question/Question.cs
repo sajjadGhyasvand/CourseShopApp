@@ -16,9 +16,11 @@ namespace GhiasAmooz.DataLayer.Entities.Question
         [Required]
         public int UserId { get; set; }
         [Required(ErrorMessage ="عنوان سوال را وارد کنید.")]
-
+        [Display(Name ="عنوان سوال")]
+        [MaxLength(400)]
         public string Title { get; set; }
         [Required(ErrorMessage = "متن سوال را وارد کنید.")]
+        [Display(Name = "متن سوال")]
 
         public string Body { get; set; }
         [Required]
