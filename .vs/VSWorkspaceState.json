@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\GhiasAmooz.DataLayer",
+    "\\GhiasAmooz.DataLayer\\Entities",
+    "\\GhiasAmooz.DataLayer\\Entities\\Question",
     "\\GhiasAmooz.Web",
-    "\\GhiasAmooz.Web\\Controllers",
     "\\GhiasAmooz.Web\\Pages",
     "\\GhiasAmooz.Web\\Pages\\Admin",
     "\\GhiasAmooz.Web\\Pages\\Admin\\CourseGroups",
@@ -11,6 +13,6 @@
     "\\GhiasAmooz.Web\\Views\\Course",
     "\\GhiasAmooz.Web\\Views\\Home"
   ],
-  "SelectedNode": "\\GhiasAmooz.Web\\Controllers\\CourseAPiController.cs",
+  "SelectedNode": "\\GhiasAmooz.DataLayer\\Entities\\Question\\Question.cs",
   "PreviewInSolutionExplorer": false
 }
