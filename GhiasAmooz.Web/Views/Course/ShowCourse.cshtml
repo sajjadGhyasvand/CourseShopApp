@@ -67,7 +67,7 @@
                         }
                         <h2>@episode.EpisodeTitle</h2>
                         <video controls class="w-100">
-                            <source src=""/>
+                            <source src="" />
                         </video>
                     }
                     <ul>
@@ -82,7 +82,7 @@
                                             @item.EpisodeTitle
                                         </a>
 
-                                       
+
                                     </h3>
                                 }
                                 else
@@ -105,7 +105,7 @@
                                     {
                                         <a href="/ShowCourse/@Model.CourseId?episode=@item.EpisodeId">تماشا</a>
                                     }
-                                  
+
                                 }
                                 <span>@item.EpisodeTime</span>
                             </li>
@@ -209,7 +209,11 @@
                     <a href=""><i class="zmdi zmdi-twitter"></i></a>
                     <a href=""><i class="zmdi zmdi-linkedin"></i></a>
                 </div>
-
+                
+                    <a href="/Forum/CreateQuestion/@Model.CourseId" class="btn btn-block btn-warning">
+                        پرسش  و پاسخ
+                    </a>
+               
                 @if (Model.Tags != null)
                 {
                     <div class="tags-layer">
@@ -227,29 +231,29 @@
 
 @section Scripts
     {
-    <script src="/js/jquery.unobtrusive-ajax.min.js"></script>
-    <script>
-        function Success() {
-            $("#comment_Comment").val("");
-        }
+<script src="/js/jquery.unobtrusive-ajax.min.js"></script>
+<script>
+    function Success() {
+        $("#comment_Comment").val("");
+    }
 
-        $(function () {
-            $("#listComment").load("/Course/ShowComment/" + @Model.CourseId);
-        });
+    $(function () {
+        $("#listComment").load("/Course/ShowComment/" + @Model.CourseId);
+    });
 
-        function pageComment(pageid) {
-            $("#listComment").load("/Course/ShowComment/" + @Model.CourseId+"?pageId=" + pageid);
-        }
+    function pageComment(pageid) {
+        $("#listComment").load("/Course/ShowComment/" + @Model.CourseId+"?pageId=" + pageid);
+    }
 
-        $(function () {
-            $("#vote").load("/Course/CourseVote/@Model.CourseId");
-        });
+    $(function () {
+        $("#vote").load("/Course/CourseVote/@Model.CourseId");
+    });
 
-        function vote(vote) {
-            $("#vote").fadeOut('slow');
-            $("#vote").load("/Course/AddVote/@(Model.CourseId)?vote=" + vote);
-            $("#vote").fadeIn('slow');
-        }
-    </script>
+    function vote(vote) {
+        $("#vote").fadeOut('slow');
+        $("#vote").load("/Course/AddVote/@(Model.CourseId)?vote=" + vote);
+        $("#vote").fadeIn('slow');
+    }
+</script>
 }
 

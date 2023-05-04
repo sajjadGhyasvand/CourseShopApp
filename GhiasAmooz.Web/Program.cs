@@ -54,6 +54,7 @@ builder.Services.AddDbContext<GhiasAmoozContext>(options =>
     builder.Services.AddTransient<IViewRenderService, RenderViewToString>();
     builder.Services.AddTransient<ICourseService, CourseService>();
     builder.Services.AddTransient<IOrderService, OrderService>();
+    builder.Services.AddTransient<IForumService, ForumService>();
 
 #endregion
 

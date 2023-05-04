@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "2fff0309-2f07-43e9-9d08-8b06af5d729a": {
+      "ProjectGuid": "2fff0309-2f07-43e9-9d08-8b06af5d729a",
+      "DisplayName": "GhiasAmooz.DataLayer",
+      "ColorIndex": 0
+    },
+    "384a2076-c19e-429e-8c84-40d5d9fc70ed": {
+      "ProjectGuid": "384a2076-c19e-429e-8c84-40d5d9fc70ed",
+      "DisplayName": "GhiasAmooz.Web",
+      "ColorIndex": 1
+    },
+    "ad27cede-f618-42fd-84e6-896959ae1a36": {
+      "ProjectGuid": "ad27cede-f618-42fd-84e6-896959ae1a36",
+      "DisplayName": "GhiasAmooz.Core",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 3
+}
