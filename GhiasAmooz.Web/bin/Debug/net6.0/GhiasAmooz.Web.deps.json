@@ -10,6 +10,7 @@
         "dependencies": {
           "GhiasAmooz.Core": "1.0.0",
           "GhiasAmooz.DataLayer": "1.0.0",
+          "HtmlSanitizer": "8.0.645",
           "Microsoft.AspNetCore": "2.2.0",
           "Microsoft.AspNetCore.Mvc.Razor": "2.2.0",
           "Microsoft.EntityFrameworkCore": "6.0.13",
@@ -23,6 +24,29 @@
           "GhiasAmooz.Web.dll": {}
         }
       },
+      "AngleSharp/0.17.1": {
+        "dependencies": {
+          "System.Buffers": "4.5.1",
+          "System.Text.Encoding.CodePages": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AngleSharp.dll": {
+            "assemblyVersion": "0.17.1.0",
+            "fileVersion": "0.17.1.0"
+          }
+        }
+      },
+      "AngleSharp.Css/0.17.0": {
+        "dependencies": {
+          "AngleSharp": "0.17.1"
+        },
+        "runtime": {
+          "lib/net6.0/AngleSharp.Css.dll": {
+            "assemblyVersion": "0.17.0.0",
+            "fileVersion": "0.17.0.0"
+          }
+        }
+      },
       "CoreCompat.System.Drawing.v2/5.2.0-preview1-r131": {
         "dependencies": {
           "System.Security.Permissions": "6.0.0"
@@ -31,6 +55,19 @@
           "lib/netstandard2.0/CoreCompat.System.Drawing.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "HtmlSanitizer/8.0.645": {
+        "dependencies": {
+          "AngleSharp": "0.17.1",
+          "AngleSharp.Css": "0.17.0",
+          "System.Collections.Immutable": "7.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/HtmlSanitizer.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.645.0"
           }
         }
       },
@@ -314,7 +351,7 @@
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "Microsoft.Extensions.FileProviders.Abstractions": "2.2.0",
           "Microsoft.Net.Http.Headers": "2.2.0",
-          "System.Buffers": "4.5.0"
+          "System.Buffers": "4.5.1"
         }
       },
       "Microsoft.AspNetCore.Http.Features/2.2.0": {
@@ -470,7 +507,7 @@
           "Microsoft.AspNetCore.HttpOverrides": "2.2.0",
           "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
           "Microsoft.Extensions.Options": "6.0.0",
-          "System.Buffers": "4.5.0",
+          "System.Buffers": "4.5.1",
           "System.IO.Pipelines": "5.0.1",
           "System.Memory": "4.5.5",
           "System.Numerics.Vectors": "4.5.0",
@@ -551,7 +588,7 @@
         "dependencies": {
           "Microsoft.Build.Framework": "17.3.2",
           "Microsoft.NET.StringTools": "17.3.2",
-          "System.Collections.Immutable": "6.0.0",
+          "System.Collections.Immutable": "7.0.0",
           "System.Configuration.ConfigurationManager": "6.0.0",
           "System.Reflection.Metadata": "6.0.0",
           "System.Reflection.MetadataLoadContext": "6.0.0",
@@ -590,7 +627,7 @@
       "Microsoft.CodeAnalysis.Common/4.0.0": {
         "dependencies": {
           "Microsoft.CodeAnalysis.Analyzers": "3.3.2",
-          "System.Collections.Immutable": "6.0.0",
+          "System.Collections.Immutable": "7.0.0",
           "System.Memory": "4.5.5",
           "System.Reflection.Metadata": "6.0.0",
           "System.Runtime.CompilerServices.Unsafe": "6.0.0",
@@ -1360,7 +1397,7 @@
           "Newtonsoft.Json": "13.0.1",
           "NuGet.Packaging": "6.3.1",
           "NuGet.ProjectModel": "6.3.1",
-          "System.Collections.Immutable": "6.0.0",
+          "System.Collections.Immutable": "7.0.0",
           "System.Configuration.ConfigurationManager": "6.0.0",
           "System.Private.Uri": "4.3.2",
           "System.Security.Cryptography.X509Certificates": "4.3.0"
@@ -1379,7 +1416,7 @@
           "Microsoft.Extensions.Caching.Memory": "6.0.1",
           "Microsoft.Extensions.DependencyInjection": "6.0.1",
           "Microsoft.Extensions.Logging": "6.0.0",
-          "System.Collections.Immutable": "6.0.0",
+          "System.Collections.Immutable": "7.0.0",
           "System.Diagnostics.DiagnosticSource": "6.0.0"
         },
         "runtime": {
@@ -1692,7 +1729,7 @@
       "Microsoft.Net.Http.Headers/2.2.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "6.0.0",
-          "System.Buffers": "4.5.0"
+          "System.Buffers": "4.5.1"
         }
       },
       "Microsoft.NET.StringTools/17.3.2": {
@@ -1718,8 +1755,8 @@
           "Microsoft.NETCore.Runtime.CoreCLR": "1.0.7",
           "Microsoft.VisualBasic": "10.0.1",
           "NETStandard.Library": "1.6.1",
-          "System.Buffers": "4.5.0",
-          "System.Collections.Immutable": "6.0.0",
+          "System.Buffers": "4.5.1",
+          "System.Collections.Immutable": "7.0.0",
           "System.ComponentModel": "4.0.1",
           "System.ComponentModel.Annotations": "4.5.0",
           "System.Diagnostics.DiagnosticSource": "6.0.0",
@@ -1807,7 +1844,7 @@
           "MessagePack": "2.1.152",
           "MessagePackAnalyzer": "2.1.152",
           "Microsoft.Bcl.AsyncInterfaces": "5.0.0",
-          "System.Collections.Immutable": "6.0.0"
+          "System.Collections.Immutable": "7.0.0"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.VisualStudio.Debugger.Contracts.dll": {
@@ -1821,7 +1858,7 @@
           "Microsoft.Extensions.DependencyInjection": "6.0.1",
           "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore": "6.0.12",
           "NuGet.Packaging": "6.3.1",
-          "System.Collections.Immutable": "6.0.0",
+          "System.Collections.Immutable": "7.0.0",
           "System.Configuration.ConfigurationManager": "6.0.0",
           "System.Private.Uri": "4.3.2",
           "System.Security.Cryptography.X509Certificates": "4.3.0"
@@ -2213,7 +2250,7 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "System.Buffers/4.5.0": {},
+      "System.Buffers/4.5.1": {},
       "System.Collections/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.1",
@@ -2235,9 +2272,15 @@
           "System.Threading.Tasks": "4.3.0"
         }
       },
-      "System.Collections.Immutable/6.0.0": {
+      "System.Collections.Immutable/7.0.0": {
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Collections.Immutable.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
         }
       },
       "System.ComponentModel/4.0.1": {
@@ -2520,7 +2563,7 @@
       "System.IO.Compression/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.1",
-          "System.Buffers": "4.5.0",
+          "System.Buffers": "4.5.1",
           "System.Collections": "4.3.0",
           "System.Diagnostics.Debug": "4.3.0",
           "System.IO": "4.3.0",
@@ -2538,7 +2581,7 @@
       },
       "System.IO.Compression.ZipFile/4.3.0": {
         "dependencies": {
-          "System.Buffers": "4.5.0",
+          "System.Buffers": "4.5.1",
           "System.IO": "4.3.0",
           "System.IO.Compression": "4.3.0",
           "System.IO.FileSystem": "4.3.0",
@@ -2853,12 +2896,12 @@
       },
       "System.Reflection.Metadata/6.0.0": {
         "dependencies": {
-          "System.Collections.Immutable": "6.0.0"
+          "System.Collections.Immutable": "7.0.0"
         }
       },
       "System.Reflection.MetadataLoadContext/6.0.0": {
         "dependencies": {
-          "System.Collections.Immutable": "6.0.0",
+          "System.Collections.Immutable": "7.0.0",
           "System.Reflection.Metadata": "6.0.0"
         },
         "runtime": {
@@ -3329,12 +3372,33 @@
       "serviceable": false,
       "sha512": ""
     },
+    "AngleSharp/0.17.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5MPI4bbixlwxb0W/smOMeIR+QlxMy5/5jD+WnIAw4pBC+7AhLPe5bS3cLgQMJyvd6q0A48sG+uYOt/ep406GLA==",
+      "path": "anglesharp/0.17.1",
+      "hashPath": "anglesharp.0.17.1.nupkg.sha512"
+    },
+    "AngleSharp.Css/0.17.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bg0AcugmX6BFEi/DHG61QrwRU8iuiX4H8LZehdIzYdqOM/dgb3BsCTzNIcc1XADn4+xfQEdVwJYTSwUxroL4vg==",
+      "path": "anglesharp.css/0.17.0",
+      "hashPath": "anglesharp.css.0.17.0.nupkg.sha512"
+    },
     "CoreCompat.System.Drawing.v2/5.2.0-preview1-r131": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-+WrScg+skrIiNLBwbl+BFdlSyzUqKOZtAUskW2xfI8vcKQdDJp+UoreUFC9uMSEgSiAR32e5l3fTtFDUKEpRaA==",
       "path": "corecompat.system.drawing.v2/5.2.0-preview1-r131",
       "hashPath": "corecompat.system.drawing.v2.5.2.0-preview1-r131.nupkg.sha512"
+    },
+    "HtmlSanitizer/8.0.645": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5DD+n6fLj8lvU8P+zu/iu8iSYHBVUWh+OZ1170mndj4nUIrwhSpLVOzvU/xHR2QU0jp9Vn/YWyfEcV/t6qYmiw==",
+      "path": "htmlsanitizer/8.0.645",
+      "hashPath": "htmlsanitizer.8.0.645.nupkg.sha512"
     },
     "Humanizer.Core/2.8.26": {
       "type": "package",
@@ -4568,12 +4632,12 @@
       "path": "system.appcontext/4.3.0",
       "hashPath": "system.appcontext.4.3.0.nupkg.sha512"
     },
-    "System.Buffers/4.5.0": {
+    "System.Buffers/4.5.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-pL2ChpaRRWI/p4LXyy4RgeWlYF2sgfj/pnVMvBqwNFr5cXg7CXNnWZWxrOONLg8VGdFB8oB+EG2Qw4MLgTOe+A==",
-      "path": "system.buffers/4.5.0",
-      "hashPath": "system.buffers.4.5.0.nupkg.sha512"
+      "sha512": "sha512-Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
+      "path": "system.buffers/4.5.1",
+      "hashPath": "system.buffers.4.5.1.nupkg.sha512"
     },
     "System.Collections/4.3.0": {
       "type": "package",
@@ -4589,12 +4653,12 @@
       "path": "system.collections.concurrent/4.3.0",
       "hashPath": "system.collections.concurrent.4.3.0.nupkg.sha512"
     },
-    "System.Collections.Immutable/6.0.0": {
+    "System.Collections.Immutable/7.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-l4zZJ1WU2hqpQQHXz1rvC3etVZN+2DLmQMO79FhOTZHMn8tDRr+WU287sbomD0BETlmKDn0ygUgVy9k5xkkJdA==",
-      "path": "system.collections.immutable/6.0.0",
-      "hashPath": "system.collections.immutable.6.0.0.nupkg.sha512"
+      "sha512": "sha512-dQPcs0U1IKnBdRDBkrCTi1FoajSTBzLcVTpjO4MBCMC7f4pDOIPzgBoX8JjG7X6uZRJ8EBxsi8+DR1JuwjnzOQ==",
+      "path": "system.collections.immutable/7.0.0",
+      "hashPath": "system.collections.immutable.7.0.0.nupkg.sha512"
     },
     "System.ComponentModel/4.0.1": {
       "type": "package",

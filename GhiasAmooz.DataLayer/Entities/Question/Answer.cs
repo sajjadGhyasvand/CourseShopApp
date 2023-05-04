@@ -21,5 +21,6 @@ namespace GhiasAmooz.DataLayer.Entities.Question
         [Required]
         public string BodyAnswer { get; set; }
         public DateTime CreateDate { get; set; }
+        public bool IsTrue { get; set; } = false;
     }
 }
