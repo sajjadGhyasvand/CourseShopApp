@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\GhiasAmooz.Web.csproj": {}
+    "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\GhiasAmooz.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Core\\GhiasAmooz.Core.csproj": {
+    "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Core\\GhiasAmooz.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Core\\GhiasAmooz.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Core\\GhiasAmooz.Core.csproj",
         "projectName": "GhiasAmooz.Core",
-        "projectPath": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Core\\GhiasAmooz.Core.csproj",
-        "packagesPath": "C:\\Users\\S.Ghiasvand\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Core\\obj\\",
+        "projectPath": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Core\\GhiasAmooz.Core.csproj",
+        "packagesPath": "C:\\Users\\Trnom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\S.Ghiasvand\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Trnom\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +33,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.DataLayer\\GhiasAmooz.DataLayer.csproj": {
-                "projectPath": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.DataLayer\\GhiasAmooz.DataLayer.csproj"
+              "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.DataLayer\\GhiasAmooz.DataLayer.csproj": {
+                "projectPath": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.DataLayer\\GhiasAmooz.DataLayer.csproj"
               }
             }
           }
@@ -77,24 +78,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.DataLayer\\GhiasAmooz.DataLayer.csproj": {
+    "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.DataLayer\\GhiasAmooz.DataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.DataLayer\\GhiasAmooz.DataLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.DataLayer\\GhiasAmooz.DataLayer.csproj",
         "projectName": "GhiasAmooz.DataLayer",
-        "projectPath": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.DataLayer\\GhiasAmooz.DataLayer.csproj",
-        "packagesPath": "C:\\Users\\S.Ghiasvand\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.DataLayer\\obj\\",
+        "projectPath": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.DataLayer\\GhiasAmooz.DataLayer.csproj",
+        "packagesPath": "C:\\Users\\Trnom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.DataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\S.Ghiasvand\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Trnom\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -152,24 +154,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\GhiasAmooz.Web.csproj": {
+    "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\GhiasAmooz.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\GhiasAmooz.Web.csproj",
+        "projectUniqueName": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\GhiasAmooz.Web.csproj",
         "projectName": "GhiasAmooz.Web",
-        "projectPath": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\GhiasAmooz.Web.csproj",
-        "packagesPath": "C:\\Users\\S.Ghiasvand\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Web\\obj\\",
+        "projectPath": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\GhiasAmooz.Web.csproj",
+        "packagesPath": "C:\\Users\\Trnom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\S.Ghiasvand\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Trnom\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -184,11 +187,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Core\\GhiasAmooz.Core.csproj": {
-                "projectPath": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.Core\\GhiasAmooz.Core.csproj"
+              "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Core\\GhiasAmooz.Core.csproj": {
+                "projectPath": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.Core\\GhiasAmooz.Core.csproj"
               },
-              "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.DataLayer\\GhiasAmooz.DataLayer.csproj": {
-                "projectPath": "C:\\Users\\S.Ghiasvand\\Source\\Repos\\TLStoreApp\\GhiasAmooz.DataLayer\\GhiasAmooz.DataLayer.csproj"
+              "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.DataLayer\\GhiasAmooz.DataLayer.csproj": {
+                "projectPath": "C:\\Users\\Trnom\\source\\repos\\TLStoreApp1\\GhiasAmooz.DataLayer\\GhiasAmooz.DataLayer.csproj"
               }
             }
           }
@@ -203,6 +206,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "HtmlSanitizer": {
+              "target": "Package",
+              "version": "[8.0.645, )"
+            },
             "Microsoft.AspNetCore": {
               "target": "Package",
               "version": "[2.2.0, )"
@@ -257,7 +264,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

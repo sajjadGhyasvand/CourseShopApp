@@ -1,0 +1,22 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/QiasAmoz/FileContentIndex/0e41e268-9ea0-4a46-8171-258fc62b0667.vsidx
+/.vs/QiasAmoz/FileContentIndex/44f02044-f73d-4b39-a5da-f54a1e5b44ec.vsidx
+/.vs/QiasAmoz/FileContentIndex/5ce4e0c2-9d6f-417c-9a1c-36f919fb54af.vsidx
+/.vs/QiasAmoz/FileContentIndex/5ce4e0c2-9d6f-417c-9a1c-36f919fb54af.vsidx
+/.vs/QiasAmoz/FileContentIndex/47e21a08-d536-4d38-9297-99f44f934d0e.vsidx
+/.vs/QiasAmoz/FileContentIndex/f43ba21d-b721-46d1-a603-bb13f0c4d66a.vsidx
+/GhiasAmooz.Web/obj/Debug/net6.0/GhiasAmooz.Web.assets.cache
+/GhiasAmooz.Web/obj/Debug/net6.0/GhiasAmooz.Web.csproj.AssemblyReference.cache
+/GhiasAmooz.Web/obj/Debug/net6.0/GhiasAmooz.Web.GeneratedMSBuildEditorConfig.editorconfig
+/GhiasAmooz.Core/obj/Debug/net6.0/GhiasAmooz.Core.GeneratedMSBuildEditorConfig.editorconfig
+/GhiasAmooz.Core/obj/Debug/net6.0/GhiasAmooz.Core.csproj.AssemblyReference.cache
+/GhiasAmooz.Core/obj/Debug/net6.0/GhiasAmooz.Core.assets.cache
+/.vs/slnx.sqlite
+/GhiasAmooz.DataLayer/obj/Debug/net6.0/GhiasAmooz.DataLayer.assets.cache
+/GhiasAmooz.DataLayer/obj/Debug/net6.0/GhiasAmooz.DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+/.vs/QiasAmoz/v17/.suo
+/GhiasAmooz.DataLayer/obj/Release/net6.0/GhiasAmooz.DataLayer.assets.cache
+/GhiasAmooz.DataLayer/obj/Release/net6.0/GhiasAmooz.DataLayer.GeneratedMSBuildEditorConfig.editorconfig

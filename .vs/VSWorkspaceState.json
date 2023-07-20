@@ -2,10 +2,25 @@
   "ExpandedNodes": [
     "",
     "\\GhiasAmooz.DataLayer",
+<<<<<<< HEAD
     "\\GhiasAmooz.DataLayer\\Context",
     "\\GhiasAmooz.Web",
     "\\GhiasAmooz.Web\\Controllers"
   ],
   "SelectedNode": "\\GhiasAmooz.Web\\appsettings.Development.json",
+=======
+    "\\GhiasAmooz.DataLayer\\Entities",
+    "\\GhiasAmooz.DataLayer\\Entities\\Question",
+    "\\GhiasAmooz.Web",
+    "\\GhiasAmooz.Web\\Pages",
+    "\\GhiasAmooz.Web\\Pages\\Admin",
+    "\\GhiasAmooz.Web\\Pages\\Admin\\CourseGroups",
+    "\\GhiasAmooz.Web\\ViewComponents",
+    "\\GhiasAmooz.Web\\Views",
+    "\\GhiasAmooz.Web\\Views\\Course",
+    "\\GhiasAmooz.Web\\Views\\Home"
+  ],
+  "SelectedNode": "\\GhiasAmooz.DataLayer\\Entities\\Question\\Question.cs",
+>>>>>>> c4378627f73f1e8d40aae292a4ff5c2a673a97ca
   "PreviewInSolutionExplorer": false
 }

@@ -1495,3 +1495,7 @@ C:\Users\S.Ghiasvand\Source\Repos\TLStoreApp\GhiasAmooz.Web\obj\Debug\net6.0\Ghi
 C:\Users\S.Ghiasvand\Source\Repos\TLStoreApp\GhiasAmooz.Web\obj\Debug\net6.0\ref\GhiasAmooz.Web.dll
 C:\Users\S.Ghiasvand\Source\Repos\TLStoreApp\GhiasAmooz.Web\obj\Debug\net6.0\GhiasAmooz.Web.pdb
 C:\Users\S.Ghiasvand\Source\Repos\TLStoreApp\GhiasAmooz.Web\obj\Debug\net6.0\GhiasAmooz.Web.genruntimeconfig.cache
+C:\Users\Trnom\source\repos\TLStoreApp1\GhiasAmooz.Web\bin\Debug\net6.0\AngleSharp.dll
+C:\Users\Trnom\source\repos\TLStoreApp1\GhiasAmooz.Web\bin\Debug\net6.0\AngleSharp.Css.dll
+C:\Users\Trnom\source\repos\TLStoreApp1\GhiasAmooz.Web\bin\Debug\net6.0\HtmlSanitizer.dll
+C:\Users\Trnom\source\repos\TLStoreApp1\GhiasAmooz.Web\bin\Debug\net6.0\System.Collections.Immutable.dll
