@@ -22,6 +22,7 @@ namespace GhiasAmooz.Web.Controllers
         private IUserService _userService;
         private IViewRenderService _viewRender;
 
+
         public AccountController(IUserService userService, IViewRenderService viewRender)
         {
             _userService = userService;
