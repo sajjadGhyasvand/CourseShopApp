@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\GhiasAmooz.DataLayer",
+    "\\GhiasAmooz.DataLayer\\Context",
+    "\\GhiasAmooz.Web",
+    "\\GhiasAmooz.Web\\Controllers"
   ],
-  "SelectedNode": "\\QiasAmoz.sln",
+  "SelectedNode": "\\GhiasAmooz.Web\\appsettings.Development.json",
   "PreviewInSolutionExplorer": false
 }
